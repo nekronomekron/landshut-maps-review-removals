@@ -54,17 +54,39 @@
   "name_keywords": [
     "café", "cafe", "caffè", "caffe", "kaffee", "coffee", "espresso",
     "bäckerei", "baeckerei", "konditorei", "backstube",
-    "restaurant", "ristorante", "trattoria", "osteria",
+    "restaurant", "ristorante", "trattoria", "osteria", "restaurants",
     "pizzeria", "pizza",
     "burger",
     "sushi",
     "döner", "doener", "kebab",
     "imbiss", "grill", "hähnchen", "haehnchen", "chicken",
-    "bar", "pub", "kneipe", "biergarten", "brauerei",
-    "hotel", "pension", "gasthof", "gasthaus", "gästehaus", "gaestehaus",
+    "bar", "pub", "kneipe", "biergarten", "brauerei", "lounge", "cocktail", "bier", "shisha", "weinstube",
+    "hotel", "pension", "gasthof", "gasthaus", "gästehaus", "gaestehaus", "hostel", "motel",
     "bistro",
     "eis", "eisdiele", "eiscafé", "eiscafe",
-    "steak"
+    "steak", "steakhaus",
+    "nachtclub", "diskothek", "disco", "club",
+    "friseur", "barbier", "barber", "barbershop", "kosmetik", "massage", "wellness",
+    "fitness", "gym", "fitnessstudio", "yoga", "pilates", "physio", "physiotherapie",
+    "apotheke",
+    "tankstelle",
+    "verein", "sportverein", "e.v.", "e. v.", "e.v", "e. v",
+    "schule", "akademie", "fahrschule", "universität", "universitaet", "hochschule",
+    "arzt", "praxis", "klinik", "zahnarzt", "tierarzt", "arztpraxis",
+    "post", "dhl", "paket", "paketshop", "postfiliale",
+    "kiosk", "lotto", "sonnenstudio", "solarium",
+    "supermarkt", "discounter", "lebensmittel", "metzgerei", "fleischerei", "feinkost", "getränke", "getraenke", "bioladen",
+    "asiatisch", "chinesisch", "thailändisch", "thailaendisch", "vietnamesisch", "japanisch", "koreanisch", "indisch",
+    "griechisch", "italienisch", "mexikanisch", "spanisch",
+    "deutsch", "fränkisch", "fraenkisch", "bayerisch",
+    "vegan", "vegetarisch", "halal",
+    "sandwich", "falafel", "ramen", "pho", "poke",
+    "frühstück", "fruehstueck", "brunch", "catering",
+    "kino", "reisebüro", "reisebuero",
+    "kampfkunst", "kampfsport", "handwerk", "reinigung", "wäscherei", "waescherei",
+    "optiker", "hörgeräte", "hoergeraete", "sanitätshaus", "sanitaetshaus",
+    "versicherung", "bank", "sparkasse", "immobilien",
+    "garten", "baumarkt", "möbel", "moebel"
   ],
   "categories": [
     {
@@ -182,7 +204,7 @@
       ]
     },
     {
-      "name": "Bar",
+      "name": "Bar / Kneipe",
       "keywords": [
         "bar", "bars",
         "biergarten", "bier",
@@ -192,8 +214,105 @@
         "cocktail", "lounge",
         "weinstube", "weinlokal",
         "stehbar",
-        "brauerei", "brauereischänke", "brauereischaenke",
-        "nachtclub"
+        "brauerei", "brauereischänke", "brauereischaenke"
+      ]
+    },
+    {
+      "name": "Verein",
+      "keywords": [
+        "verein", "e.v.", "e. v.", "e.v", "e. v",
+        "sportverein", "kulturverein", "musikverein",
+        "schützenverein", "schuetzenverein",
+        "kleingartenverein", "gartenbauverein"
+      ]
+    },
+    {
+      "name": "Club / Diskothek",
+      "keywords": [
+        "nachtclub", "nightclub",
+        "diskothek", "disco",
+        "club", "danceclub",
+        "tanzlokal",
+        "veranstaltungsstätte", "veranstaltungsstaette"
+      ]
+    },
+    {
+      "name": "Hotel",
+      "keywords": [
+        "hotel", "pension",
+        "gasthof", "gasthaus", "gästehaus", "gaestehaus",
+        "hostel", "motel",
+        "ferienwohnung", "ferienhaus"
+      ]
+    },
+    {
+      "name": "Friseur / Kosmetik",
+      "keywords": [
+        "friseur", "friseursalon",
+        "barbier", "barber", "barbershop",
+        "kosmetik", "kosmetikstudio",
+        "nagelstudio", "nägel", "naegel",
+        "wellness", "massage"
+      ]
+    },
+    {
+      "name": "Fitness / Sport",
+      "keywords": [
+        "fitnessstudio", "fitness", "fitnessraum",
+        "gym", "yoga", "pilates",
+        "physiotherapie", "physio", "krankengymnastik",
+        "sportstudio", "sportzentrum",
+        "kampfkunst", "kampfsport", "martial"
+      ]
+    },
+    {
+      "name": "Apotheke",
+      "keywords": [
+        "apotheke"
+      ]
+    },
+    {
+      "name": "Tankstelle",
+      "keywords": [
+        "tankstelle", "esso", "shell", "aral",
+        "total energie", "jet tankstelle", "bft", "agip"
+      ]
+    },
+    {
+      "name": "Schule / Bildung",
+      "keywords": [
+        "schule", "grundschule", "hauptschule", "realschule",
+        "gymnasium", "berufsschule", "grund- und mittelschule",
+        "akademie", "sprachschule", "musikschule",
+        "volkshochschule", "vhs",
+        "universität", "universitaet", "hochschule",
+        "nachhilfe", "bildungszentrum",
+        "fahrschule"
+      ]
+    },
+    {
+      "name": "Post / Paket",
+      "keywords": [
+        "postfiliale", "post",
+        "paketshop", "dhl", "paket", "hermes"
+      ]
+    },
+    {
+      "name": "Arzt / Gesundheit",
+      "keywords": [
+        "arzt", "arztpraxis", "zahnarzt", "zahnarztpraxis",
+        "tierarzt", "tierarztpraxis",
+        "praxis", "klinik", "klinikum",
+        "medizin", "medizinisches", "gesundheitszentrum",
+        "sanitätshaus", "sanitaetshaus",
+        "hörgeräte", "hoergeraete", "optiker",
+        "augenarzt", "hautarzt", "frauenarzt", "kinderarzt"
+      ]
+    },
+    {
+      "name": "Sonnenstudio",
+      "keywords": [
+        "sonnenstudio", "solarium"
       ]
     },
     {

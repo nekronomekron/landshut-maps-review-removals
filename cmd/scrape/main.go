@@ -627,9 +627,9 @@ func cleanCategoryCandidate(value, name string) string {
 	// Strip private-use Unicode characters (, , etc.) and box-drawing chars
 	candidate = stripPrivateUseChars(candidate)
 	candidate = strings.TrimSpace(candidate)
-	// Strip leading/trailing non-letter/number characters
+	// Strip leading/trailing non-letter/number characters (keep periods for abbreviations like e.V.)
 	candidate = strings.TrimFunc(candidate, func(r rune) bool {
-		return !unicode.IsLetter(r) && !unicode.IsNumber(r)
+		return !unicode.IsLetter(r) && !unicode.IsNumber(r) && r != '.'
 	})
 	candidate = strings.TrimSpace(candidate)
 	if candidate == "" {
