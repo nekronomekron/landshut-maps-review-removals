@@ -199,18 +199,45 @@ func makeHTML(data []clientRow) string {
 			rangeOptions += fmt.Sprintf(`<option value="%s">%s</option>`, escAttr(r), esc(r))
 		}
 	}
-	categories := uniqueSorted(data, func(row clientRow) string { return row.Category })
-	categoryOptions := ""
-	for _, cat := range categories {
-		if cat != "" {
-			categoryOptions += fmt.Sprintf(`<option value="%s">%s</option>`, escAttr(cat), esc(cat))
+	// Build hierarchical options: parent categories first (selectable), then their sub-categories
+	type catEntry struct{ parent, name string }
+	parentMap := map[string][]string{}
+	for _, row := range data {
+		if row.Category != "" && row.ParentCategory != "" {
+			parentMap[row.ParentCategory] = append(parentMap[row.ParentCategory], row.Category)
 		}
 	}
-	parentCats := uniqueSorted(data, func(row clientRow) string { return row.ParentCategory })
-	parentCategoryOptions := ""
-	for _, pcat := range parentCats {
-		if pcat != "" {
-			parentCategoryOptions += fmt.Sprintf(`<option value="%s">%s</option>`, escAttr(pcat), esc(pcat))
+	// Sort parents by total count desc, then alphabetically
+	parentOrder := make([]string, 0, len(parentMap))
+	for parent := range parentMap {
+		parentOrder = append(parentOrder, parent)
+	}
+	sort.SliceStable(parentOrder, func(i, j int) bool {
+		ci, cj := 0, 0
+		for _, row := range data {
+			if row.ParentCategory == parentOrder[i] {
+				ci++
+			}
+			if row.ParentCategory == parentOrder[j] {
+				cj++
+			}
+		}
+		if ci != cj {
+			return ci > cj
+		}
+		return parentOrder[i] < parentOrder[j]
+	})
+	categoryOptions := ""
+	for _, parent := range parentOrder {
+		// Parent category as selectable option
+		categoryOptions += fmt.Sprintf(`<option value="parent:%s">%s</option>`, escAttr(parent), esc(parent))
+		// Deduplicate children
+		seen := map[string]bool{}
+		for _, child := range parentMap[parent] {
+			if !seen[child] {
+				seen[child] = true
+				categoryOptions += fmt.Sprintf(`<option value="%s">&nbsp;&nbsp;%s</option>`, escAttr(child), esc(child))
+			}
 		}
 	}
 
@@ -509,7 +536,6 @@ __ANALYTICS__
       <div class="control"><label for="bannerFilter">Banner</label><select id="bannerFilter"><option value="all">Alle</option><option value="banner">Mit Banner</option><option value="clean">Ohne Banner</option></select></div>
       <div class="control"><label for="rangeFilter">Gelöscht</label><select id="rangeFilter"><option value="">Alle Bereiche</option>__RANGE_OPTIONS__</select></div>
       <div class="control"><label for="categoryFilter">Kategorie</label><select id="categoryFilter"><option value="">Alle Kategorien</option>__CATEGORY_OPTIONS__</select></div>
-      <div class="control"><label for="parentCategoryFilter">Kategorie-Gruppe</label><select id="parentCategoryFilter"><option value="">Alle Gruppen</option>__PARENT_CATEGORY_OPTIONS__</select></div>
       <div class="control"><label for="minReviews">Min. Rezensionen</label><input id="minReviews" type="number" min="0" step="1" value="0"></div>
       <button class="reset" id="resetFilters" type="button">Reset</button>
     </section>
@@ -594,7 +620,6 @@ __DASHBOARD_JS__
 		"__BEZIRK_OPTIONS__", bezirkOptions,
 		"__RANGE_OPTIONS__", rangeOptions,
 		"__CATEGORY_OPTIONS__", categoryOptions,
-		"__PARENT_CATEGORY_OPTIONS__", parentCategoryOptions,
 		"__DASHBOARD_JS__", dashboardJS,
 		"__ANALYTICS__", plausibleAnalyticsSnippet(),
 		"__ANALYTICS_PRIVACY__", plausiblePrivacyNotice(),
