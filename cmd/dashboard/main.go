@@ -509,6 +509,7 @@ __ANALYTICS__
       <div class="control"><label for="bannerFilter">Banner</label><select id="bannerFilter"><option value="all">Alle</option><option value="banner">Mit Banner</option><option value="clean">Ohne Banner</option></select></div>
       <div class="control"><label for="rangeFilter">Gelöscht</label><select id="rangeFilter"><option value="">Alle Bereiche</option>__RANGE_OPTIONS__</select></div>
       <div class="control"><label for="categoryFilter">Kategorie</label><select id="categoryFilter"><option value="">Alle Kategorien</option>__CATEGORY_OPTIONS__</select></div>
+      <div class="control"><label for="parentCategoryFilter">Kategorie-Gruppe</label><select id="parentCategoryFilter"><option value="">Alle Gruppen</option>__PARENT_CATEGORY_OPTIONS__</select></div>
       <div class="control"><label for="minReviews">Min. Rezensionen</label><input id="minReviews" type="number" min="0" step="1" value="0"></div>
       <button class="reset" id="resetFilters" type="button">Reset</button>
     </section>
@@ -593,6 +594,7 @@ __DASHBOARD_JS__
 		"__BEZIRK_OPTIONS__", bezirkOptions,
 		"__RANGE_OPTIONS__", rangeOptions,
 		"__CATEGORY_OPTIONS__", categoryOptions,
+		"__PARENT_CATEGORY_OPTIONS__", parentCategoryOptions,
 		"__DASHBOARD_JS__", dashboardJS,
 		"__ANALYTICS__", plausibleAnalyticsSnippet(),
 		"__ANALYTICS_PRIVACY__", plausiblePrivacyNotice(),
