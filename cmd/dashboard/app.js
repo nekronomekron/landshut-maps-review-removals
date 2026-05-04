@@ -450,6 +450,7 @@ function render() {
   updatePanels(rows);
   renderBezirkSummary(rows);
   renderParentSummary(rows);
+  updateSubChips(state.mode);
   renderMap(modeRows(rows), rows);
   renderTable(rows);
   updateFilterToggle();
@@ -518,7 +519,83 @@ els.filterToggle.addEventListener('click', () => {
 els.reset.addEventListener('click', () => {
   els.search.value = ''; els.postcode.value = ''; els.bezirk.value = ''; els.banner.value = 'all'; els.range.value = ''; els.category.value = ''; els.minReviews.value = 0;
   activateMode('ratio');
+  document.querySelectorAll('.chip').forEach(c => c.classList.remove('active'));
   render();
 });
+
+document.querySelector('.chips').addEventListener('click', event => {
+  const chip = event.target.closest('.chip');
+  if (!chip) return;
+  const action = chip.dataset.chip;
+  const isActive = chip.classList.contains('active');
+  document.querySelectorAll('.chip').forEach(c => c.classList.remove('active'));
+  els.search.value = ''; els.postcode.value = ''; els.bezirk.value = ''; els.banner.value = 'all'; els.range.value = ''; els.category.value = ''; els.minReviews.value = 0;
+  if (!isActive) {
+    chip.classList.add('active');
+    switch (action) {
+      case 'banner': els.banner.value = 'banner'; break;
+      case 'gastro': els.category.value = 'parent:Gastronomie'; break;
+      case 'nachtleben': els.category.value = 'parent:Nachtleben'; break;
+      case 'beauty': els.category.value = 'parent:Beauty & Wellness'; break;
+      case 'hotels': els.category.value = 'parent:Beherbergung'; break;
+      case 'gesundheit': els.category.value = 'parent:Gesundheit'; break;
+      case 'altstadt': els.bezirk.value = 'Altstadt, St. Lorenz'; break;
+    }
+  }
+  render();
+});
+
+function updateSubChips(mode) {
+  const configs = {
+    all: [
+      { label: '🔴 Mit Banner', test: () => els.banner.value === 'banner', apply: v => { els.banner.value = v ? 'banner' : 'all'; } },
+      { label: '🗺️ Altstadt', test: () => els.bezirk.value === 'Altstadt, St. Lorenz', apply: v => { els.bezirk.value = v ? 'Altstadt, St. Lorenz' : ''; } },
+    ],
+    ratio: [
+      { label: 'Min. 50 Rez.', test: () => Number(els.minReviews.value) === 50, apply: v => { els.minReviews.value = v ? 50 : 0; } },
+      { label: 'Min. 100 Rez.', test: () => Number(els.minReviews.value) === 100, apply: v => { els.minReviews.value = v ? 100 : 0; } },
+      { label: 'Min. 200 Rez.', test: () => Number(els.minReviews.value) === 200, apply: v => { els.minReviews.value = v ? 200 : 0; } },
+      { label: '🍽️ Nur Gastro', test: () => els.category.value === 'parent:Gastronomie', apply: v => { els.category.value = v ? 'parent:Gastronomie' : ''; } },
+      { label: '🎉 Nur Nachtleben', test: () => els.category.value === 'parent:Nachtleben', apply: v => { els.category.value = v ? 'parent:Nachtleben' : ''; } },
+      { label: '💇 Nur Beauty', test: () => els.category.value === 'parent:Beauty & Wellness', apply: v => { els.category.value = v ? 'parent:Beauty & Wellness' : ''; } },
+    ],
+    removed: [
+      { label: 'Min. 50 Rez.', test: () => Number(els.minReviews.value) === 50, apply: v => { els.minReviews.value = v ? 50 : 0; } },
+      { label: 'Min. 100 Rez.', test: () => Number(els.minReviews.value) === 100, apply: v => { els.minReviews.value = v ? 100 : 0; } },
+      { label: 'Min. 200 Rez.', test: () => Number(els.minReviews.value) === 200, apply: v => { els.minReviews.value = v ? 200 : 0; } },
+      { label: '🍽️ Nur Gastro', test: () => els.category.value === 'parent:Gastronomie', apply: v => { els.category.value = v ? 'parent:Gastronomie' : ''; } },
+      { label: '🏨 Nur Hotels', test: () => els.category.value === 'parent:Beherbergung', apply: v => { els.category.value = v ? 'parent:Beherbergung' : ''; } },
+      { label: '> 50 entfernt', test: () => els.range.value === '51 bis 100 Bewertungen', apply: v => { els.range.value = v ? '51 bis 100 Bewertungen' : ''; } },
+    ],
+    worst: [
+      { label: 'Min. 50 Rez.', test: () => Number(els.minReviews.value) === 50, apply: v => { els.minReviews.value = v ? 50 : 0; } },
+      { label: 'Min. 100 Rez.', test: () => Number(els.minReviews.value) === 100, apply: v => { els.minReviews.value = v ? 100 : 0; } },
+      { label: 'Min. 200 Rez.', test: () => Number(els.minReviews.value) === 200, apply: v => { els.minReviews.value = v ? 200 : 0; } },
+      { label: '🍽️ Nur Gastro', test: () => els.category.value === 'parent:Gastronomie', apply: v => { els.category.value = v ? 'parent:Gastronomie' : ''; } },
+    ],
+    clean: [
+      { label: 'Min. 200 Rez.', test: () => Number(els.minReviews.value) === 200, apply: v => { els.minReviews.value = v ? 200 : 0; } },
+      { label: 'Min. 500 Rez.', test: () => Number(els.minReviews.value) === 500, apply: v => { els.minReviews.value = v ? 500 : 0; } },
+      { label: '🍽️ Nur Gastro', test: () => els.category.value === 'parent:Gastronomie', apply: v => { els.category.value = v ? 'parent:Gastronomie' : ''; } },
+      { label: '🏨 Nur Hotels', test: () => els.category.value === 'parent:Beherbergung', apply: v => { els.category.value = v ? 'parent:Beherbergung' : ''; } },
+      { label: '🗺️ Altstadt', test: () => els.bezirk.value === 'Altstadt, St. Lorenz', apply: v => { els.bezirk.value = v ? 'Altstadt, St. Lorenz' : ''; } },
+    ],
+    nearby: [
+      { label: '🔴 Nur mit Banner', test: () => els.banner.value === 'banner', apply: v => { els.banner.value = v ? 'banner' : 'all'; } },
+      { label: '🍽️ Nur Gastro', test: () => els.category.value === 'parent:Gastronomie', apply: v => { els.category.value = v ? 'parent:Gastronomie' : ''; } },
+    ],
+  };
+  const chips = configs[mode] || [];
+  const root = document.getElementById('subChips');
+  if (chips.length === 0) { root.innerHTML = ''; return; }
+  root.innerHTML = chips.map((c, i) => '<button type="button" class="sub-chip' + (c.test() ? ' active' : '') + '" data-idx="' + i + '">' + c.label + '</button>').join('');
+  root.querySelectorAll('.sub-chip').forEach(btn => btn.addEventListener('click', () => {
+    const idx = Number(btn.dataset.idx);
+    const chip = chips[idx];
+    chip.apply(!chip.test());
+    render();
+  }));
+}
+
 updateThemeToggle();
 render();

@@ -393,6 +393,14 @@ __ANALYTICS__
     .hero-subtitle { width: min(760px, 100%); margin-top: 14px; padding: 18px 22px; background: var(--surface-raised); border-radius: 5px; box-shadow: var(--shadow); color: var(--muted); font-size: 20px; line-height: 1.45; }
     main { width: min(1320px, calc(100vw - 32px)); margin: 0 auto 70px; }
     .controls { position: sticky; top: 0; z-index: 2000; display: grid; grid-template-columns: minmax(200px, 1fr) 120px 170px 130px 130px 130px 95px auto; gap: 12px; align-items: end; padding: 16px; margin: 0 0 24px; background: var(--surface-raised); border: 1px solid var(--line); box-shadow: 0 2px 8px rgba(0,0,0,.12); }
+    .chips { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 14px; }
+    .chip { display: inline-flex; align-items: center; gap: 5px; padding: 7px 16px; border: 1px solid var(--line); border-radius: 20px; background: var(--surface); color: var(--text); font-size: 13px; cursor: pointer; transition: .12s; }
+    .chip:hover { border-color: var(--red); background: var(--row-hover); }
+    .chip.active { background: var(--red); border-color: var(--red); color: #fff; }
+    .sub-chips { display: flex; flex-wrap: wrap; gap: 6px; margin: -8px 0 14px; min-height: 30px; }
+    .sub-chip { padding: 4px 12px; border: 1px solid var(--line); border-radius: 14px; background: var(--surface-muted); color: var(--muted); font-size: 12px; cursor: pointer; transition: .12s; }
+    .sub-chip:hover { border-color: var(--red); color: var(--text); background: var(--surface); }
+    .sub-chip.active { background: var(--red); border-color: var(--red); color: #fff; }
     .filter-toggle { display: none; }
     label { display: block; margin-bottom: 6px; color: var(--muted); font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: .05em; }
     input, select, button { font: inherit; }
@@ -528,6 +536,7 @@ __ANALYTICS__
   </section>
 
   <main>
+    <section class="chips" aria-label="Quick-Filter"><button type="button" class="chip" data-chip="banner">🔴 Mit Löschbanner</button><button type="button" class="chip" data-chip="gastro">🍽️ Gastronomie</button><button type="button" class="chip" data-chip="nachtleben">🎉 Nachtleben</button><button type="button" class="chip" data-chip="beauty">💇 Beauty &amp; Wellness</button><button type="button" class="chip" data-chip="hotels">🏨 Beherbergung</button><button type="button" class="chip" data-chip="gesundheit">🏥 Gesundheit</button><button type="button" class="chip" data-chip="altstadt">🗺️ Altstadt</button></section>
     <section class="controls is-collapsed" id="dashboardFilterControls" aria-label="Dashboard-Filter">
       <button class="filter-toggle" id="filterToggle" type="button" aria-expanded="false" aria-controls="dashboardFilterControls"><span><strong>Filter</strong><span class="filter-summary" id="filterSummary">Keine aktiven Filter</span></span><span class="filter-toggle-icon" aria-hidden="true">▾</span></button>
       <div class="control search"><label for="searchInput">Suche</label><input id="searchInput" type="search" placeholder="Name, PLZ, Kategorie, Löschbereich …" autocomplete="off"></div>
@@ -575,6 +584,7 @@ __ANALYTICS__
       <button class="tab" data-mode="clean">Ohne Löschbanner</button>
       <button class="tab" data-mode="nearby">In meiner Nähe</button>
     </nav>
+    <div class="sub-chips" id="subChips"></div>
     <div class="nearby-status" id="nearbyStatus" role="status" aria-live="polite" hidden></div>
 
     <div class="table-head"><strong id="tableTitle">Höchste Lösch-Quote</strong><span id="resultCount">–</span></div>
