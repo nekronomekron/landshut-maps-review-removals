@@ -149,6 +149,7 @@ func makeClientRows(rows []mapsreview.Place) []clientRow {
 			Rating:             row.Rating,
 			ReviewCount:        row.ReviewCount,
 			Category:           mapsreview.StringValue(row.Category),
+			ParentCategory:      mapsreview.StringValue(row.ParentCategory),
 			HasBanner:          row.HasDefamationNotice,
 			RemovedRange:       mapsreview.RemovedRange(row),
 			RemovedMin:         row.RemovedMin,
