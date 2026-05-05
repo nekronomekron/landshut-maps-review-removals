@@ -20,6 +20,13 @@ var dashboardJS string
 const (
 	defaultInput  = mapsreview.ResultsJSON
 	defaultOutput = "output/charts/nuernberg_dashboard.html"
+
+	siteURL         = "https://nuernberg-maps-review-removals.patwoz.dev/"
+	siteName        = "Nürnberg Maps Review Removals"
+	pageTitle       = "Nürnberg Google-Maps-Bewertungen: Löschbanner-Dashboard"
+	pageDescription = "Interaktives Nürnberg-Dashboard zu sichtbaren Google-Maps-Hinweisen auf entfernte Bewertungen: Löschbanner, Löschquoten, Karte und Daten-Explorer."
+	socialImageURL  = siteURL + "charts/nuernberg_overall_summary.png"
+	socialImageAlt  = "Diagramm zur Auswertung entfernter Google-Maps-Bewertungen in Nürnberg"
 )
 
 type args struct {
@@ -52,6 +59,15 @@ type clientRow struct {
 	Address            string   `json:"address"`
 	ReadAt             string   `json:"readAt"`
 	PlaceState         string   `json:"placeState,omitempty"`
+}
+
+type seoStats struct {
+	Total           int
+	Banners         int
+	Clean           int
+	RemovedEstimate int
+	Snapshot        string
+	Top             []clientRow
 }
 
 func main() {
@@ -149,7 +165,7 @@ func makeClientRows(rows []mapsreview.Place) []clientRow {
 			Rating:             row.Rating,
 			ReviewCount:        row.ReviewCount,
 			Category:           mapsreview.StringValue(row.Category),
-			ParentCategory:      mapsreview.StringValue(row.ParentCategory),
+			ParentCategory:     mapsreview.StringValue(row.ParentCategory),
 			HasBanner:          row.HasDefamationNotice,
 			RemovedRange:       mapsreview.RemovedRange(row),
 			RemovedMin:         row.RemovedMin,
@@ -177,6 +193,11 @@ func makeHTML(data []clientRow) string {
 	sort.SliceStable(ranges, func(i, j int) bool {
 		return maxEstimateForRange(data, ranges[i]) > maxEstimateForRange(data, ranges[j])
 	})
+	snapshot := snapshotTime(data)
+	snapshotDisplay := snapshot.Format("02.01.2006")
+	stats := makeSEOStats(data, snapshotDisplay)
+	structuredData := structuredDataJSON(stats, snapshot)
+
 	jsonData, _ := json.Marshal(data)
 	jsonText := strings.ReplaceAll(string(jsonData), "<", "\\u003c")
 	jsonBezirke, _ := json.Marshal(mapsreview.BezirkBoundaries())
@@ -246,7 +267,34 @@ func makeHTML(data []clientRow) string {
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Nürnberg Google-Maps-Bewertungen Dashboard</title>
+  <title>__PAGE_TITLE__</title>
+  <meta name="description" content="__PAGE_DESCRIPTION__">
+  <meta name="robots" content="index,follow,max-image-preview:large">
+  <meta name="author" content="Patrick Wozniak">
+  <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0e0c0b" media="(prefers-color-scheme: dark)">
+  <link rel="canonical" href="__CANONICAL_URL__">
+  <link rel="alternate" hreflang="de" href="__CANONICAL_URL__">
+  <link rel="alternate" hreflang="x-default" href="__CANONICAL_URL__">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="de_DE">
+  <meta property="og:site_name" content="__SITE_NAME__">
+  <meta property="og:title" content="__PAGE_TITLE__">
+  <meta property="og:description" content="__PAGE_DESCRIPTION__">
+  <meta property="og:url" content="__CANONICAL_URL__">
+  <meta property="og:image" content="__SOCIAL_IMAGE__">
+  <meta property="og:image:width" content="1800">
+  <meta property="og:image:height" content="2500">
+  <meta property="og:image:alt" content="__SOCIAL_IMAGE_ALT__">
+  <meta property="og:updated_time" content="__MODIFIED_TIME__">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="__PAGE_TITLE__">
+  <meta name="twitter:description" content="__PAGE_DESCRIPTION__">
+  <meta name="twitter:image" content="__SOCIAL_IMAGE__">
+  <meta name="twitter:image:alt" content="__SOCIAL_IMAGE_ALT__">
+  <script type="application/ld+json">
+__STRUCTURED_DATA__
+  </script>
 __ANALYTICS__
   <script>
     (function () {
@@ -389,7 +437,7 @@ __ANALYTICS__
     .n-logo::after { content: "⌂⌂"; position: absolute; right: 13px; top: 20px; color: #fff; font-size: 36px; letter-spacing: -12px; transform: scaleX(1.4); }
     .hero { min-height: 380px; margin: 0 0 30px; background: var(--hero-bg); display: flex; align-items: end; }
     .hero-inner { width: min(1320px, calc(100vw - 32px)); margin: 0 auto; padding: 140px 0 42px; }
-    .hero-title { width: min(760px, 100%); padding: 24px 28px; background: var(--hero-title-bg); color: #fff; font-size: clamp(32px, 4vw, 52px); line-height: 1.12; font-weight: 400; }
+    .hero-title { width: min(760px, 100%); margin: 0; padding: 24px 28px; background: var(--hero-title-bg); color: #fff; font-size: clamp(32px, 4vw, 52px); line-height: 1.12; font-weight: 400; }
     .hero-subtitle { width: min(760px, 100%); margin-top: 14px; padding: 18px 22px; background: var(--surface-raised); border-radius: 5px; box-shadow: var(--shadow); color: var(--muted); font-size: 20px; line-height: 1.45; }
     main { width: min(1320px, calc(100vw - 32px)); margin: 0 auto 70px; }
     .controls { position: sticky; top: 0; z-index: 2000; display: grid; grid-template-columns: minmax(200px, 1fr) 120px 170px 130px 130px 130px 95px auto; gap: 12px; align-items: end; padding: 16px; margin: 0 0 24px; background: var(--surface-raised); border: 1px solid var(--line); box-shadow: 0 2px 8px rgba(0,0,0,.12); }
@@ -410,6 +458,16 @@ __ANALYTICS__
     .grid { display: grid; gap: 16px; }
     .kpis { grid-template-columns: repeat(5, minmax(0, 1fr)); }
     .card { background: var(--surface); border: 1px solid var(--line); overflow: hidden; }
+    .seo-summary { padding: 18px; margin-top: 18px; line-height: 1.55; }
+    .seo-summary h2, .seo-top h3 { margin: 0 0 8px; color: var(--heading); }
+    .seo-summary p { margin: 0 0 12px; color: var(--muted); }
+    .seo-facts { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 10px; margin: 14px 0; padding: 0; list-style: none; }
+    .seo-facts li { margin: 0; padding: 12px; border: 1px solid var(--line); background: var(--surface-muted); }
+    .seo-facts strong { display: block; color: var(--heading); font-size: 22px; line-height: 1.1; }
+    .seo-top { margin-top: 14px; }
+    .seo-top ol { margin: 8px 0 0 22px; padding: 0; }
+    .seo-top li { margin: 6px 0; }
+    .seo-meta { color: var(--muted); }
     .kpi { padding: 18px; border-top: 5px solid var(--red); }
     .kpi:nth-child(2) { border-top-color: var(--orange); }
     .kpi:nth-child(3) { border-top-color: var(--blue); }
@@ -500,7 +558,7 @@ __ANALYTICS__
       .theme-toggle { width: 42px; padding: 0; justify-content: center; }
       .theme-toggle-text { display: none; }
       .n-logo { width: 128px; font-size: 18px; padding-left: 10px; padding-right: 10px; }
-      .kpis, .panel-grid { grid-template-columns: 1fr; }
+      .kpis, .panel-grid, .seo-facts { grid-template-columns: 1fr; }
       .controls { position: sticky; top: 0; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 9px 10px; padding: 10px; margin-bottom: 14px; }
       .filter-toggle { grid-column: 1 / -1; display: flex; align-items: center; justify-content: space-between; gap: 12px; width: 100%; min-height: 42px; padding: 8px 12px; border: 0; border-radius: 5px; background: var(--control-bg); color: var(--control-text); text-align: left; cursor: pointer; }
       .filter-toggle strong { display: block; font-size: 15px; line-height: 1.1; }
@@ -530,7 +588,7 @@ __ANALYTICS__
 
   <section class="hero" aria-label="Seitentitel">
     <div class="hero-inner">
-      <div class="hero-title">Nürnberg Google-Maps-Bewertungen</div>
+      <h1 class="hero-title">Nürnberg Google-Maps-Bewertungen</h1>
       <div class="hero-subtitle">Interaktives Daten-Dashboard zu sichtbaren Hinweisen auf entfernte Bewertungen wegen Diffamierungsbeschwerden.</div>
     </div>
   </section>
@@ -556,6 +614,8 @@ __ANALYTICS__
       <div class="card kpi"><span class="value" id="kpiRemoved">–</span><span class="label">geschätzt entfernt</span></div>
       <div class="card kpi"><span class="value" id="kpiClean">–</span><span class="label">ohne sichtbaren Banner</span></div>
     </section>
+
+__SEO_SUMMARY__
 
     <section class="grid panel-grid" aria-label="Top-Rankings">
       <article class="card panel"><h2>Meiste entfernte Bewertungen</h2><p>Sortiert nach geschätztem Mittelpunkt.</p><div class="bars" id="barsRemoved"></div></article>
@@ -626,6 +686,15 @@ __DASHBOARD_JS__
 </html>`
 
 	return strings.NewReplacer(
+		"__PAGE_TITLE__", pageTitle,
+		"__PAGE_DESCRIPTION__", pageDescription,
+		"__CANONICAL_URL__", siteURL,
+		"__SITE_NAME__", siteName,
+		"__SOCIAL_IMAGE__", socialImageURL,
+		"__SOCIAL_IMAGE_ALT__", socialImageAlt,
+		"__MODIFIED_TIME__", snapshot.Format(time.RFC3339),
+		"__STRUCTURED_DATA__", structuredData,
+		"__SEO_SUMMARY__", seoSummaryHTML(stats),
 		"__POSTCODE_OPTIONS__", postcodeOptions,
 		"__BEZIRK_OPTIONS__", bezirkOptions,
 		"__RANGE_OPTIONS__", rangeOptions,
@@ -633,10 +702,192 @@ __DASHBOARD_JS__
 		"__DASHBOARD_JS__", dashboardJS,
 		"__ANALYTICS__", plausibleAnalyticsSnippet(),
 		"__ANALYTICS_PRIVACY__", plausiblePrivacyNotice(),
-		"__SNAPSHOT__", time.Now().Format("02.01.2006"),
+		"__SNAPSHOT__", snapshotDisplay,
 		"__DATA__", jsonText,
 		"__BEZIRK_DATA__", bezirkText,
 	).Replace(page)
+}
+
+func snapshotTime(data []clientRow) time.Time {
+	latest := time.Time{}
+	for _, row := range data {
+		if row.ReadAt == "" {
+			continue
+		}
+		parsed, err := time.Parse(time.RFC3339, row.ReadAt)
+		if err != nil {
+			parsed, err = time.Parse(time.RFC3339Nano, row.ReadAt)
+		}
+		if err == nil && parsed.After(latest) {
+			latest = parsed
+		}
+	}
+	if latest.IsZero() {
+		return time.Now().UTC()
+	}
+	return latest.UTC()
+}
+
+func makeSEOStats(data []clientRow, snapshot string) seoStats {
+	stats := seoStats{Total: len(data), Snapshot: snapshot}
+	for _, row := range data {
+		if row.HasBanner {
+			stats.Banners++
+			stats.RemovedEstimate += int(row.RemovedEstimate + 0.5)
+		} else {
+			stats.Clean++
+		}
+	}
+
+	top := make([]clientRow, 0, len(data))
+	for _, row := range data {
+		if row.HasBanner && row.RemovedEstimate > 0 {
+			top = append(top, row)
+		}
+	}
+	sort.SliceStable(top, func(i, j int) bool {
+		if top[i].RemovedEstimate != top[j].RemovedEstimate {
+			return top[i].RemovedEstimate > top[j].RemovedEstimate
+		}
+		return top[i].Name < top[j].Name
+	})
+	if len(top) > 8 {
+		top = top[:8]
+	}
+	stats.Top = top
+	return stats
+}
+
+func seoSummaryHTML(stats seoStats) string {
+	return fmt.Sprintf(`<section class="card seo-summary" aria-labelledby="data-overview-title">
+      <h2 id="data-overview-title">Datenstand: Google-Maps-Bewertungen und Löschbanner in Nürnberg</h2>
+      <p>Dieses Dashboard macht öffentlich sichtbare Hinweise auf wegen Diffamierungsbeschwerden entfernte Google-Maps-Bewertungen in Nürnberg durchsuchbar. Die Karte, Filter und Ranglisten zeigen Löschbanner, geschätzte entfernte Bewertungen, Löschquoten und Worst-Case-Ratings je Ort.</p>
+      <ul class="seo-facts">
+        <li><strong>%s</strong> erfasste Orte</li>
+        <li><strong>%s</strong> mit sichtbarem Löschbanner</li>
+        <li><strong>%s</strong> geschätzt entfernte Bewertungen</li>
+        <li><strong>%s</strong> ohne sichtbaren Banner</li>
+      </ul>
+      <p class="seo-meta">Datenstand: %s. Kein sichtbarer Banner bedeutet nur, dass beim Scrape kein passender Hinweis sichtbar war.</p>
+%s
+    </section>`,
+		mapsreview.FormatGermanInt(stats.Total),
+		mapsreview.FormatGermanInt(stats.Banners),
+		mapsreview.FormatGermanInt(stats.RemovedEstimate),
+		mapsreview.FormatGermanInt(stats.Clean),
+		esc(stats.Snapshot),
+		seoTopListHTML(stats.Top),
+	)
+}
+
+func seoTopListHTML(rows []clientRow) string {
+	if len(rows) == 0 {
+		return ""
+	}
+	var b strings.Builder
+	b.WriteString(`<div class="seo-top"><h3>Top-Orte nach geschätzten entfernten Bewertungen</h3><ol>`)
+	for _, row := range rows {
+		label := esc(row.Name)
+		if row.URL != "" {
+			label = fmt.Sprintf(`<a href="%s" target="_blank" rel="noopener noreferrer nofollow">%s</a>`, escAttr(row.URL), label)
+		}
+		meta := []string{}
+		if row.RemovedRange != "" {
+			meta = append(meta, "Bereich "+row.RemovedRange)
+		}
+		if row.Postcode != "" {
+			meta = append(meta, "PLZ "+row.Postcode)
+		}
+		if row.BezirkLabel != "" {
+			meta = append(meta, row.BezirkLabel)
+		}
+		detail := ""
+		if len(meta) > 0 {
+			detail = esc(strings.Join(meta, " · ")) + " · "
+		}
+		fmt.Fprintf(&b, `<li>%s <span class="seo-meta">%sSchätzwert ca. %s entfernte Bewertungen</span></li>`,
+			label,
+			detail,
+			mapsreview.FormatGermanInt(int(row.RemovedEstimate+0.5)),
+		)
+	}
+	b.WriteString(`</ol></div>`)
+	return b.String()
+}
+
+func structuredDataJSON(stats seoStats, snapshot time.Time) string {
+	data := map[string]interface{}{
+		"@context": "https://schema.org",
+		"@graph": []map[string]interface{}{
+			{
+				"@type":      "WebSite",
+				"@id":        siteURL + "#website",
+				"url":        siteURL,
+				"name":       siteName,
+				"inLanguage": "de-DE",
+				"publisher": map[string]interface{}{
+					"@type": "Person",
+					"name":  "Patrick Wozniak",
+					"url":   "https://patwoz.dev",
+				},
+			},
+			{
+				"@type":       "WebPage",
+				"@id":         siteURL + "#webpage",
+				"url":         siteURL,
+				"name":        pageTitle,
+				"description": pageDescription,
+				"isPartOf": map[string]interface{}{
+					"@id": siteURL + "#website",
+				},
+				"mainEntity": map[string]interface{}{
+					"@id": siteURL + "#dataset",
+				},
+				"primaryImageOfPage": map[string]interface{}{
+					"@type": "ImageObject",
+					"url":   socialImageURL,
+				},
+				"dateModified": snapshot.Format("2006-01-02"),
+				"inLanguage":   "de-DE",
+			},
+			{
+				"@type":                "Dataset",
+				"@id":                  siteURL + "#dataset",
+				"name":                 "Nürnberg Google-Maps-Bewertungen mit sichtbaren Löschbanner-Hinweisen",
+				"description":          pageDescription,
+				"url":                  siteURL,
+				"dateModified":         snapshot.Format("2006-01-02"),
+				"temporalCoverage":     snapshot.Format("2006-01-02"),
+				"measurementTechnique": "Scrape öffentlich sichtbarer Google-Maps-Ortsseiten",
+				"keywords": []string{
+					"Nürnberg",
+					"Google Maps Bewertungen",
+					"entfernte Bewertungen",
+					"Löschbanner",
+					"Diffamierungsbeschwerden",
+				},
+				"spatialCoverage": map[string]interface{}{
+					"@type": "City",
+					"name":  "Nürnberg",
+				},
+				"variableMeasured": []string{
+					"Orte",
+					"sichtbare Löschbanner",
+					"geschätzte entfernte Bewertungen",
+					"Löschquote",
+					"Worst-Case-Rating",
+				},
+				"size": fmt.Sprintf("%d Orte, %d sichtbare Löschbanner", stats.Total, stats.Banners),
+				"creator": map[string]interface{}{
+					"@type": "Person",
+					"name":  "Patrick Wozniak",
+					"url":   "https://patwoz.dev",
+				},
+			},
+		},
+	}
+	jsonData, _ := json.MarshalIndent(data, "  ", "  ")
+	return strings.ReplaceAll(string(jsonData), "<", "\\u003c")
 }
 
 func plausibleAnalyticsSnippet() string {
