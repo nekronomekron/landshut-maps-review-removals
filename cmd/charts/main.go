@@ -383,11 +383,13 @@ func writeMostRemovedHTML(file string, ranked []mapsreview.Place, allRows []maps
 }
 
 func exportPNG(svgFile, pngFile string) error {
-	if _, err := exec.LookPath("magick"); err != nil {
-		return fmt.Errorf("ImageMagick magick not found")
+	if _, err := exec.LookPath("magick"); err == nil {
+		return exec.Command("magick", svgFile, pngFile).Run()
 	}
-	cmd := exec.Command("magick", svgFile, pngFile)
-	return cmd.Run()
+	if _, err := exec.LookPath("convert"); err == nil {
+		return exec.Command("convert", svgFile, pngFile).Run()
+	}
+	return fmt.Errorf("ImageMagick magick/convert not found")
 }
 
 func filter(rows []mapsreview.Place, keep func(mapsreview.Place) bool) []mapsreview.Place {

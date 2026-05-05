@@ -21,7 +21,7 @@ Voraussetzungen:
 - Go 1.25+
 - Chrome oder Chromium im `PATH` oder an einem Standard-Installationsort
 - Optional als experimentelles CDP-Backend: Lightpanda
-- Optional für PNG-Export: ImageMagick `magick`
+- Optional für PNG-Export: ImageMagick `magick` oder `convert`
 
 ```bash
 make setup
@@ -116,7 +116,7 @@ Ausgaben:
 - `output/charts/nuernberg_most_removed.md`
 - `output/charts/nuernberg_most_removed.html`
 
-Wenn `magick` nicht installiert ist, überspringt `--png` die PNG-Dateien und schreibt weiterhin SVGs.
+Wenn ImageMagick nicht installiert ist, überspringt `--png` die PNG-Dateien und schreibt weiterhin SVGs.
 
 Die erzeugten Diagramm- und Dashboard-Dateien unter `output/charts/` werden von git ignoriert. Im Repository bleiben nur die Scrape-Snapshots (`output/places.json`, `output/places.csv`, `output/metadata.json`, optional `output/discovery.json`) versioniert; `make site` baut daraus `public/` für GitHub Pages neu.
 
