@@ -1,5 +1,7 @@
-const DATA = JSON.parse(document.getElementById('placesData').textContent).map(decodePlaceRow);
-const BEZIRKE = JSON.parse(document.getElementById('bezirkData').textContent).map(decodeBezirkRow);
+const COORD_SCALE = 100000;
+const placesPayload = JSON.parse(document.getElementById('placesData').textContent);
+const DATA = placesPayload.r.map((row, index) => decodePlaceRow(row, index, placesPayload.d));
+let BEZIRKE = null;
 DATA.forEach(row => { row._search = buildSearchText(row); });
 const valid = DATA.filter(row => Number.isFinite(row.rating) && Number.isFinite(row.reviewCount));
 const fmt = new Intl.NumberFormat('de-DE');
@@ -16,22 +18,45 @@ const els = {
 const titles = { all: 'Alle Orte', removed: 'Meiste entfernte Bewertungen', ratio: 'Höchste Lösch-Quote', worst: 'Schlechtestes Worst-Case-Rating', clean: 'Orte ohne Löschbanner', nearby: 'In meiner Nähe' };
 
 function finiteNumber(value) { return Number.isFinite(value) ? value : null; }
-function googleMapsURL(id, name) {
-  const parts = String(id || '').split(':');
-  if (parts.length > 1 && typeof BigInt === 'function') {
-    try { return 'https://www.google.com/maps?cid=' + BigInt(parts[1]).toString(10); } catch (_) {}
+function decodeCoord(base, offset) { return Number.isFinite(offset) ? base + offset / COORD_SCALE : null; }
+function dictValue(dicts, dictIndex, valueIndex) { return dicts[dictIndex][valueIndex] ?? ''; }
+function googleMapsURL(cidHex, name) {
+  if (cidHex && typeof BigInt === 'function') {
+    try { return 'https://www.google.com/maps?cid=' + BigInt('0x' + cidHex).toString(10); } catch (_) {}
   }
-  return 'https://www.google.com/maps/search/?api=1&query=' + encodeURIComponent((name || id || 'Nürnberg') + ' Nürnberg');
+  return 'https://www.google.com/maps/search/?api=1&query=' + encodeURIComponent((name || 'Nürnberg') + ' Nürnberg');
 }
-function decodePlaceRow(row) {
+function decodeAddress(value, postcode) {
+  if (!value) return '';
+  if (value[0] === '!') return value.slice(1);
+  return value + ', ' + postcode + ' Nürnberg';
+}
+function decodePlaceRow(row, index, dicts) {
+  const postcode = dictValue(dicts, 0, row[2]);
+  const hasBanner = row.length > 12;
   return {
-    id: row[0] || '', name: row[1] || '', postcode: row[2] || '', lat: finiteNumber(row[3]), lng: finiteNumber(row[4]), bezirkLabel: row[5] || '', rating: finiteNumber(row[6]), reviewCount: finiteNumber(row[7]), category: row[8] || '', parentCategory: row[9] || '', hasBanner: row[10] === 1, removedRange: row[11] || '', removedEstimate: finiteNumber(row[12]) || 0, deletionRatioPct: finiteNumber(row[13]), realRatingAdjusted: finiteNumber(row[14]), address: row[15] || '', readAt: Number.isFinite(row[16]) ? row[16] : 0, url: googleMapsURL(row[0], row[1])
+    id: String(index), name: row[1] || '', postcode, lat: decodeCoord(49, row[3]), lng: decodeCoord(11, row[4]), bezirkLabel: dictValue(dicts, 1, row[5]), rating: finiteNumber(row[6]), reviewCount: finiteNumber(row[7]), category: dictValue(dicts, 2, row[8]), parentCategory: dictValue(dicts, 3, row[9]), hasBanner, removedRange: hasBanner ? dictValue(dicts, 4, row[12]) : '', removedEstimate: hasBanner ? finiteNumber(row[13]) || 0 : 0, deletionRatioPct: hasBanner ? finiteNumber(row[14]) : null, realRatingAdjusted: hasBanner ? finiteNumber(row[15]) : null, address: decodeAddress(row[10] || '', postcode), readAt: Number.isFinite(row[11]) ? row[11] * 60000 : 0, url: googleMapsURL(row[0], row[1])
   };
+}
+function getBezirke() {
+  if (!BEZIRKE) BEZIRKE = JSON.parse(document.getElementById('bezirkData').textContent).map(decodeBezirkRow);
+  return BEZIRKE;
 }
 function decodeBezirkRow(row) {
   return { label: row[0] || '', polygons: (row[1] || []).map(flat => {
     const points = [];
-    for (let i = 0; i + 1 < flat.length; i += 2) points.push([flat[i], flat[i + 1]]);
+    let latOffset = 0;
+    let lngOffset = 0;
+    for (let i = 0; i + 1 < flat.length; i += 2) {
+      if (i === 0) {
+        latOffset = flat[i];
+        lngOffset = flat[i + 1];
+      } else {
+        latOffset += flat[i];
+        lngOffset += flat[i + 1];
+      }
+      points.push([decodeCoord(49, latOffset), decodeCoord(11, lngOffset)]);
+    }
     return points;
   }) };
 }
@@ -376,7 +401,7 @@ function bezirkStats(rows) {
 }
 function bezirkBounds(label) {
   if (!label || !placesMap) return null;
-  const district = BEZIRKE.find(item => item.label === label);
+  const district = getBezirke().find(item => item.label === label);
   if (!district) return null;
   const bounds = L.latLngBounds([]);
   for (const polygon of district.polygons) {
@@ -394,7 +419,7 @@ function renderBezirkLayer(rows) {
   const muted = colorVar('--muted', '#777');
   const orange = colorVar('--orange', '#ef7d16');
   const blue = colorVar('--blue', '#1f6f8b');
-  for (const district of BEZIRKE) {
+  for (const district of getBezirke()) {
     const stat = stats.get(district.label) || { rows: 0, banners: 0 };
     const ratio = stat.banners / Math.max(stat.rows, 1) * 100;
     const isSelected = district.label === selected;

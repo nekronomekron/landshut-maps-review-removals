@@ -709,44 +709,79 @@ __DASHBOARD_JS__
 	).Replace(page)
 }
 
+type compactClientData struct {
+	Dictionaries [][]string      `json:"d"`
+	Rows         [][]interface{} `json:"r"`
+}
+
+type stringDictionary struct {
+	values []string
+	index  map[string]int
+}
+
+const compactCoordScale = 100000.0
+
 func compactClientDataJSON(data []clientRow) string {
+	postcodes := newStringDictionary()
+	bezirke := newStringDictionary()
+	categories := newStringDictionary()
+	parentCategories := newStringDictionary()
+	ranges := newStringDictionary()
+
 	rows := make([][]interface{}, 0, len(data))
 	for _, row := range data {
-		rows = append(rows, []interface{}{
-			row.ID,
+		compactRow := []interface{}{
+			compactCID(row.ID),
 			row.Name,
-			row.Postcode,
-			compactFloatPtr(row.Lat, 6),
-			compactFloatPtr(row.Lng, 6),
-			row.BezirkLabel,
+			postcodes.Add(row.Postcode),
+			compactCoordinatePtr(row.Lat, 49),
+			compactCoordinatePtr(row.Lng, 11),
+			bezirke.Add(row.BezirkLabel),
 			compactFloatPtr(row.Rating, 1),
 			compactIntPtr(row.ReviewCount),
-			row.Category,
-			row.ParentCategory,
-			boolInt(row.HasBanner),
-			row.RemovedRange,
-			compactFloat(row.RemovedEstimate, 1),
-			compactFloatPtr(row.DeletionRatioPct, 2),
-			compactFloatPtr(row.RealRatingAdjusted, 3),
-			row.Address,
-			readAtMillis(row.ReadAt),
-		})
+			categories.Add(row.Category),
+			parentCategories.Add(row.ParentCategory),
+			compactAddress(row.Address, row.Postcode),
+			readAtMinute(row.ReadAt),
+		}
+		if row.HasBanner {
+			compactRow = append(compactRow,
+				ranges.Add(row.RemovedRange),
+				compactFloat(row.RemovedEstimate, 1),
+				compactFloatPtr(row.DeletionRatioPct, 2),
+				compactFloatPtr(row.RealRatingAdjusted, 3),
+			)
+		}
+		rows = append(rows, compactRow)
 	}
-	return safeJSON(rows)
+	return safeJSON(compactClientData{
+		Dictionaries: [][]string{postcodes.values, bezirke.values, categories.values, parentCategories.values, ranges.values},
+		Rows:         rows,
+	})
 }
 
 func compactBezirkDataJSON() string {
 	boundaries := mapsreview.BezirkBoundaries()
 	rows := make([][]interface{}, 0, len(boundaries))
 	for _, boundary := range boundaries {
-		polygons := make([][]float64, 0, len(boundary.Polygons))
+		polygons := make([][]int, 0, len(boundary.Polygons))
 		for _, polygon := range boundary.Polygons {
-			flat := make([]float64, 0, len(polygon)*2)
+			flat := make([]int, 0, len(polygon)*2)
+			prevLat := 0
+			prevLng := 0
 			for _, point := range polygon {
 				if len(point) < 2 {
 					continue
 				}
-				flat = append(flat, roundDecimal(point[0], 5), roundDecimal(point[1], 5))
+				lat := compactCoordinate(point[0], 49)
+				lng := compactCoordinate(point[1], 11)
+				if len(flat) == 0 {
+					flat = append(flat, lat, lng)
+				} else {
+					flat = append(flat, lat-prevLat, lng-prevLng)
+				}
+				prevLat = lat
+				prevLng = lng
 			}
 			if len(flat) > 0 {
 				polygons = append(polygons, flat)
@@ -755,6 +790,52 @@ func compactBezirkDataJSON() string {
 		rows = append(rows, []interface{}{boundary.Label, polygons})
 	}
 	return safeJSON(rows)
+}
+
+func newStringDictionary() *stringDictionary {
+	return &stringDictionary{index: map[string]int{}}
+}
+
+func (d *stringDictionary) Add(value string) int {
+	if index, ok := d.index[value]; ok {
+		return index
+	}
+	index := len(d.values)
+	d.index[value] = index
+	d.values = append(d.values, value)
+	return index
+}
+
+func compactCID(id string) string {
+	if _, after, ok := strings.Cut(id, ":"); ok {
+		return strings.TrimPrefix(after, "0x")
+	}
+	return strings.TrimPrefix(id, "0x")
+}
+
+func compactCoordinatePtr(value *float64, base float64) interface{} {
+	if value == nil {
+		return nil
+	}
+	return compactCoordinate(*value, base)
+}
+
+func compactCoordinate(value float64, base float64) int {
+	return int(math.Round((value - base) * compactCoordScale))
+}
+
+func compactAddress(address string, postcode string) string {
+	if address == "" {
+		return ""
+	}
+	city := postcode + " Nürnberg"
+	if address == city {
+		return ""
+	}
+	if before, ok := strings.CutSuffix(address, ", "+city); ok {
+		return before
+	}
+	return "!" + address
 }
 
 func compactFloatPtr(value *float64, decimals int) interface{} {
@@ -778,19 +859,12 @@ func compactIntPtr(value *int) interface{} {
 	return *value
 }
 
-func boolInt(value bool) int {
-	if value {
-		return 1
-	}
-	return 0
-}
-
 func roundDecimal(value float64, decimals int) float64 {
 	factor := math.Pow(10, float64(decimals))
 	return math.Round(value*factor) / factor
 }
 
-func readAtMillis(value string) int64 {
+func readAtMinute(value string) int64 {
 	if value == "" {
 		return 0
 	}
@@ -801,7 +875,7 @@ func readAtMillis(value string) int64 {
 	if err != nil {
 		return 0
 	}
-	return parsed.UnixMilli()
+	return parsed.Unix() / 60
 }
 
 func safeJSON(value interface{}) string {
