@@ -10,42 +10,47 @@ import (
 )
 
 type args struct {
-	Postcodes         []string
-	Queries           []string
-	MaxResults        int
-	Headless          bool
-	CDPURL            string
-	DiscoveryOnly     bool
-	ScrapeOnly        bool
-	RescrapeAll       bool
-	BannerAuditOnly   bool
-	AllowBannerClears bool
-	NoticeAttempts    int
-	ScrapeStart       int
-	ScrapeLimit       int
-	SaveEvery         int
-	DelayMin          int
-	DelayMax          int
-	Out               string
-	CSV               string
-	DashboardAddr     string
+	Postcodes          []string
+	Queries            []string
+	MaxResults         int
+	Headless           bool
+	CDPURL             string
+	Discovery          string
+	PlacesAPIDiscovery bool
+	PlacesAPIPageLimit int
+	DiscoveryOnly      bool
+	ScrapeOnly         bool
+	RescrapeAll        bool
+	BannerAuditOnly    bool
+	AllowBannerClears  bool
+	NoticeAttempts     int
+	ScrapeStart        int
+	ScrapeLimit        int
+	SaveEvery          int
+	DelayMin           int
+	DelayMax           int
+	Out                string
+	CSV                string
+	DashboardAddr      string
 }
 
 func parseArgs(argv []string) (args, error) {
 	csvSet := false
 	out := args{
-		Postcodes:      mapsreview.NurembergPostcodes,
-		Queries:        mapsreview.DefaultQueries,
-		Headless:       false,
-		DelayMin:       2500,
-		DelayMax:       6000,
-		SaveEvery:      1,
-		NoticeAttempts: 2,
-		DashboardAddr:  ":8081",
-		Out:            mapsreview.ResultsJSON,
-		CSV:            mapsreview.ResultsCSV,
-		MaxResults:     0,
-		ScrapeStart:    1,
+		Postcodes:          mapsreview.NurembergPostcodes,
+		Queries:            mapsreview.DefaultQueries,
+		Headless:           false,
+		DelayMin:           2500,
+		DelayMax:           6000,
+		SaveEvery:          1,
+		NoticeAttempts:     2,
+		DashboardAddr:      ":8081",
+		Discovery:          mapsreview.DiscoveryJSON,
+		PlacesAPIPageLimit: 1,
+		Out:                mapsreview.ResultsJSON,
+		CSV:                mapsreview.ResultsCSV,
+		MaxResults:         0,
+		ScrapeStart:        1,
 	}
 
 	for i := 0; i < len(argv); i++ {
@@ -65,6 +70,13 @@ func parseArgs(argv []string) (args, error) {
 			out.Headless = mapsreview.ParseBool(value, true)
 		case "--cdp-url":
 			out.CDPURL = value
+		case "--discovery":
+			out.Discovery = value
+		case "--places-api-discovery":
+			out.PlacesAPIDiscovery = true
+			consume = false
+		case "--places-api-pages":
+			out.PlacesAPIPageLimit = max(1, mapsreview.Atoi(value))
 		case "--discovery-only":
 			out.DiscoveryOnly = true
 			consume = false
@@ -126,6 +138,9 @@ Options:
   --max-results <n>         Stop after n discovered places. 0 = unlimited.
   --headless <true|false>   Chrome headless mode. Default: false; safer for consent/CAPTCHA.
   --cdp-url <ws-url>        Experimental: use an existing CDP browser instead of Chrome, e.g. Lightpanda on ws://127.0.0.1:9333.
+  --discovery <path>        Discovery JSON path. Default: output/discovery.json.
+  --places-api-discovery    Use official Places API Text Search ID-only discovery. Reads GOOGLE_MAPS_API_KEY from env or .env.
+  --places-api-pages <n>    Places API result pages per postcode/query. Default: 1 (default searches stay under 1,000 requests/day).
   --discovery-only          Only create/update output/discovery.json.
   --scrape-only             Skip discovery; scrape output/discovery.json.
   --rescrape-all, --all     Re-read every discovered place, including existing success rows.
@@ -154,5 +169,3 @@ func splitCSV(value string) []string {
 	}
 	return out
 }
-
-

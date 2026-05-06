@@ -19,6 +19,7 @@ type discoveredAnchor struct {
 
 type mapText struct {
 	Title       string   `json:"title"`
+	URL         string   `json:"url"`
 	H1          string   `json:"h1"`
 	Category    string   `json:"category"`
 	Text        string   `json:"text"`
@@ -133,6 +134,7 @@ func readMapText(ctx context.Context) (mapText, error) {
 
   return {
     title: document.title,
+    url: location.href,
     h1: document.querySelector('h1')?.textContent?.trim() || '',
     category,
     text: [document.body.innerText, ...attrTexts].join('\n'),

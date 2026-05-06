@@ -41,17 +41,28 @@ func run(args args) error {
 	dash := mapsreview.NewDashboard(args.DashboardAddr)
 	defer dash.SetPhase("done")
 
-	browserCtx, cancel := newScrapeBrowserContext(args)
-	defer cancel()
+	var browserCtx context.Context
+	var cancel context.CancelFunc = func() {}
+	defer func() { cancel() }()
+	ensureBrowser := func() context.Context {
+		if browserCtx == nil {
+			browserCtx, cancel = newScrapeBrowserContext(args)
+		}
+		return browserCtx
+	}
 
 	discoveries := []mapsreview.Discovery{}
 	var err error
 	if args.ScrapeOnly {
-		discoveries, err = mapsreview.ReadJSON(mapsreview.DiscoveryJSON, []mapsreview.Discovery{})
+		discoveries, err = mapsreview.ReadJSON(args.Discovery, []mapsreview.Discovery{})
 		dash.SetDiscoveryCount(len(discoveries))
 	} else {
 		dash.SetPhase("discovery")
-		discoveries, err = discoverPlaces(browserCtx, args, dash)
+		if args.PlacesAPIDiscovery {
+			discoveries, err = discoverPlacesAPI(context.Background(), args, dash)
+		} else {
+			discoveries, err = discoverPlaces(ensureBrowser(), args, dash)
+		}
 	}
 	if err != nil {
 		return err
@@ -68,7 +79,7 @@ func run(args args) error {
 	}
 
 	dash.SetPhase("scraping")
-	rows, err := scrapePlaces(browserCtx, discoveries, args, dash)
+	rows, err := scrapePlaces(ensureBrowser(), discoveries, args, dash)
 	if err != nil {
 		return err
 	}
@@ -89,56 +100,62 @@ func newScrapeBrowserContext(args args) (context.Context, context.CancelFunc) {
 }
 
 type metadata struct {
-	ReadAt            string   `json:"readAt"`
-	Postcodes         []string `json:"postcodes"`
-	Queries           []string `json:"queries"`
-	MaxResults        int      `json:"maxResults"`
-	Headless          bool     `json:"headless"`
-	CDPURL            string   `json:"cdpUrl,omitempty"`
-	DiscoveryOnly     bool     `json:"discoveryOnly"`
-	ScrapeOnly        bool     `json:"scrapeOnly"`
-	RescrapeAll       bool     `json:"rescrapeAll"`
-	BannerAuditOnly   bool     `json:"bannerAuditOnly"`
-	AllowBannerClears bool     `json:"allowBannerClears"`
-	NoticeAttempts    int      `json:"noticeAttempts"`
-	ScrapeStart       int      `json:"scrapeStart"`
-	ScrapeLimit       int      `json:"scrapeLimit"`
-	SaveEvery         int      `json:"saveEvery"`
-	DelayMin          int      `json:"delayMin"`
-	DelayMax          int      `json:"delayMax"`
-	Output            string   `json:"output"`
-	CSV               string   `json:"csv"`
-	UserAgent         string   `json:"userAgent"`
-	Discovered        int      `json:"discovered"`
-	Rows              int      `json:"rows"`
-	Success           int      `json:"success"`
-	Errors            int      `json:"errors"`
+	ReadAt             string   `json:"readAt"`
+	Postcodes          []string `json:"postcodes"`
+	Queries            []string `json:"queries"`
+	MaxResults         int      `json:"maxResults"`
+	Headless           bool     `json:"headless"`
+	CDPURL             string   `json:"cdpUrl,omitempty"`
+	Discovery          string   `json:"discovery"`
+	PlacesAPIDiscovery bool     `json:"placesApiDiscovery"`
+	PlacesAPIPageLimit int      `json:"placesApiPageLimit"`
+	DiscoveryOnly      bool     `json:"discoveryOnly"`
+	ScrapeOnly         bool     `json:"scrapeOnly"`
+	RescrapeAll        bool     `json:"rescrapeAll"`
+	BannerAuditOnly    bool     `json:"bannerAuditOnly"`
+	AllowBannerClears  bool     `json:"allowBannerClears"`
+	NoticeAttempts     int      `json:"noticeAttempts"`
+	ScrapeStart        int      `json:"scrapeStart"`
+	ScrapeLimit        int      `json:"scrapeLimit"`
+	SaveEvery          int      `json:"saveEvery"`
+	DelayMin           int      `json:"delayMin"`
+	DelayMax           int      `json:"delayMax"`
+	Output             string   `json:"output"`
+	CSV                string   `json:"csv"`
+	UserAgent          string   `json:"userAgent"`
+	Discovered         int      `json:"discovered"`
+	Rows               int      `json:"rows"`
+	Success            int      `json:"success"`
+	Errors             int      `json:"errors"`
 }
 
 func writeMetadata(args args, discoveries []mapsreview.Discovery, rows []mapsreview.Place) error {
 	m := metadata{
-		ReadAt:            mapsreview.NowISO(),
-		Postcodes:         args.Postcodes,
-		Queries:           args.Queries,
-		MaxResults:        args.MaxResults,
-		Headless:          args.Headless,
-		CDPURL:            args.CDPURL,
-		DiscoveryOnly:     args.DiscoveryOnly,
-		ScrapeOnly:        args.ScrapeOnly,
-		RescrapeAll:       args.RescrapeAll,
-		BannerAuditOnly:   args.BannerAuditOnly,
-		AllowBannerClears: args.AllowBannerClears,
-		NoticeAttempts:    args.NoticeAttempts,
-		ScrapeStart:       args.ScrapeStart,
-		ScrapeLimit:       args.ScrapeLimit,
-		SaveEvery:         args.SaveEvery,
-		DelayMin:          args.DelayMin,
-		DelayMax:          args.DelayMax,
-		Output:            args.Out,
-		CSV:               args.CSV,
-		UserAgent:         mapsreview.UserAgent,
-		Discovered:        len(discoveries),
-		Rows:              len(rows),
+		ReadAt:             mapsreview.NowISO(),
+		Postcodes:          args.Postcodes,
+		Queries:            args.Queries,
+		MaxResults:         args.MaxResults,
+		Headless:           args.Headless,
+		CDPURL:             args.CDPURL,
+		Discovery:          args.Discovery,
+		PlacesAPIDiscovery: args.PlacesAPIDiscovery,
+		PlacesAPIPageLimit: args.PlacesAPIPageLimit,
+		DiscoveryOnly:      args.DiscoveryOnly,
+		ScrapeOnly:         args.ScrapeOnly,
+		RescrapeAll:        args.RescrapeAll,
+		BannerAuditOnly:    args.BannerAuditOnly,
+		AllowBannerClears:  args.AllowBannerClears,
+		NoticeAttempts:     args.NoticeAttempts,
+		ScrapeStart:        args.ScrapeStart,
+		ScrapeLimit:        args.ScrapeLimit,
+		SaveEvery:          args.SaveEvery,
+		DelayMin:           args.DelayMin,
+		DelayMax:           args.DelayMax,
+		Output:             args.Out,
+		CSV:                args.CSV,
+		UserAgent:          mapsreview.UserAgent,
+		Discovered:         len(discoveries),
+		Rows:               len(rows),
 	}
 	for _, row := range rows {
 		if row.Status == "success" {
@@ -151,17 +168,17 @@ func writeMetadata(args args, discoveries []mapsreview.Discovery, rows []mapsrev
 }
 
 func discoverPlaces(ctx context.Context, args args, dash *mapsreview.Dashboard) ([]mapsreview.Discovery, error) {
-	existing, err := mapsreview.ReadJSON(mapsreview.DiscoveryJSON, []mapsreview.Discovery{})
+	existing, err := mapsreview.ReadJSON(args.Discovery, []mapsreview.Discovery{})
 	if err != nil {
 		return nil, err
 	}
 	seen := map[string]bool{}
 	discoveries := make([]mapsreview.Discovery, 0, len(existing))
 	for _, place := range existing {
-		if place.ID == "" || seen[place.ID] {
+		if place.ID == "" || discoverySeen(seen, place) {
 			continue
 		}
-		seen[place.ID] = true
+		markDiscoverySeen(seen, place)
 		discoveries = append(discoveries, place)
 	}
 
@@ -190,15 +207,16 @@ func discoverPlaces(ctx context.Context, args args, dash *mapsreview.Dashboard) 
 				}
 				for _, anchor := range anchors {
 					id := mapsreview.PlaceIDFromURL(anchor.URL)
-					if !seen[id] {
-						seen[id] = true
-						discoveries = append(discoveries, mapsreview.Discovery{
-							ID:                 id,
-							Name:               anchor.Name,
-							URL:                mapsreview.NormalizeURL(anchor.URL),
-							DiscoveredPostcode: postcode,
-							DiscoveredQuery:    query,
-						})
+					discovery := mapsreview.Discovery{
+						ID:                 id,
+						Name:               anchor.Name,
+						URL:                mapsreview.NormalizeURL(anchor.URL),
+						DiscoveredPostcode: postcode,
+						DiscoveredQuery:    query,
+					}
+					if !discoverySeen(seen, discovery) {
+						markDiscoverySeen(seen, discovery)
+						discoveries = append(discoveries, discovery)
 					}
 				}
 
@@ -219,7 +237,7 @@ func discoverPlaces(ctx context.Context, args args, dash *mapsreview.Dashboard) 
 				_ = scrollResults(ctx)
 				sleep(1400)
 			}
-			if err := mapsreview.WriteJSON(mapsreview.DiscoveryJSON, discoveries); err != nil {
+			if err := mapsreview.WriteJSON(args.Discovery, discoveries); err != nil {
 				return nil, err
 			}
 			dash.SetDiscoveryCount(len(discoveries))
@@ -241,7 +259,11 @@ func extractPlace(ctx context.Context, discovery mapsreview.Discovery) (mapsrevi
 		return mapsreview.Place{}, errors.New("missing URL")
 	}
 	overview, overviewErr := extractOverview(ctx, discovery)
-	reviews, err := extractReviewsDirectWithRetry(ctx, discovery)
+	resolvedDiscovery := discovery
+	if overview.URL != "" {
+		resolvedDiscovery.URL = overview.URL
+	}
+	reviews, err := extractReviewsDirectWithRetry(ctx, resolvedDiscovery)
 	if err != nil {
 		if overviewErr != nil {
 			return mapsreview.Place{}, fmt.Errorf("%v; overview error: %v", err, overviewErr)
@@ -308,17 +330,21 @@ func extractPlace(ctx context.Context, discovery mapsreview.Discovery) (mapsrevi
 	}
 	category := extractCategory(name, overview.Category, overview.Text)
 	notice := mapsreview.ParseNotice(statsText)
-	coords := mapsreview.ExtractCoordinates(discovery.URL)
+	coords := mapsreview.ExtractCoordinates(resolvedDiscovery.URL)
+	placeID := discovery.ID
+	if resolvedID, ok := mapsreview.MapsDataPlaceIDFromURL(resolvedDiscovery.URL); ok {
+		placeID = resolvedID
+	}
 
 	row := mapsreview.Place{
-		ID:          discovery.ID,
+		ID:          placeID,
 		Name:        name,
 		Postcode:    postcode,
 		Address:     address,
 		Rating:      stats.Rating,
 		ReviewCount: stats.ReviewCount,
 		Category:    category,
-		URL:         mapsreview.NormalizeURL(discovery.URL),
+		URL:         mapsreview.NormalizeURL(resolvedDiscovery.URL),
 		ReadAt:      mapsreview.NowISO(),
 		PlaceState:  placeState,
 		Status:      "success",
@@ -721,8 +747,10 @@ func scrapePlaces(ctx context.Context, discoveries []mapsreview.Discovery, args 
 		return nil, err
 	}
 	rows := map[string]mapsreview.Place{}
+	rowIndex := map[string]mapsreview.Place{}
 	for _, row := range previous {
 		rows[row.ID] = row
+		indexPlaceRow(rowIndex, row)
 	}
 	if args.BannerAuditOnly {
 		return auditBannerPlaces(ctx, discoveries, args, rows, dash)
@@ -730,7 +758,7 @@ func scrapePlaces(ctx context.Context, discoveries []mapsreview.Discovery, args 
 
 	todo := make([]mapsreview.Discovery, 0, len(discoveries))
 	for _, place := range discoveries {
-		row, ok := rows[place.ID]
+		row, ok := findExistingRow(rowIndex, place)
 		if args.RescrapeAll || !ok || row.Status != "success" {
 			todo = append(todo, place)
 		}
@@ -773,7 +801,7 @@ func scrapePlaces(ctx context.Context, discoveries []mapsreview.Discovery, args 
 		dash.SetScrapeProgress(i+1, len(todo))
 		dash.Logf("[%d/%d] %s", i+1, len(todo), displayPlaceName(place))
 		fmt.Printf("[%d/%d] %s\n", i+1, len(todo), displayPlaceName(place))
-		previousRow, hadPreviousRow := rows[place.ID]
+		previousRow, hadPreviousRow := findExistingRow(rowIndex, place)
 		row, err := extractPlace(ctx, place)
 		if err != nil {
 			errorText := err.Error()
@@ -800,8 +828,12 @@ func scrapePlaces(ctx context.Context, discoveries []mapsreview.Discovery, args 
 			if errors.Is(err, errPartialMapsShell) {
 				placeState = mapsreview.PlaceStatePartialLoad
 			}
+			errorID := place.ID
+			if hadPreviousRow {
+				errorID = previousRow.ID
+			}
 			row = mapsreview.Place{
-				ID:         place.ID,
+				ID:         errorID,
 				Name:       place.Name,
 				Postcode:   mapsreview.StringPtr(place.DiscoveredPostcode),
 				URL:        mapsreview.NormalizeURL(place.URL),
@@ -844,7 +876,14 @@ func scrapePlaces(ctx context.Context, discoveries []mapsreview.Discovery, args 
 			dash.Logf("  %s★ %s reviews; removed=%s", mapsreview.FormatPtrFloat(row.Rating, 1), mapsreview.FormatPtrInt(row.ReviewCount), removed)
 			fmt.Printf("  %s★ %s reviews; removed=%s\n", mapsreview.FormatPtrFloat(row.Rating, 1), mapsreview.FormatPtrInt(row.ReviewCount), removed)
 		}
+		if hadPreviousRow {
+			removePlaceRowAliases(rowIndex, previousRow)
+			if previousRow.ID != row.ID {
+				delete(rows, previousRow.ID)
+			}
+		}
 		rows[row.ID] = row
+		indexPlaceRow(rowIndex, row)
 		changedSinceSave++
 		if err := saveIfNeeded(false); err != nil {
 			return nil, err
@@ -860,9 +899,13 @@ func scrapePlaces(ctx context.Context, discoveries []mapsreview.Discovery, args 
 }
 
 func auditBannerPlaces(ctx context.Context, discoveries []mapsreview.Discovery, args args, rows map[string]mapsreview.Place, dash *mapsreview.Dashboard) ([]mapsreview.Place, error) {
+	rowIndex := map[string]mapsreview.Place{}
+	for _, row := range rows {
+		indexPlaceRow(rowIndex, row)
+	}
 	todo := make([]mapsreview.Discovery, 0, len(discoveries))
 	for _, place := range discoveries {
-		row, ok := rows[place.ID]
+		row, ok := findExistingRow(rowIndex, place)
 		if ok && row.Status == "success" && !row.HasDefamationNotice {
 			todo = append(todo, place)
 		}
@@ -905,7 +948,7 @@ func auditBannerPlaces(ctx context.Context, discoveries []mapsreview.Discovery, 
 		dash.SetScrapeProgress(i+1, len(todo))
 		dash.Logf("[%d/%d] %s", i+1, len(todo), displayPlaceName(place))
 		fmt.Printf("[%d/%d] %s\n", i+1, len(todo), displayPlaceName(place))
-		previousRow := rows[place.ID]
+		previousRow, _ := findExistingRow(rowIndex, place)
 		notice, stats, _, err := extractNoticeWithAttempts(ctx, place, args.NoticeAttempts)
 		if err != nil {
 			fmt.Printf("  ERROR: %s; keeping existing row\n", err.Error())
@@ -933,7 +976,9 @@ func auditBannerPlaces(ctx context.Context, discoveries []mapsreview.Discovery, 
 		mapsreview.EnrichParentCategory(&next)
 		mapsreview.ApplyPlaceOverrides(&next)
 		mapsreview.ComputeMetrics(&next)
+		removePlaceRowAliases(rowIndex, previousRow)
 		rows[next.ID] = next
+		indexPlaceRow(rowIndex, next)
 		changedSinceSave++
 		fmt.Printf("  FOUND banner: %s\n", notice.Text)
 		if err := saveIfNeeded(false); err != nil {

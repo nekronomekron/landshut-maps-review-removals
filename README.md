@@ -21,6 +21,7 @@ Voraussetzungen:
 - Go 1.25+
 - Chrome oder Chromium im `PATH` oder an einem Standard-Installationsort
 - Optional als experimentelles CDP-Backend: Lightpanda
+- Optional für Places-API-Discovery: Google Places API (New)-API-Key in `.env` (siehe `.env.example`)
 - Optional für PNG-Export: ImageMagick `magick` oder `convert`
 
 ```bash
@@ -28,6 +29,15 @@ make setup
 # oder direkt:
 go mod download
 ```
+
+Für die optionale Places-API-Discovery:
+
+```bash
+cp .env.example .env
+# GOOGLE_MAPS_API_KEY in .env setzen
+```
+
+`.env` wird nur beim Lauf mit `--places-api-discovery` gelesen und bleibt lokal/git-ignoriert.
 
 ## 1) Daten sammeln
 
@@ -58,6 +68,8 @@ Nützliche Optionen:
 --postcodes 90402,90403
 --queries restaurant,café,imbiss,pizzeria,bäckerei
 --discovery-only
+--places-api-discovery --discovery-only   # experimentell: offizielle Places API Text Search, ID-only/no-cost-SKU laut Google-Preisliste; liest GOOGLE_MAPS_API_KEY aus Umgebung oder .env
+--places-api-pages 1                       # API-Seiten pro PLZ/Suche; Default 1 hält die Standardsuchen unter 1.000 Requests/Tag
 --scrape-only
 --scrape-only --rescrape-all   # alle gefundenen Orte erneut lesen, auch bereits erfolgreiche
 --scrape-only --rescrape-all --allow-banner-clears   # zuvor erkannte Banner nach manueller Prüfung entfernen lassen
