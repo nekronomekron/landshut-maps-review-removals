@@ -369,6 +369,7 @@ func extractOverview(ctx context.Context, discovery mapsreview.Discovery) (mapTe
 	if err := waitForPlacePanel(ctx); err != nil {
 		return mapText{}, err
 	}
+	_ = waitForResolvedPlaceURL(ctx)
 	overview, err := readMapText(ctx)
 	if err != nil {
 		return mapText{}, err
@@ -467,10 +468,39 @@ func writeNoticeDebug(discovery mapsreview.Discovery, texts []string, err error)
 	return os.WriteFile(path, []byte(b.String()), 0o644)
 }
 
+func writeErrorDebug(ctx context.Context, discovery mapsreview.Discovery, err error) {
+	name := safeFilename(discovery.ID)
+	if name == "" {
+		name = safeFilename(displayPlaceName(discovery))
+	}
+	if name == "" {
+		name = "unknown"
+	}
+	base := filepath.Join("debug", "error-"+name)
+	_ = writeErrorDebugText(base+".txt", discovery, err)
+	_ = screenshot(ctx, base+".png")
+	_ = htmlSnapshot(ctx, base+".html")
+}
+
+func writeErrorDebugText(path string, discovery mapsreview.Discovery, err error) error {
+	if err := mapsreview.EnsureDirForPath(path); err != nil {
+		return err
+	}
+	var b strings.Builder
+	b.WriteString("place: " + displayPlaceName(discovery) + "\n")
+	b.WriteString("id: " + discovery.ID + "\n")
+	b.WriteString("url: " + mapsreview.NormalizeURL(discovery.URL) + "\n")
+	b.WriteString("readAt: " + mapsreview.NowISO() + "\n")
+	if err != nil {
+		b.WriteString("error: " + err.Error() + "\n")
+	}
+	return os.WriteFile(path, []byte(b.String()), 0o644)
+}
+
 func extractReviewsDirect(ctx context.Context, discovery mapsreview.Discovery) (mapText, error) {
 	reviewsURL := mapsreview.ReviewsURLFromURL(discovery.URL)
 	if reviewsURL == mapsreview.NormalizeURL(discovery.URL) {
-		return mapText{}, errors.New("restricted Google Maps view")
+		return extractReviewsFromOpenPanel(ctx, discovery)
 	}
 	reviews, err := extractReviewsDirectOnce(ctx, reviewsURL, discovery)
 	if err == nil || !errors.Is(err, errPartialMapsShell) {
@@ -478,6 +508,30 @@ func extractReviewsDirect(ctx context.Context, discovery mapsreview.Discovery) (
 	}
 	sleep(1000)
 	return extractReviewsDirectOnce(ctx, reviewsURL, discovery)
+}
+
+func extractReviewsFromOpenPanel(ctx context.Context, discovery mapsreview.Discovery) (mapText, error) {
+	clicked, err := clickReviewsTab(ctx)
+	if err != nil {
+		return mapText{}, err
+	}
+	if clicked {
+		if err := waitForDirectReviewsPanel(ctx); err != nil {
+			reviews, readErr := readMapText(ctx)
+			if readErr == nil && isPartialMapsShell(reviews.Text, discovery.Name) {
+				return reviews, fmt.Errorf("%w: %v", errPartialMapsShell, err)
+			}
+			return reviews, err
+		}
+	}
+	reviews, err := readMapText(ctx)
+	if err != nil {
+		return reviews, err
+	}
+	if isPartialMapsShell(reviews.Text, discovery.Name) {
+		return reviews, errPartialMapsShell
+	}
+	return reviews, nil
 }
 
 func extractReviewsDirectOnce(ctx context.Context, reviewsURL string, discovery mapsreview.Discovery) (mapText, error) {
@@ -806,6 +860,7 @@ func scrapePlaces(ctx context.Context, discoveries []mapsreview.Discovery, args 
 		if err != nil {
 			errorText := err.Error()
 			dash.Logf("  ERROR: %s", errorText)
+			writeErrorDebug(ctx, place, err)
 			if hadPreviousRow && previousRow.Status == "success" {
 				dash.AddError(displayPlaceName(place), errorText)
 				fmt.Printf("  ERROR: %s; keeping existing success row\n", errorText)
@@ -844,7 +899,6 @@ func scrapePlaces(ctx context.Context, discoveries []mapsreview.Discovery, args 
 			}
 			dash.AddError(displayPlaceName(place), errorText)
 			fmt.Printf("  ERROR: %s\n", errorText)
-			_ = screenshot(ctx, filepath.Join("debug", safeFilename(place.ID)+".png"))
 		} else {
 			if hadPreviousRow {
 				row = preservePreviousMetadata(previousRow, row)
@@ -856,8 +910,10 @@ func scrapePlaces(ctx context.Context, discoveries []mapsreview.Discovery, args 
 						mapsreview.ComputeMetrics(&row)
 						fmt.Printf("  VERIFIED existing banner after extra check: %s\n", notice.Text)
 					} else {
+						base := filepath.Join("debug", "banner-clear-"+safeFilename(place.ID))
 						_ = writeNoticeDebug(place, texts, verifyErr)
-						_ = screenshot(ctx, filepath.Join("debug", "banner-clear-"+safeFilename(place.ID)+".png"))
+						_ = screenshot(ctx, base+".png")
+						_ = htmlSnapshot(ctx, base+".html")
 					}
 				}
 			}
@@ -951,6 +1007,7 @@ func auditBannerPlaces(ctx context.Context, discoveries []mapsreview.Discovery, 
 		previousRow, _ := findExistingRow(rowIndex, place)
 		notice, stats, _, err := extractNoticeWithAttempts(ctx, place, args.NoticeAttempts)
 		if err != nil {
+			writeErrorDebug(ctx, place, err)
 			fmt.Printf("  ERROR: %s; keeping existing row\n", err.Error())
 			if errors.Is(err, context.Canceled) {
 				if saveErr := saveIfNeeded(true); saveErr != nil {
