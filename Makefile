@@ -1,5 +1,10 @@
 .PHONY: setup test check validate scrape backfill charts dashboard dashboard-build open-dashboard site deploy-pages all
 
+ifneq (,$(wildcard .env))
+include .env
+export
+endif
+
 SITE_DOMAIN ?= nuernberg-maps-review-removals.patwoz.dev
 SITE_URL ?= https://$(SITE_DOMAIN)
 
