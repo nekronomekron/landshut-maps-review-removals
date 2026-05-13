@@ -42565,5 +42565,124 @@
     "url": "https://www.google.com/maps/search/?api=1\u0026hl=de\u0026query=diskothek+90455+N%C3%BCrnberg\u0026query_place_id=ChIJSbQc83han0cRM9dSgE5fAEI",
     "discoveredPostcode": "90455",
     "discoveredQuery": "diskothek"
+  },
+  {
+    "id": "ChIJ24pr_8xXn0cR4dkPQK7lpKE",
+    "name": "brauerei 90403 Nürnberg",
+    "url": "https://www.google.com/maps/search/?api=1\u0026hl=de\u0026query=brauerei+90403+N%C3%BCrnberg\u0026query_place_id=ChIJ24pr_8xXn0cR4dkPQK7lpKE",
+    "discoveredPostcode": "90403",
+    "discoveredQuery": "brauerei"
+  },
+  {
+    "id": "ChIJv5fObYVXn0cRzqrnaXrC6FA",
+    "name": "restaurant 90425 Nürnberg",
+    "url": "https://www.google.com/maps/search/?api=1\u0026hl=de\u0026query=restaurant+90425+N%C3%BCrnberg\u0026query_place_id=ChIJv5fObYVXn0cRzqrnaXrC6FA",
+    "discoveredPostcode": "90425",
+    "discoveredQuery": "restaurant"
+  },
+  {
+    "id": "ChIJAwoI2hpXn0cRB6Im_7HDg9M",
+    "name": "tankstelle 90459 Nürnberg",
+    "url": "https://www.google.com/maps/search/?api=1\u0026hl=de\u0026query=tankstelle+90459+N%C3%BCrnberg\u0026query_place_id=ChIJAwoI2hpXn0cRB6Im_7HDg9M",
+    "discoveredPostcode": "90459",
+    "discoveredQuery": "tankstelle"
+  },
+  {
+    "id": "ChIJowzsTQBZn0cRpP4P5DvJbpQ",
+    "name": "restaurant 90471 Nürnberg",
+    "url": "https://www.google.com/maps/search/?api=1\u0026hl=de\u0026query=restaurant+90471+N%C3%BCrnberg\u0026query_place_id=ChIJowzsTQBZn0cRpP4P5DvJbpQ",
+    "discoveredPostcode": "90471",
+    "discoveredQuery": "restaurant"
+  },
+  {
+    "id": "ChIJ3YtHVwBZn0cRf6uov8Nz__c",
+    "name": "supermarkt 90471 Nürnberg",
+    "url": "https://www.google.com/maps/search/?api=1\u0026hl=de\u0026query=supermarkt+90471+N%C3%BCrnberg\u0026query_place_id=ChIJ3YtHVwBZn0cRf6uov8Nz__c",
+    "discoveredPostcode": "90471",
+    "discoveredQuery": "supermarkt"
+  },
+  {
+    "id": "ChIJq07h9TtZn0cRLi8EUJaT0Yo",
+    "name": "fitnessstudio 90473 Nürnberg",
+    "url": "https://www.google.com/maps/search/?api=1\u0026hl=de\u0026query=fitnessstudio+90473+N%C3%BCrnberg\u0026query_place_id=ChIJq07h9TtZn0cRLi8EUJaT0Yo",
+    "discoveredPostcode": "90473",
+    "discoveredQuery": "fitnessstudio"
+  },
+  {
+    "id": "ChIJSXNQV3NZn0cRa9dNhDKSX2Y",
+    "name": "döner 90475 Nürnberg",
+    "url": "https://www.google.com/maps/search/?api=1\u0026hl=de\u0026query=d%C3%B6ner+90475+N%C3%BCrnberg\u0026query_place_id=ChIJSXNQV3NZn0cRa9dNhDKSX2Y",
+    "discoveredPostcode": "90475",
+    "discoveredQuery": "döner"
+  },
+  {
+    "id": "ChIJj7uI8RVZn0cReCphFasIZfc",
+    "name": "brauerei 90475 Nürnberg",
+    "url": "https://www.google.com/maps/search/?api=1\u0026hl=de\u0026query=brauerei+90475+N%C3%BCrnberg\u0026query_place_id=ChIJj7uI8RVZn0cReCphFasIZfc",
+    "discoveredPostcode": "90475",
+    "discoveredQuery": "brauerei"
+  },
+  {
+    "id": "ChIJy1sgEIKhDEERnsRjR6Htdtk",
+    "name": "brauerei 90475 Nürnberg",
+    "url": "https://www.google.com/maps/search/?api=1\u0026hl=de\u0026query=brauerei+90475+N%C3%BCrnberg\u0026query_place_id=ChIJy1sgEIKhDEERnsRjR6Htdtk",
+    "discoveredPostcode": "90475",
+    "discoveredQuery": "brauerei"
+  },
+  {
+    "id": "ChIJV1f901Rfn0cRGjcE9l5qsqQ",
+    "name": "hotel 90475 Nürnberg",
+    "url": "https://www.google.com/maps/search/?api=1\u0026hl=de\u0026query=hotel+90475+N%C3%BCrnberg\u0026query_place_id=ChIJV1f901Rfn0cRGjcE9l5qsqQ",
+    "discoveredPostcode": "90475",
+    "discoveredQuery": "hotel"
+  },
+  {
+    "id": "ChIJ-Ti79zphn0cR6n-iozt8jAM",
+    "name": "hotel 90475 Nürnberg",
+    "url": "https://www.google.com/maps/search/?api=1\u0026hl=de\u0026query=hotel+90475+N%C3%BCrnberg\u0026query_place_id=ChIJ-Ti79zphn0cR6n-iozt8jAM",
+    "discoveredPostcode": "90475",
+    "discoveredQuery": "hotel"
+  },
+  {
+    "id": "ChIJ8QQwDxJcn0cRAyb0609kNG4",
+    "name": "metzgerei 90475 Nürnberg",
+    "url": "https://www.google.com/maps/search/?api=1\u0026hl=de\u0026query=metzgerei+90475+N%C3%BCrnberg\u0026query_place_id=ChIJ8QQwDxJcn0cRAyb0609kNG4",
+    "discoveredPostcode": "90475",
+    "discoveredQuery": "metzgerei"
+  },
+  {
+    "id": "ChIJr1cBvABXn0cRGkoqPhf3gmU",
+    "name": "imbiss 90478 Nürnberg",
+    "url": "https://www.google.com/maps/search/?api=1\u0026hl=de\u0026query=imbiss+90478+N%C3%BCrnberg\u0026query_place_id=ChIJr1cBvABXn0cRGkoqPhf3gmU",
+    "discoveredPostcode": "90478",
+    "discoveredQuery": "imbiss"
+  },
+  {
+    "id": "ChIJN1YpAQBXn0cRa90jsquH0Y4",
+    "name": "schnitzel 90478 Nürnberg",
+    "url": "https://www.google.com/maps/search/?api=1\u0026hl=de\u0026query=schnitzel+90478+N%C3%BCrnberg\u0026query_place_id=ChIJN1YpAQBXn0cRa90jsquH0Y4",
+    "discoveredPostcode": "90478",
+    "discoveredQuery": "schnitzel"
+  },
+  {
+    "id": "ChIJ51zcsXlZn0cRjskAqXDIK4I",
+    "name": "sushi 90482 Nürnberg",
+    "url": "https://www.google.com/maps/search/?api=1\u0026hl=de\u0026query=sushi+90482+N%C3%BCrnberg\u0026query_place_id=ChIJ51zcsXlZn0cRjskAqXDIK4I",
+    "discoveredPostcode": "90482",
+    "discoveredQuery": "sushi"
+  },
+  {
+    "id": "ChIJh0sKf_7joUcR_sljA0o-Ut4",
+    "name": "schnitzel 90482 Nürnberg",
+    "url": "https://www.google.com/maps/search/?api=1\u0026hl=de\u0026query=schnitzel+90482+N%C3%BCrnberg\u0026query_place_id=ChIJh0sKf_7joUcR_sljA0o-Ut4",
+    "discoveredPostcode": "90482",
+    "discoveredQuery": "schnitzel"
+  },
+  {
+    "id": "ChIJMWSDkpZXn0cRddRt3tFwKGU",
+    "name": "tankstelle 90489 Nürnberg",
+    "url": "https://www.google.com/maps/search/?api=1\u0026hl=de\u0026query=tankstelle+90489+N%C3%BCrnberg\u0026query_place_id=ChIJMWSDkpZXn0cRddRt3tFwKGU",
+    "discoveredPostcode": "90489",
+    "discoveredQuery": "tankstelle"
   }
 ]
