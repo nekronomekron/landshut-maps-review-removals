@@ -133,7 +133,7 @@ func printHelp() {
   go run ./cmd/scrape --postcodes 90402,90403 --queries restaurant,café,imbiss
 
 Options:
-  --postcodes <all|csv>     Nürnberg PLZ list. Default: all known Nürnberg PLZ.
+  --postcodes <all|csv>     Landshut PLZ list. Default: all known Landshut PLZ.
   --queries <csv>           Google Maps search terms. Default: %s.
   --max-results <n>         Stop after n discovered places. 0 = unlimited.
   --headless <true|false>   Chrome headless mode. Default: false; safer for consent/CAPTCHA.

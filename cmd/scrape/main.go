@@ -189,7 +189,7 @@ func discoverPlaces(ctx context.Context, args args, dash *mapsreview.Dashboard) 
 				stop = true
 				break
 			}
-			search := fmt.Sprintf("%s %s Nürnberg", query, postcode)
+			search := fmt.Sprintf("%s %s Landshut", query, postcode)
 			url := "https://www.google.com/maps/search/" + urlPathEscape(search) + "?hl=de"
 			fmt.Printf("\nDiscover: %s\n", search)
 			if err := navigate(ctx, url, 60*time.Second); err != nil {

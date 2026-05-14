@@ -56,7 +56,7 @@ func discoverPlacesAPI(ctx context.Context, args args, dash *mapsreview.Dashboar
 				stop = true
 				break
 			}
-			search := fmt.Sprintf("%s %s Nürnberg", query, postcode)
+			search := fmt.Sprintf("%s %s Landshut", query, postcode)
 			if args.PlacesAPIPageLimit == 1 && completedAPISearches[apiSearchKey(postcode, query)] {
 				dash.Logf("  skipped already saved API search: %s", search)
 				continue

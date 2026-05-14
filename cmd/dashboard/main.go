@@ -23,11 +23,11 @@ const (
 	defaultOutput = "output/charts/nuernberg_dashboard.html"
 
 	siteURL         = "https://nuernberg-maps-review-removals.patwoz.dev/"
-	siteName        = "Nürnberg Maps Review Removals"
-	pageTitle       = "Nürnberg Google-Maps-Bewertungen: Löschbanner-Dashboard"
-	pageDescription = "Interaktives Nürnberg-Dashboard zu sichtbaren Google-Maps-Hinweisen auf entfernte Bewertungen: Löschbanner, Löschquoten, Karte und Daten-Explorer."
+	siteName        = "Landshut Maps Review Removals"
+	pageTitle       = "Landshut Google-Maps-Bewertungen: Löschbanner-Dashboard"
+	pageDescription = "Interaktives Landshut-Dashboard zu sichtbaren Google-Maps-Hinweisen auf entfernte Bewertungen: Löschbanner, Löschquoten, Karte und Daten-Explorer."
 	socialImageURL  = siteURL + "charts/nuernberg_overall_summary.png"
-	socialImageAlt  = "Diagramm zur Auswertung entfernter Google-Maps-Bewertungen in Nürnberg"
+	socialImageAlt  = "Diagramm zur Auswertung entfernter Google-Maps-Bewertungen in Landshut"
 )
 
 type args struct {
@@ -583,13 +583,13 @@ __ANALYTICS__
     <div class="sitebar-inner">
       <div class="top-icons" aria-hidden="true"><span>●</span><span>☝</span><span>▰</span></div>
       <button class="theme-toggle" id="themeToggle" type="button" aria-label="Dunkles Design aktivieren" aria-pressed="false"><span class="theme-toggle-icon" aria-hidden="true">☾</span><span class="theme-toggle-text">Dunkel</span></button>
-      <div class="n-logo">Nürnberg</div>
+      <div class="n-logo">Landshut</div>
     </div>
   </div>
 
   <section class="hero" aria-label="Seitentitel">
     <div class="hero-inner">
-      <h1 class="hero-title">Nürnberg Google-Maps-Bewertungen</h1>
+      <h1 class="hero-title">Landshut Google-Maps-Bewertungen</h1>
       <div class="hero-subtitle">Interaktives Daten-Dashboard zu sichtbaren Hinweisen auf entfernte Bewertungen wegen Diffamierungsbeschwerden.</div>
     </div>
   </section>
@@ -828,7 +828,7 @@ func compactAddress(address string, postcode string) string {
 	if address == "" {
 		return ""
 	}
-	city := postcode + " Nürnberg"
+	city := postcode + " Landshut"
 	if address == city {
 		return ""
 	}
@@ -938,8 +938,8 @@ func makeSEOStats(data []clientRow, snapshot string) seoStats {
 
 func seoSummaryHTML(stats seoStats) string {
 	return fmt.Sprintf(`<section class="card seo-summary" aria-labelledby="data-overview-title">
-      <h2 id="data-overview-title">Datenstand: Google-Maps-Bewertungen und Löschbanner in Nürnberg</h2>
-      <p>Dieses Dashboard macht öffentlich sichtbare Hinweise auf wegen Diffamierungsbeschwerden entfernte Google-Maps-Bewertungen in Nürnberg durchsuchbar. Die Karte, Filter und Ranglisten zeigen Löschbanner, geschätzte entfernte Bewertungen, Löschquoten und Worst-Case-Ratings je Ort.</p>
+      <h2 id="data-overview-title">Datenstand: Google-Maps-Bewertungen und Löschbanner in Landshut</h2>
+      <p>Dieses Dashboard macht öffentlich sichtbare Hinweise auf wegen Diffamierungsbeschwerden entfernte Google-Maps-Bewertungen in Landshut durchsuchbar. Die Karte, Filter und Ranglisten zeigen Löschbanner, geschätzte entfernte Bewertungen, Löschquoten und Worst-Case-Ratings je Ort.</p>
       <ul class="seo-facts">
         <li><strong>%s</strong> erfasste Orte</li>
         <li><strong>%s</strong> mit sichtbarem Löschbanner</li>
@@ -1031,14 +1031,14 @@ func structuredDataJSON(stats seoStats, snapshot time.Time) string {
 			{
 				"@type":                "Dataset",
 				"@id":                  siteURL + "#dataset",
-				"name":                 "Nürnberg Google-Maps-Bewertungen mit sichtbaren Löschbanner-Hinweisen",
+				"name":                 "Landshut Google-Maps-Bewertungen mit sichtbaren Löschbanner-Hinweisen",
 				"description":          pageDescription,
 				"url":                  siteURL,
 				"dateModified":         snapshot.Format("2006-01-02"),
 				"temporalCoverage":     snapshot.Format("2006-01-02"),
 				"measurementTechnique": "Scrape öffentlich sichtbarer Google-Maps-Ortsseiten",
 				"keywords": []string{
-					"Nürnberg",
+					"Landshut",
 					"Google Maps Bewertungen",
 					"entfernte Bewertungen",
 					"Löschbanner",
@@ -1046,7 +1046,7 @@ func structuredDataJSON(stats seoStats, snapshot time.Time) string {
 				},
 				"spatialCoverage": map[string]interface{}{
 					"@type": "City",
-					"name":  "Nürnberg",
+					"name":  "Landshut",
 				},
 				"variableMeasured": []string{
 					"Orte",

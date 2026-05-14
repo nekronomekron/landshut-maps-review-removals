@@ -107,7 +107,7 @@ func run(args args) error {
 		warnings = append(warnings, fmt.Sprintf("%d success rows are missing coordinates", missingCoords))
 	}
 	if missingBezirk > 0 {
-		warnings = append(warnings, fmt.Sprintf("%d Nürnberg success rows are missing statistical district assignment", missingBezirk))
+		warnings = append(warnings, fmt.Sprintf("%d Landshut success rows are missing statistical district assignment", missingBezirk))
 	}
 	if len(outside) > 0 {
 		parts := make([]string, 0, len(outside))
@@ -115,7 +115,7 @@ func run(args args) error {
 			parts = append(parts, fmt.Sprintf("%s:%d", postcode, count))
 		}
 		sort.Strings(parts)
-		message := "outside Nürnberg PLZ: " + strings.Join(parts, ", ")
+		message := "outside Landshut PLZ: " + strings.Join(parts, ", ")
 		if args.StrictNuremberg {
 			fatal = append(fatal, message)
 		} else {
@@ -162,7 +162,7 @@ func parseArgs(argv []string) (args, error) {
 
 Options:
   --input <path>          Results JSON. Default: output/places.json.
-  --strict-nuremberg     Treat outside-Nürnberg postcodes as errors.`)
+  --strict-landshut     Treat outside-Landshut postcodes as errors.`)
 			os.Exit(0)
 		default:
 			return out, fmt.Errorf("unknown argument: %s", arg)

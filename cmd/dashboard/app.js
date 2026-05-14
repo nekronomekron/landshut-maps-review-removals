@@ -24,12 +24,12 @@ function googleMapsURL(cidHex, name) {
   if (cidHex && typeof BigInt === 'function') {
     try { return 'https://www.google.com/maps?cid=' + BigInt('0x' + cidHex).toString(10); } catch (_) {}
   }
-  return 'https://www.google.com/maps/search/?api=1&query=' + encodeURIComponent((name || 'Nürnberg') + ' Nürnberg');
+  return 'https://www.google.com/maps/search/?api=1&query=' + encodeURIComponent((name || 'Landshut') + ' Landshut');
 }
 function decodeAddress(value, postcode) {
   if (!value) return '';
   if (value[0] === '!') return value.slice(1);
-  return value + ', ' + postcode + ' Nürnberg';
+  return value + ', ' + postcode + ' Landshut';
 }
 function decodePlaceRow(row, index, dicts) {
   const postcode = dictValue(dicts, 0, row[2]);
