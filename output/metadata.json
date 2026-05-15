@@ -1,5 +1,5 @@
 {
-  "readAt": "2026-05-13T19:57:44Z",
+  "readAt": "2026-05-15T10:38:43Z",
   "postcodes": [
     "84028",
     "84030",
@@ -43,12 +43,12 @@
     "tankstelle"
   ],
   "maxResults": 0,
-  "headless": false,
+  "headless": true,
   "discovery": "output/discovery.json",
   "placesApiDiscovery": false,
   "placesApiPageLimit": 1,
-  "discoveryOnly": true,
-  "scrapeOnly": false,
+  "discoveryOnly": false,
+  "scrapeOnly": true,
   "rescrapeAll": false,
   "bannerAuditOnly": false,
   "allowBannerClears": false,
@@ -62,7 +62,7 @@
   "csv": "output/places.csv",
   "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124 Safari/537.36",
   "discovered": 1451,
-  "rows": 0,
-  "success": 0,
+  "rows": 1451,
+  "success": 1451,
   "errors": 0
 }
