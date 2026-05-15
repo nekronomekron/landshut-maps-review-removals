@@ -220,20 +220,25 @@ func readAddress(ctx context.Context, rawURL string) (string, error) {
 	); err != nil {
 		return "", err
 	}
+	
+	
+
 	_ = mapsreview.AcceptConsent(ctx)
 	for i := 0; i < 14; i++ {
 		if i == 0 {
-			sleep(1800)
+			sleep(1000)
 		} else {
 			sleep(500)
 		}
 		var address string
-		err := mapsreview.RunWithTimeout(ctx, 5*time.Second, chromedp.Evaluate(`(() => {
+		err := mapsreview.RunWithTimeout(ctx, 10*time.Second, chromedp.Evaluate(`(() => {
   const attrTexts = Array.from(document.querySelectorAll('[aria-label], [alt], [data-tooltip]'))
     .flatMap(el => [el.getAttribute('aria-label'), el.getAttribute('alt'), el.getAttribute('data-tooltip')])
     .filter(Boolean);
+	
   const text = [document.body.innerText, ...attrTexts].join('\n');
-  const match = text.match(/Adresse:\s*([^\n]*\b9\d{4}\s+[^\n]*)/i) || text.match(/\n([^\n]*,\s*9\d{4}\s+[^\n]*)\n/i);
+  const match = text.match(/Adresse:\s*([^\n]*\b8\d{4}\s+[^\n]*)/i) || text.match(/\n([^\n]*,\s*8\d{4}\s+[^\n]*)\n/i);
+  console.log(match?.[1]?.replace(/^Adresse:\s*/i, '').trim() || '');
   return match?.[1]?.replace(/^Adresse:\s*/i, '').trim() || '';
 })()`, &address))
 		if err != nil {

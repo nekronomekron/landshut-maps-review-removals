@@ -391,8 +391,8 @@ func parseRatingNearReviewCount(text string, reviewCount int) (float64, bool) {
 func ExtractAddress(text string) *string {
 	text = TrimMapsAncillarySections(text)
 	patterns := []string{
-		`(?i)Adresse:\s*([^\n]*\b9\d{4}\s+[^\n]*)`,
-		`(?i)\n([^\n]*,\s*9\d{4}\s+[^\n]*)\n`,
+		`(?i)Adresse:\s*([^\n]*\b8\d{4}\s+[^\n]*)`,
+		`(?i)\n([^\n]*,\s*8\d{4}\s+[^\n]*)\n`,
 	}
 	for _, pattern := range patterns {
 		if match := regexp.MustCompile(pattern).FindStringSubmatch(text); len(match) > 1 {
