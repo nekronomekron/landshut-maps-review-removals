@@ -62,15 +62,15 @@ site:
 deploy-pages: site
 	@tmp=$$(mktemp -d); \
 	remote=$${DEPLOY_REMOTE:-$$(git remote get-url origin)}; \
-	git clone --quiet --branch gh-pages --single-branch $$remote $$tmp; \
+	git clone --quiet --branch gh-page --single-branch $$remote $$tmp; \
 	git -C $$tmp rm -r --ignore-unmatch . >/dev/null; \
 	cp -R public/. $$tmp/; \
 	git -C $$tmp add -A; \
 	if git -C $$tmp diff --cached --quiet; then \
-		echo "gh-pages ist bereits aktuell"; \
+		echo "gh-page ist bereits aktuell"; \
 	else \
 		git -C $$tmp commit -m "Deploy GitHub Pages site"; \
-		git -C $$tmp push origin gh-pages; \
+		git -C $$tmp push origin gh-page; \
 	fi; \
 	rm -rf $$tmp
 
