@@ -78,3 +78,4 @@ all:
 	go run ./cmd/scrape --postcodes all
 	go run ./cmd/charts --png
 	go run ./cmd/dashboard
+
