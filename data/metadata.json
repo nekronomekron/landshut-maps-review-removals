@@ -1,12 +1,7 @@
 {
-  "readAt": "2026-05-16T08:43:44Z",
+  "readAt": "2026-05-16T09:34:02Z",
   "postcodes": [
-    "84028",
-    "84030",
-    "84032",
-    "84034",
-    "84036",
-    "84144"
+    "84137"
   ],
   "queries": [
     "restaurant",
@@ -47,8 +42,8 @@
   "discovery": "output/discovery.json",
   "placesApiDiscovery": false,
   "placesApiPageLimit": 1,
-  "discoveryOnly": false,
-  "scrapeOnly": true,
+  "discoveryOnly": true,
+  "scrapeOnly": false,
   "rescrapeAll": false,
   "bannerAuditOnly": false,
   "allowBannerClears": false,
@@ -61,8 +56,8 @@
   "output": "output/places.json",
   "csv": "output/places.csv",
   "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124 Safari/537.36",
-  "discovered": 1451,
-  "rows": 1451,
-  "success": 1451,
+  "discovered": 1823,
+  "rows": 0,
+  "success": 0,
   "errors": 0
 }
