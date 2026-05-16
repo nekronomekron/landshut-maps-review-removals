@@ -15,6 +15,7 @@ var NurembergPostcodes = []string{
 	"84034",
 	"84036",
 	"84144",
+	"84137",
 }
 
 var DefaultQueries = []string{

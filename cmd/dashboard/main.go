@@ -269,7 +269,7 @@ func makeHTML(data []clientRow) string {
   <title>__PAGE_TITLE__</title>
   <meta name="description" content="__PAGE_DESCRIPTION__">
   <meta name="robots" content="index,follow,max-image-preview:large">
-  <meta name="author" content="Patrick Wozniak">
+  <meta name="author" content="Alexander Reif">
   <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
   <meta name="theme-color" content="#0e0c0b" media="(prefers-color-scheme: dark)">
   <link rel="canonical" href="__CANONICAL_URL__">
@@ -673,8 +673,9 @@ __SEO_SUMMARY__
     <button class="show-more" id="showMoreRows" type="button" hidden>Mehr Zeilen anzeigen</button>
     <footer>
       <div>Quelle: Google Maps, öffentlich sichtbare Banner. „Kein Banner“ heißt nur: im Scrape war kein passender Hinweis sichtbar. Snapshot: __SNAPSHOT__.</div>
+	  <div>Privates Projekt zu Recherche- und Informationszwecken.</div>
 __ANALYTICS_PRIVACY__
-      <div class="footer-credit">© 2026 Patrick Wozniak · <a href="https://patwoz.dev" target="_blank" rel="noopener noreferrer">patwoz.dev</a></div>
+      <div class="footer-credit">© 2026 Alexander Reif · <a href="https://github.com/nekronomekron" target="_blank" rel="noopener noreferrer">github.com/nekronomekron</a></div>
     </footer>
   </main>
 
@@ -1005,8 +1006,8 @@ func structuredDataJSON(stats seoStats, snapshot time.Time) string {
 				"inLanguage": "de-DE",
 				"publisher": map[string]interface{}{
 					"@type": "Person",
-					"name":  "Patrick Wozniak",
-					"url":   "https://patwoz.dev",
+					"name":  "Alexander Reif",
+					"url":   "https://github.com/nekronomekron",
 				},
 			},
 			{
@@ -1058,8 +1059,8 @@ func structuredDataJSON(stats seoStats, snapshot time.Time) string {
 				"size": fmt.Sprintf("%d Orte, %d sichtbare Löschbanner", stats.Total, stats.Banners),
 				"creator": map[string]interface{}{
 					"@type": "Person",
-					"name":  "Patrick Wozniak",
-					"url":   "https://patwoz.dev",
+					"name":  "Alexander Reif",
+					"url":   "https://github.com/nekronomekron",
 				},
 			},
 		},

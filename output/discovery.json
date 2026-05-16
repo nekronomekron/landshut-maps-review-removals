@@ -10155,5 +10155,2609 @@
     "url": "https://www.google.com/maps/place/Meindl+GbR+Tankstellenbau+und+Service/data=!4m7!3m6!1s0x477589ed98b03c21:0xb5d79b6ac1d01a6f!8m2!3d48.4795255!4d12.2494926!16s%2Fg%2F1tdzpy_n!19sChIJITywmO2JdUcRbxrQwWqb17U?authuser=0\u0026hl=de\u0026rclk=1",
     "discoveredPostcode": "84144",
     "discoveredQuery": "tankstelle"
+  },
+  {
+    "id": "0x47758d98e67d4e77:0x4a4f6a62a942fe84",
+    "name": "Autentic Kitchen",
+    "url": "https://www.google.com/maps/place/Autentic+Kitchen/data=!4m7!3m6!1s0x47758d98e67d4e77:0x4a4f6a62a942fe84!8m2!3d48.452757!4d12.3343158!16s%2Fg%2F11y75xbkx9!19sChIJd0595piNdUcRhP5CqWJqT0o?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "restaurant"
+  },
+  {
+    "id": "0x47758c220544bcbb:0xfb409e43d2828499",
+    "name": "Lilit`s Tennisrestaurant",
+    "url": "https://www.google.com/maps/place/Lilit%60s+Tennisrestaurant/data=!4m7!3m6!1s0x47758c220544bcbb:0xfb409e43d2828499!8m2!3d48.4524812!4d12.3482441!16s%2Fg%2F11f71mjyd3!19sChIJu7xEBSKMdUcRmYSC0kOeQPs?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "restaurant"
+  },
+  {
+    "id": "0x47758d000962e0c1:0x7cca04145ae72558",
+    "name": "Berlin Döner Express",
+    "url": "https://www.google.com/maps/place/Berlin+D%C3%B6ner+Express/data=!4m7!3m6!1s0x47758d000962e0c1:0x7cca04145ae72558!8m2!3d48.4517639!4d12.3412919!16s%2Fg%2F11n4wd0xrl!19sChIJweBiCQCNdUcRWCXnWhQEynw?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "restaurant"
+  },
+  {
+    "id": "0x47758dc20ecfc579:0xc0b9643823e6f03c",
+    "name": "Chez Dan – Restaurant \u0026 Pizzeria",
+    "url": "https://www.google.com/maps/place/Chez+Dan+%E2%80%93+Restaurant+%26+Pizzeria/data=!4m7!3m6!1s0x47758dc20ecfc579:0xc0b9643823e6f03c!8m2!3d48.4497525!4d12.3385112!16s%2Fg%2F11md3tp9fz!19sChIJecXPDsKNdUcRPPDmIzhkucA?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "restaurant"
+  },
+  {
+    "id": "0x47758c23138a136d:0xaf9090dc9d25d18d",
+    "name": "Belvedere",
+    "url": "https://www.google.com/maps/place/Belvedere/data=!4m7!3m6!1s0x47758c23138a136d:0xaf9090dc9d25d18d!8m2!3d48.4484293!4d12.3524051!16s%2Fg%2F1tcvsp7_!19sChIJbROKEyOMdUcRjdElndyQkK8?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "restaurant"
+  },
+  {
+    "id": "0x47758cf3407b9985:0x1e1753fc5f39a9ba",
+    "name": "Golfrestaurant Lilit",
+    "url": "https://www.google.com/maps/place/Golfrestaurant+Lilit/data=!4m7!3m6!1s0x47758cf3407b9985:0x1e1753fc5f39a9ba!8m2!3d48.4123506!4d12.3328751!16s%2Fg%2F11b8v9yyhn!19sChIJhZl7QPOMdUcRuqk5X_xTFx4?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "restaurant"
+  },
+  {
+    "id": "0x47758c190d09c317:0xed645852c9c28c57",
+    "name": "Pizza Da Franco Vilsbiburg",
+    "url": "https://www.google.com/maps/place/Pizza+Da+Franco+Vilsbiburg/data=!4m7!3m6!1s0x47758c190d09c317:0xed645852c9c28c57!8m2!3d48.4509491!4d12.3439111!16s%2Fg%2F11dxddx86d!19sChIJF8MJDRmMdUcRV4zCyVJYZO0?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "restaurant"
+  },
+  {
+    "id": "0x47758c24e009fe45:0xf09420eedb96049e",
+    "name": "Ristorante-Pizzeria Milano",
+    "url": "https://www.google.com/maps/place/Ristorante-Pizzeria+Milano/data=!4m7!3m6!1s0x47758c24e009fe45:0xf09420eedb96049e!8m2!3d48.4475764!4d12.3573981!16s%2Fg%2F1ptz598wm!19sChIJRf4J4CSMdUcRngSW2-4glPA?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "restaurant"
+  },
+  {
+    "id": "0x47758d08b8aeebbf:0xc6e9d65400eb4b78",
+    "name": "fräulein brombeer",
+    "url": "https://www.google.com/maps/place/fr%C3%A4ulein+brombeer/data=!4m7!3m6!1s0x47758d08b8aeebbf:0xc6e9d65400eb4b78!8m2!3d48.4499755!4d12.3530022!16s%2Fg%2F11mgbtj5ct!19sChIJv-uuuAiNdUcReEvrAFTW6cY?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "restaurant"
+  },
+  {
+    "id": "0x47758d006c62d1cf:0x9909914a7fba88e7",
+    "name": "Omertá Restaurant\u0026 Lounge\u0026Spielhalle",
+    "url": "https://www.google.com/maps/place/Omert%C3%A1+Restaurant%26+Lounge%26Spielhalle/data=!4m7!3m6!1s0x47758d006c62d1cf:0x9909914a7fba88e7!8m2!3d48.4514378!4d12.3598878!16s%2Fg%2F11zkrfhr6y!19sChIJz9FibACNdUcR54i6f0qRCZk?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "restaurant"
+  },
+  {
+    "id": "0x47758c037c00c1af:0xa5a394c853ce327c",
+    "name": "McCafé",
+    "url": "https://www.google.com/maps/place/McCaf%C3%A9/data=!4m7!3m6!1s0x47758c037c00c1af:0xa5a394c853ce327c!8m2!3d48.4542852!4d12.3339281!16s%2Fg%2F11g9dvgrtq!19sChIJr8EAfAOMdUcRfDLOU8iUo6U?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "café"
+  },
+  {
+    "id": "0x47758c22f99d4be7:0x9762f821ec72a029",
+    "name": "Der Bäcker Feß",
+    "url": "https://www.google.com/maps/place/Der+B%C3%A4cker+Fe%C3%9F/data=!4m7!3m6!1s0x47758c22f99d4be7:0x9762f821ec72a029!8m2!3d48.4492942!4d12.3507831!16s%2Fg%2F11b7jvfsqz!19sChIJ50ud-SKMdUcRKaBy7CH4Ypc?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "café"
+  },
+  {
+    "id": "0x47758d0000a9968b:0xaafcb53cc59539c",
+    "name": "Bubbletea",
+    "url": "https://www.google.com/maps/place/Bubbletea/data=!4m7!3m6!1s0x47758d0000a9968b:0xaafcb53cc59539c!8m2!3d48.4478372!4d12.3573755!16s%2Fg%2F11x6pl0tws!19sChIJi5apAACNdUcRnFNZzFPLrwo?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "café"
+  },
+  {
+    "id": "0x47758c2488ba6291:0x662b28cad2167845",
+    "name": "Bäckerei Mareis GmbH",
+    "url": "https://www.google.com/maps/place/B%C3%A4ckerei+Mareis+GmbH/data=!4m7!3m6!1s0x47758c2488ba6291:0x662b28cad2167845!8m2!3d48.4488037!4d12.3556734!16s%2Fg%2F1xtf0d4k!19sChIJkWK6iCSMdUcRRXgW0sooK2Y?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "café"
+  },
+  {
+    "id": "0x47758d8ac3f19c1f:0x249889b6714704cf",
+    "name": "Vogelwuid",
+    "url": "https://www.google.com/maps/place/Vogelwuid/data=!4m7!3m6!1s0x47758d8ac3f19c1f:0x249889b6714704cf!8m2!3d48.4479785!4d12.35971!16s%2Fg%2F11t0tw1129!19sChIJH5zxw4qNdUcRzwRHcbaJmCQ?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "café"
+  },
+  {
+    "id": "0x47758d675cbed7cf:0xeefbeec4a08cd0c9",
+    "name": "Café Turist Angelo",
+    "url": "https://www.google.com/maps/place/Caf%C3%A9+Turist+Angelo/data=!4m7!3m6!1s0x47758d675cbed7cf:0xeefbeec4a08cd0c9!8m2!3d48.4511097!4d12.3533162!16s%2Fg%2F11xyc3p9rd!19sChIJz9e-XGeNdUcRydCMoMTu--4?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "café"
+  },
+  {
+    "id": "0x47758d9c7200c39d:0x7b3a1b8b1882f2d0",
+    "name": "FREIRAUM Eventlocation | Bäckerei Mareis GmbH",
+    "url": "https://www.google.com/maps/place/FREIRAUM+Eventlocation+%7C+B%C3%A4ckerei+Mareis+GmbH/data=!4m7!3m6!1s0x47758d9c7200c39d:0x7b3a1b8b1882f2d0!8m2!3d48.4562364!4d12.3339362!16s%2Fg%2F11t1jb4g_c!19sChIJncMAcpyNdUcR0PKCGIsbOns?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "café"
+  },
+  {
+    "id": "0x47758c2398a9c40f:0x3fea3d646b58ff0d",
+    "name": "Bäckerei Wagner Stefan",
+    "url": "https://www.google.com/maps/place/B%C3%A4ckerei+Wagner+Stefan/data=!4m7!3m6!1s0x47758c2398a9c40f:0x3fea3d646b58ff0d!8m2!3d48.4489432!4d12.3525542!16s%2Fg%2F11d_tp2927!19sChIJD8SpmCOMdUcRDf9Ya2Q96j8?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "café"
+  },
+  {
+    "id": "0x47758c19bdd0a95d:0x3b3c576ae80210ae",
+    "name": "Bäckerei Mareis",
+    "url": "https://www.google.com/maps/place/B%C3%A4ckerei+Mareis/data=!4m7!3m6!1s0x47758c19bdd0a95d:0x3b3c576ae80210ae!8m2!3d48.4499575!4d12.342907!16s%2Fg%2F11b7jtncy9!19sChIJXanQvRmMdUcRrhAC6GpXPDs?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "café"
+  },
+  {
+    "id": "0x47758da720566643:0xfe96d4b45ab776a3",
+    "name": "Imo Yen",
+    "url": "https://www.google.com/maps/place/Imo+Yen/data=!4m7!3m6!1s0x47758da720566643:0xfe96d4b45ab776a3!8m2!3d48.4492554!4d12.3529676!16s%2Fg%2F11mf1mn2dk!19sChIJQ2ZWIKeNdUcRo3a3WrTUlv4?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "café"
+  },
+  {
+    "id": "0x47758c248b35b1db:0x1596e9db9650b89b",
+    "name": "Bäcker Bachmeier",
+    "url": "https://www.google.com/maps/place/B%C3%A4cker+Bachmeier/data=!4m7!3m6!1s0x47758c248b35b1db:0x1596e9db9650b89b!8m2!3d48.4485466!4d12.3561145!16s%2Fg%2F1x5f95cx!19sChIJ27E1iySMdUcRm7hQltvplhU?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "café"
+  },
+  {
+    "id": "0x47758c04ccff2e2d:0x7ebc5f758b4e5785",
+    "name": "Kaffeeshop GmbH \u0026 Co. KG",
+    "url": "https://www.google.com/maps/place/Kaffeeshop+GmbH+%26+Co.+KG/data=!4m7!3m6!1s0x47758c04ccff2e2d:0x7ebc5f758b4e5785!8m2!3d48.4521522!4d12.3353345!16s%2Fg%2F11bbt6n4ll!19sChIJLS7_zASMdUcRhVdOi3VfvH4?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "café"
+  },
+  {
+    "id": "0x47758c24101c9039:0xecc09c11be14ebd8",
+    "name": "Restaurant Olympia",
+    "url": "https://www.google.com/maps/place/Restaurant+Olympia/data=!4m7!3m6!1s0x47758c24101c9039:0xecc09c11be14ebd8!8m2!3d48.4508273!4d12.3564997!16s%2Fg%2F1tgy_drn!19sChIJOZAcECSMdUcR2OsUvhGcwOw?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "café"
+  },
+  {
+    "id": "0x47758d6a31568dbd:0xd6ba509c8a7be83c",
+    "name": "Snack'n'Go 24/7 Kiosk Snacks, Drinks, Goods | Zigaretten Vapes Alkohol Kaffee Popcorn Indoorspiele Tabak Snus (Snackautomat)",
+    "url": "https://www.google.com/maps/place/Snack%27n%27Go+24%2F7+Kiosk+Snacks,+Drinks,+Goods+%7C+Zigaretten+Vapes+Alkohol+Kaffee+Popcorn+Indoorspiele+Tabak+Snus+%28Snackautomat%29/data=!4m7!3m6!1s0x47758d6a31568dbd:0xd6ba509c8a7be83c!8m2!3d48.4502067!4d12.3543874!16s%2Fg%2F11xw58yq7l!19sChIJvY1WMWqNdUcRPOh7ipxQutY?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "café"
+  },
+  {
+    "id": "0x47758d000476e35d:0xe151a5ff86df3d6e",
+    "name": "Caffè \u0026 Gelato Iraliano",
+    "url": "https://www.google.com/maps/place/Caff%C3%A8+%26+Gelato+Iraliano/data=!4m7!3m6!1s0x47758d000476e35d:0xe151a5ff86df3d6e!8m2!3d48.44912!4d12.35494!16s%2Fg%2F11z7hs689v!19sChIJXeN2BACNdUcRbj3fhv-lUeE?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "café"
+  },
+  {
+    "id": "0x47758c23c7f82295:0xe4a314e4401ae583",
+    "name": "Kochwerkstatt",
+    "url": "https://www.google.com/maps/place/Kochwerkstatt/data=!4m7!3m6!1s0x47758c23c7f82295:0xe4a314e4401ae583!8m2!3d48.45064!4d12.35295!16s%2Fg%2F11b62xj1mt!19sChIJlSL4xyOMdUcRg-UaQOQUo-Q?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "café"
+  },
+  {
+    "id": "0x47758f0015561ee7:0x1083b020eb5f7cb",
+    "name": "Pizzeria Smiley Gerzen",
+    "url": "https://www.google.com/maps/place/Pizzeria+Smiley+Gerzen/data=!4m7!3m6!1s0x47758f0015561ee7:0x1083b020eb5f7cb!8m2!3d48.5070637!4d12.4277449!16s%2Fg%2F11wjll8_17!19sChIJ5x5WFQCPdUcRy_e1DgI7CAE?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "café"
+  },
+  {
+    "id": "0x47758c23f4f45261:0x8dee4a72aea93f26",
+    "name": "Unser Bioladen Naturkost \u0026 mehr",
+    "url": "https://www.google.com/maps/place/Unser+Bioladen+Naturkost+%26+mehr/data=!4m7!3m6!1s0x47758c23f4f45261:0x8dee4a72aea93f26!8m2!3d48.4505614!4d12.3551183!16s%2Fg%2F1thx7f5s!19sChIJYVL09COMdUcRJj-prnJK7o0?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "café"
+  },
+  {
+    "id": "0x47758c1965c667ad:0xfb0b140b050837a1",
+    "name": "Shell Recharge-Ladestation",
+    "url": "https://www.google.com/maps/place/Shell+Recharge-Ladestation/data=!4m7!3m6!1s0x47758c1965c667ad:0xfb0b140b050837a1!8m2!3d48.451341!4d12.342943!16s%2Fg%2F11mzs9xrtb!19sChIJrWfGZRmMdUcRoTcIBQsUC_s?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "café"
+  },
+  {
+    "id": "0x47758c268788946d:0x955353f46f041002",
+    "name": "VIB-CENTER",
+    "url": "https://www.google.com/maps/place/VIB-CENTER/data=!4m7!3m6!1s0x47758c268788946d:0x955353f46f041002!8m2!3d48.4517879!4d12.3596162!16s%2Fg%2F12hqxvj48!19sChIJbZSIhyaMdUcRAhAEb_RTU5U?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "café"
+  },
+  {
+    "id": "0x47758c1afc7bb4f9:0x25050451104f5dbf",
+    "name": "ADMIRAL Spielhalle",
+    "url": "https://www.google.com/maps/place/ADMIRAL+Spielhalle/data=!4m7!3m6!1s0x47758c1afc7bb4f9:0x25050451104f5dbf!8m2!3d48.4507614!4d12.3380555!16s%2Fg%2F1wk6ylgy!19sChIJ-bR7_BqMdUcRv11PEFEEBSU?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "café"
+  },
+  {
+    "id": "0x47758c25d9c0cfd9:0xa5b4908dd95e9f8c",
+    "name": "Backstube Wünsche",
+    "url": "https://www.google.com/maps/place/Backstube+W%C3%BCnsche/data=!4m7!3m6!1s0x47758c25d9c0cfd9:0xa5b4908dd95e9f8c!8m2!3d48.4512159!4d12.3601375!16s%2Fg%2F1hc82pl5r!19sChIJ2c_A2SWMdUcRjJ9e2Y2QtKU?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "café"
+  },
+  {
+    "id": "0x47758c230f0fb509:0xf679fbb4da3b964a",
+    "name": "Pamukkale Döner \u0026 Pizza",
+    "url": "https://www.google.com/maps/place/Pamukkale+D%C3%B6ner+%26+Pizza/data=!4m7!3m6!1s0x47758c230f0fb509:0xf679fbb4da3b964a!8m2!3d48.4490663!4d12.3523598!16s%2Fg%2F11c6sn1jmh!19sChIJCbUPDyOMdUcRSpY72rT7efY?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "café"
+  },
+  {
+    "id": "0x47758c22feeae141:0xe46c132f273fed47",
+    "name": "City Kebap - Döner-Pizza-Pide-Lahmacun - Vilsbiburg",
+    "url": "https://www.google.com/maps/place/City+Kebap+-+D%C3%B6ner-Pizza-Pide-Lahmacun+-+Vilsbiburg/data=!4m7!3m6!1s0x47758c22feeae141:0xe46c132f273fed47!8m2!3d48.4492713!4d12.3503129!16s%2Fg%2F11hctjvzrx!19sChIJQeHq_iKMdUcRR-0_Jy8TbOQ?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "café"
+  },
+  {
+    "id": "0x47758c241cd033fd:0xe1763c65090f7ebc",
+    "name": "Fair Eine-Welt-Laden",
+    "url": "https://www.google.com/maps/place/Fair+Eine-Welt-Laden/data=!4m7!3m6!1s0x47758c241cd033fd:0xe1763c65090f7ebc!8m2!3d48.451225!4d12.3564782!16s%2Fg%2F1tlnc7s_!19sChIJ_TPQHCSMdUcRvH4PCWU8duE?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "café"
+  },
+  {
+    "id": "0x47758d05ddf58073:0x8793a5b4c5e12c8f",
+    "name": "RENT.OS - Bistro",
+    "url": "https://www.google.com/maps/place/RENT.OS+-+Bistro/data=!4m7!3m6!1s0x47758d05ddf58073:0x8793a5b4c5e12c8f!8m2!3d48.4488335!4d12.3513138!16s%2Fg%2F11y4v6rxvn!19sChIJc4D13QWNdUcRjyzhxbSlk4c?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "café"
+  },
+  {
+    "id": "0x47758c3d69475897:0xc2e1b1333d70f645",
+    "name": "Mike,s Kitchen Impossible",
+    "url": "https://www.google.com/maps/place/Mike,s+Kitchen+Impossible/data=!4m7!3m6!1s0x47758c3d69475897:0xc2e1b1333d70f645!8m2!3d48.4526129!4d12.3391304!16s%2Fg%2F11gjmr_vsk!19sChIJl1hHaT2MdUcRRfZwPTOx4cI?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "café"
+  },
+  {
+    "id": "0x47758c04e96b1713:0x2fab10115d13c0cc",
+    "name": "Backstube Wünsche",
+    "url": "https://www.google.com/maps/place/Backstube+W%C3%BCnsche/data=!4m7!3m6!1s0x47758c04e96b1713:0x2fab10115d13c0cc!8m2!3d48.4523088!4d12.3339452!16s%2Fg%2F11bzymz6n2!19sChIJExdr6QSMdUcRzMATXREQqy8?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "café"
+  },
+  {
+    "id": "0x47758c240a26b359:0x7a43f0ac20d70df0",
+    "name": "VIB KEBAB HAUS",
+    "url": "https://www.google.com/maps/place/VIB+KEBAB+HAUS/data=!4m7!3m6!1s0x47758c240a26b359:0x7a43f0ac20d70df0!8m2!3d48.4506612!4d12.3555571!16s%2Fg%2F11f3xh2y4z!19sChIJWbMmCiSMdUcR8A3XIKzwQ3o?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "café"
+  },
+  {
+    "id": "0x47758b878db19de3:0x10d8fff4f88f83e3",
+    "name": "Roberto Frittitta Restaurant Don Camillo",
+    "url": "https://www.google.com/maps/place/Roberto+Frittitta+Restaurant+Don+Camillo/data=!4m7!3m6!1s0x47758b878db19de3:0x10d8fff4f88f83e3!8m2!3d48.4295425!4d12.3117104!16s%2Fg%2F1tqnkfh5!19sChIJ452xjYeLdUcR44OP-PT_2BA?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "café"
+  },
+  {
+    "id": "0x47758dd8853ffbd3:0xc19271616264c20",
+    "name": "DenkMalLaden e.V.",
+    "url": "https://www.google.com/maps/place/DenkMalLaden+e.V./data=!4m7!3m6!1s0x47758dd8853ffbd3:0xc19271616264c20!8m2!3d48.4503556!4d12.3537483!16s%2Fg%2F11xvhswyh0!19sChIJ0_s_hdiNdUcRIEwmFhYnGQw?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "café"
+  },
+  {
+    "id": "0x47758c234221a769:0xe1a7263a758699b",
+    "name": "Parkplatz Färberanger",
+    "url": "https://www.google.com/maps/place/Parkplatz+F%C3%A4rberanger/data=!4m7!3m6!1s0x47758c234221a769:0xe1a7263a758699b!8m2!3d48.4480032!4d12.3530192!16s%2Fg%2F11g03ncm6h!19sChIJaachQiOMdUcRm2lYp2NyGg4?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "café"
+  },
+  {
+    "id": "0x47758e9f862f11cd:0x7dc8400e6ec6199e",
+    "name": "Bäckerei Mareis GmbH",
+    "url": "https://www.google.com/maps/place/B%C3%A4ckerei+Mareis+GmbH/data=!4m7!3m6!1s0x47758e9f862f11cd:0x7dc8400e6ec6199e!8m2!3d48.4589213!4d12.3526943!16s%2Fg%2F1tjt0rsy!19sChIJzREvhp-OdUcRnhnGbg5AyH0?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "café"
+  },
+  {
+    "id": "0x47758c27e6bed611:0xbc4b74774e0f28c",
+    "name": "hagebaumarkt Schneider Vilsbiburg",
+    "url": "https://www.google.com/maps/place/hagebaumarkt+Schneider+Vilsbiburg/data=!4m7!3m6!1s0x47758c27e6bed611:0xbc4b74774e0f28c!8m2!3d48.4521788!4d12.359441!16s%2Fg%2F1tf27hl7!19sChIJEda-5ieMdUcRjPLgdEe3xAs?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "café"
+  },
+  {
+    "id": "0x47758c036f42bff3:0x1595bf3dbb6a1cb9",
+    "name": "McDonald's",
+    "url": "https://www.google.com/maps/place/McDonald%27s/data=!4m7!3m6!1s0x47758c036f42bff3:0x1595bf3dbb6a1cb9!8m2!3d48.4543208!4d12.3339!16s%2Fg%2F1hc3hfp19!19sChIJ879CbwOMdUcRuRxquz2_lRU?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "café"
+  },
+  {
+    "id": "0x47758fc083efcdcb:0x5f6dab1e746855c1",
+    "name": "Schloss Gerzen - Wohnen mit Service",
+    "url": "https://www.google.com/maps/place/Schloss+Gerzen+-+Wohnen+mit+Service/data=!4m7!3m6!1s0x47758fc083efcdcb:0x5f6dab1e746855c1!8m2!3d48.5069444!4d12.4283333!16s%2Fg%2F1hb_g1th9!19sChIJy83vg8CPdUcRwVVodB6rbV8?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "café"
+  },
+  {
+    "id": "0x47758dafa68589fb:0x8fad010ec3d0e945",
+    "name": "Kebap 44",
+    "url": "https://www.google.com/maps/place/Kebap+44/data=!4m7!3m6!1s0x47758dafa68589fb:0x8fad010ec3d0e945!8m2!3d48.4527594!4d12.3343169!16s%2Fg%2F11hz5v87lf!19sChIJ-4mFpq-NdUcRRenQww4BrY8?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "café"
+  },
+  {
+    "id": "0x47758c23a24dbe49:0x96a6bde740e6fe39",
+    "name": "Cafe Bistro Cadillas",
+    "url": "https://www.google.com/maps/place/Cafe+Bistro+Cadillas/data=!4m7!3m6!1s0x47758c23a24dbe49:0x96a6bde740e6fe39!8m2!3d48.4497653!4d12.3531899!16s%2Fg%2F11hcdvg0dr!19sChIJSb5NoiOMdUcROf7mQOe9ppY?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "café"
+  },
+  {
+    "id": "0x47758db636abeb69:0xac68da07f846faae",
+    "name": "Imbiss am Vilsstrand",
+    "url": "https://www.google.com/maps/place/Imbiss+am+Vilsstrand/data=!4m7!3m6!1s0x47758db636abeb69:0xac68da07f846faae!8m2!3d48.447801!4d12.354926!16s%2Fg%2F11l2xsfvxk!19sChIJaeurNraNdUcRrvpG-AfaaKw?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "café"
+  },
+  {
+    "id": "0x47758c2128213015:0xc6aa91f003453a4c",
+    "name": "Stadtbad Vilsbiburg",
+    "url": "https://www.google.com/maps/place/Stadtbad+Vilsbiburg/data=!4m7!3m6!1s0x47758c2128213015:0xc6aa91f003453a4c!8m2!3d48.4416667!4d12.3525!16s%2Fg%2F11b6dcx51v!19sChIJFTAhKCGMdUcRTDpFA_CRqsY?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "café"
+  },
+  {
+    "id": "0x47758c238322864f:0xb4117bb311c37a9f",
+    "name": "Volksfest Vilsbiburg",
+    "url": "https://www.google.com/maps/place/Volksfest+Vilsbiburg/data=!4m7!3m6!1s0x47758c238322864f:0xb4117bb311c37a9f!8m2!3d48.4488275!4d12.359389!16s%2Fg%2F11g98wltj8!19sChIJT4YigyOMdUcRn3rDEbN7EbQ?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "café"
+  },
+  {
+    "id": "0x47758d5acc0097a1:0xea7dab20b05b7393",
+    "name": "Isi-Grill",
+    "url": "https://www.google.com/maps/place/Isi-Grill/data=!4m7!3m6!1s0x47758d5acc0097a1:0xea7dab20b05b7393!8m2!3d48.3838789!4d12.3865771!16s%2Fg%2F11cm_hmypb!19sChIJoZcAzFqNdUcRk3NbsCCrfeo?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "imbiss"
+  },
+  {
+    "id": "0x47758c231ce66ee9:0x50db54e3eb2f4d6b",
+    "name": "Aral",
+    "url": "https://www.google.com/maps/place/Aral/data=!4m7!3m6!1s0x47758c231ce66ee9:0x50db54e3eb2f4d6b!8m2!3d48.4487869!4d12.3510657!16s%2Fg%2F1tf6qm1l!19sChIJ6W7mHCOMdUcRa00v6-NU21A?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "imbiss"
+  },
+  {
+    "id": "0x47758c1a665eb403:0x1748848c924d97d3",
+    "name": "Cineplex Vilsbiburg",
+    "url": "https://www.google.com/maps/place/Cineplex+Vilsbiburg/data=!4m7!3m6!1s0x47758c1a665eb403:0x1748848c924d97d3!8m2!3d48.4497227!4d12.3387086!16s%2Fg%2F1tfrw9rh!19sChIJA7ReZhqMdUcR05dNkoyESBc?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "imbiss"
+  },
+  {
+    "id": "0x477592e4834ed85d:0x936caf55d759652f",
+    "name": "Orient Kebab",
+    "url": "https://www.google.com/maps/place/Orient+Kebab/data=!4m7!3m6!1s0x477592e4834ed85d:0x936caf55d759652f!8m2!3d48.3938104!4d12.451144!16s%2Fg%2F11dx92zpv2!19sChIJXdhOg-SSdUcRL2VZ11WvbJM?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "imbiss"
+  },
+  {
+    "id": "0x47758fbf43b64541:0xb6afccfcb1a64d29",
+    "name": "Imbiss Andreas",
+    "url": "https://www.google.com/maps/place/Imbiss+Andreas/data=!4m7!3m6!1s0x47758fbf43b64541:0xb6afccfcb1a64d29!8m2!3d48.5059!4d12.42603!16s%2Fg%2F11fxvsllcb!19sChIJQUW2Q7-PdUcRKU2msfzMr7Y?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "imbiss"
+  },
+  {
+    "id": "0x47758d5adae9c28b:0xfbac337b94e4c268",
+    "name": "Grätz Bäckerei",
+    "url": "https://www.google.com/maps/place/Gr%C3%A4tz+B%C3%A4ckerei/data=!4m7!3m6!1s0x47758d5adae9c28b:0xfbac337b94e4c268!8m2!3d48.3842175!4d12.387739!16s%2Fg%2F11d_tt3_j9!19sChIJi8Lp2lqNdUcRaMLklHszrPs?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "bäckerei"
+  },
+  {
+    "id": "0x4775f2a7c1088cb7:0x3b7213d23530f3b4",
+    "name": "Die Semmelbringer",
+    "url": "https://www.google.com/maps/place/Die+Semmelbringer/data=!4m7!3m6!1s0x4775f2a7c1088cb7:0x3b7213d23530f3b4!8m2!3d48.4474277!4d12.3581366!16s%2Fg%2F11fqt_v1b9!19sChIJt4wIwafydUcRtPMwNdITcjs?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "bäckerei"
+  },
+  {
+    "id": "0x47758c1972abffff:0x71f229d544247455",
+    "name": "Döner 44",
+    "url": "https://www.google.com/maps/place/D%C3%B6ner+44/data=!4m7!3m6!1s0x47758c1972abffff:0x71f229d544247455!8m2!3d48.4509811!4d12.3437495!16s%2Fg%2F11fmz3njkr!19sChIJ__-rchmMdUcRVXQkRNUp8nE?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "döner"
+  },
+  {
+    "id": "0x47758c1a60b2137b:0x15911890ef1a94ab",
+    "name": "Kevmasters Burger Restaurant",
+    "url": "https://www.google.com/maps/place/Kevmasters+Burger+Restaurant/data=!4m7!3m6!1s0x47758c1a60b2137b:0x15911890ef1a94ab!8m2!3d48.4497311!4d12.3388431!16s%2Fg%2F11c58gr06k!19sChIJexOyYBqMdUcRq5Qa75AYkRU?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "burger"
+  },
+  {
+    "id": "0x4775902efb948287:0x403b2c3006d63ec1",
+    "name": "Gasthaus Schlecht (Josef Thalhammer)",
+    "url": "https://www.google.com/maps/place/Gasthaus+Schlecht+%28Josef+Thalhammer%29/data=!4m7!3m6!1s0x4775902efb948287:0x403b2c3006d63ec1!8m2!3d48.4913767!4d12.4549329!16s%2Fg%2F11btlxys7b!19sChIJh4KU-y6QdUcRwT7WBjAsO0A?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "schnitzel"
+  },
+  {
+    "id": "0x47758800b616b9c1:0xc7dc6083e3d6bd2b",
+    "name": "Bäckerei Betz Adlkofen",
+    "url": "https://www.google.com/maps/place/B%C3%A4ckerei+Betz+Adlkofen/data=!4m7!3m6!1s0x47758800b616b9c1:0xc7dc6083e3d6bd2b!8m2!3d48.5463374!4d12.2607164!16s%2Fg%2F1tg85gw4!19sChIJwbkWtgCIdUcRK73W44Ng3Mc?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "frühstück"
+  },
+  {
+    "id": "0x4775f5e1a7fdf865:0x76e4b3777336bed9",
+    "name": "Zum Waggon",
+    "url": "https://www.google.com/maps/place/Zum+Waggon/data=!4m7!3m6!1s0x4775f5e1a7fdf865:0x76e4b3777336bed9!8m2!3d48.3652983!4d12.2485701!16s%2Fg%2F11g07_l30l!19sChIJZfj9p-H1dUcR2b42c3ez5HY?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "frühstück"
+  },
+  {
+    "id": "0x477592e4c83fb69d:0x2fd272e3a79bbdc",
+    "name": "Bäckerei - Konditorei - Dorfladen Wagner",
+    "url": "https://www.google.com/maps/place/B%C3%A4ckerei+-+Konditorei+-+Dorfladen+Wagner/data=!4m7!3m6!1s0x477592e4c83fb69d:0x2fd272e3a79bbdc!8m2!3d48.3949135!4d12.4504961!16s%2Fg%2F1v2jbr4p!19sChIJnbY_yOSSdUcR3Lt5Oi4n_QI?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "frühstück"
+  },
+  {
+    "id": "0x410968cb0c914491:0x6827b4fe4feb59de",
+    "name": "Stephan Wolloner",
+    "url": "https://www.google.com/maps/place/Stephan+Wolloner/data=!4m7!3m6!1s0x410968cb0c914491:0x6827b4fe4feb59de!8m2!3d48.506968!4d12.4271843!16s%2Fg%2F1tt0pyv1!19sChIJkUSRDMtoCUER3lnrT_60J2g?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "brunch"
+  },
+  {
+    "id": "0x47758800cf91ece5:0x38679e6997ed23",
+    "name": "Brunners Milchhäusl",
+    "url": "https://www.google.com/maps/place/Brunners+Milchh%C3%A4usl/data=!4m7!3m6!1s0x47758800cf91ece5:0x38679e6997ed23!8m2!3d48.5463799!4d12.2612516!16s%2Fg%2F11df1yh3c2!19sChIJ5eyRzwCIdUcRI-2XaZ5nOAA?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "brunch"
+  },
+  {
+    "id": "0x47758bf9e6fd3c57:0xe06136ef43a1cd23",
+    "name": "MICHI - einfach gut",
+    "url": "https://www.google.com/maps/place/MICHI+-+einfach+gut/data=!4m7!3m6!1s0x47758bf9e6fd3c57:0xe06136ef43a1cd23!8m2!3d48.4077916!4d12.2555348!16s%2Fg%2F11t0m3g236!19sChIJVzz95vmLdUcRI82hQ-82YeA?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "brunch"
+  },
+  {
+    "id": "0x47758d001eb06c4f:0x1ea114cd904fe74b",
+    "name": "Haisl an da Bina",
+    "url": "https://www.google.com/maps/place/Haisl+an+da+Bina/data=!4m7!3m6!1s0x47758d001eb06c4f:0x1ea114cd904fe74b!8m2!3d48.4049085!4d12.4008676!16s%2Fg%2F11yw2tq8xs!19sChIJT2ywHgCNdUcRS-dPkM0UoR4?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "bar"
+  },
+  {
+    "id": "0x4775928a4f4f02f3:0xd6082c6ff4959dd3",
+    "name": "Soccerpark",
+    "url": "https://www.google.com/maps/place/Soccerpark/data=!4m7!3m6!1s0x4775928a4f4f02f3:0xd6082c6ff4959dd3!8m2!3d48.405599!4d12.432299!16s%2Fg%2F1tgcqptt!19sChIJ8wJPT4qSdUcR052V9G8sCNY?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "bar"
+  },
+  {
+    "id": "0x47758ddce223c367:0xba5447144929d9cd",
+    "name": "Park Vilsbiburg",
+    "url": "https://www.google.com/maps/place/Park+Vilsbiburg/data=!4m7!3m6!1s0x47758ddce223c367:0xba5447144929d9cd!8m2!3d48.4467691!4d12.3549666!16s%2Fg%2F11g0ds0pyh!19sChIJZ8Mj4tyNdUcRzdkpSRRHVLo?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "bar"
+  },
+  {
+    "id": "0x47758dbf054859d7:0xc3049ba10dbfcaee",
+    "name": "Hoamat Wirt",
+    "url": "https://www.google.com/maps/place/Hoamat+Wirt/data=!4m7!3m6!1s0x47758dbf054859d7:0xc3049ba10dbfcaee!8m2!3d48.3834353!4d12.3826848!16s%2Fg%2F11q255fjw5!19sChIJ11lIBb-NdUcR7sq_DaGbBMM?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "kneipe"
+  },
+  {
+    "id": "0x47758b4aa95ba703:0x713515cad1851ff8",
+    "name": "Gasthaus Putz/Zviedris",
+    "url": "https://www.google.com/maps/place/Gasthaus+Putz%2FZviedris/data=!4m7!3m6!1s0x47758b4aa95ba703:0x713515cad1851ff8!8m2!3d48.385457!4d12.266623!16s%2Fg%2F1tt1rj37!19sChIJA6dbqUqLdUcR-B-F0coVNXE?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "kneipe"
+  },
+  {
+    "id": "0x47758c23171511f5:0xef05c16e4b0a17f6",
+    "name": "DC Hawks Vilsbiburg e. V.",
+    "url": "https://www.google.com/maps/place/DC+Hawks+Vilsbiburg+e.+V./data=!4m7!3m6!1s0x47758c23171511f5:0xef05c16e4b0a17f6!8m2!3d48.4915083!4d12.3486259!16s%2Fg%2F1tfl8gvd!19sChIJ9REVFyOMdUcR9hcKS27BBe8?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "pub"
+  },
+  {
+    "id": "0x47758cf4af19a51d:0x5cb247dd9253a82d",
+    "name": "Golf-Club Vilsbiburg e.V.",
+    "url": "https://www.google.com/maps/place/Golf-Club+Vilsbiburg+e.V./data=!4m7!3m6!1s0x47758cf4af19a51d:0x5cb247dd9253a82d!8m2!3d48.4121394!4d12.333123!16s%2Fg%2F1td03wgl!19sChIJHaUZr_SMdUcRLahTkt1Hslw?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "pub"
+  },
+  {
+    "id": "0x47758c2427115555:0x5eb3101838601a21",
+    "name": "Kolpingsfamilie Vilsbiburg",
+    "url": "https://www.google.com/maps/place/Kolpingsfamilie+Vilsbiburg/data=!4m7!3m6!1s0x47758c2427115555:0x5eb3101838601a21!8m2!3d48.4512604!4d12.3579437!16s%2Fg%2F11h7spl49k!19sChIJVVURJySMdUcRIRpgOBgQs14?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "pub"
+  },
+  {
+    "id": "0x47758d4892b36b47:0x918022817403f22",
+    "name": "Narrhalla Vilsbiburg e.V.",
+    "url": "https://www.google.com/maps/place/Narrhalla+Vilsbiburg+e.V./data=!4m7!3m6!1s0x47758d4892b36b47:0x918022817403f22!8m2!3d48.4502543!4d12.3487028!16s%2Fg%2F11s19jdxkm!19sChIJR2uzkkiNdUcRIj9AFygCGAk?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "pub"
+  },
+  {
+    "id": "0x47758c2c0bfe8271:0x44c6d4700a913464",
+    "name": "Kunstverein Landshut e.V.",
+    "url": "https://www.google.com/maps/place/Kunstverein+Landshut+e.V./data=!4m7!3m6!1s0x47758c2c0bfe8271:0x44c6d4700a913464!8m2!3d48.44977!4d12.36982!16s%2Fg%2F11bzyqfvlf!19sChIJcYL-CyyMdUcRZDSRCnDUxkQ?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "pub"
+  },
+  {
+    "id": "0x47758c18a8f128b3:0x9e066a5eec6a8609",
+    "name": "Rote Raben Vilsbiburg e.V.",
+    "url": "https://www.google.com/maps/place/Rote+Raben+Vilsbiburg+e.V./data=!4m7!3m6!1s0x47758c18a8f128b3:0x9e066a5eec6a8609!8m2!3d48.4542553!4d12.3460473!16s%2Fg%2F12lt118bb!19sChIJsyjxqBiMdUcRCYZq7F5qBp4?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "pub"
+  },
+  {
+    "id": "0x47758c18a8f128b3:0x499edd814b0be65e",
+    "name": "TSV Vilsbiburg 1883 e.V.",
+    "url": "https://www.google.com/maps/place/TSV+Vilsbiburg+1883+e.V./data=!4m7!3m6!1s0x47758c18a8f128b3:0x499edd814b0be65e!8m2!3d48.4522976!4d12.3481977!16s%2Fg%2F1tcw6_k6!19sChIJsyjxqBiMdUcRXuYLS4Hdnkk?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "pub"
+  },
+  {
+    "id": "0x47758f4bcced919d:0x7a4c48f4701f15bd",
+    "name": "Duwakbixn.de",
+    "url": "https://www.google.com/maps/place/Duwakbixn.de/data=!4m7!3m6!1s0x47758f4bcced919d:0x7a4c48f4701f15bd!8m2!3d48.4722534!4d12.3378032!16s%2Fg%2F11rkn4c3ys!19sChIJnZHtzEuPdUcRvRUfcPRITHo?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "pub"
+  },
+  {
+    "id": "0x47758c2657b5cc15:0x51ca85676308d7bf",
+    "name": "Flugplatz Vilsbiburg",
+    "url": "https://www.google.com/maps/place/Flugplatz+Vilsbiburg/data=!4m7!3m6!1s0x47758c2657b5cc15:0x51ca85676308d7bf!8m2!3d48.4245115!4d12.3445092!16s%2Fg%2F1224tfz3!19sChIJFcy1VyaMdUcRv9cIY2eFylE?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "pub"
+  },
+  {
+    "id": "0x47758bea2beb72ff:0xf749589eeed5da00",
+    "name": "TSV Haarbach e.V.",
+    "url": "https://www.google.com/maps/place/TSV+Haarbach+e.V./data=!4m7!3m6!1s0x47758bea2beb72ff:0xf749589eeed5da00!8m2!3d48.4336846!4d12.3090418!16s%2Fg%2F11f6cxjwv_!19sChIJ_3LrK-qLdUcRANrV7p5YSfc?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "pub"
+  },
+  {
+    "id": "0x47758c17d73ab6ad:0xd335731fc7895315",
+    "name": "Rote Raben",
+    "url": "https://www.google.com/maps/place/Rote+Raben/data=!4m7!3m6!1s0x47758c17d73ab6ad:0xd335731fc7895315!8m2!3d48.4510093!4d12.3538818!16s%2Fg%2F1th486kh!19sChIJrbY61xeMdUcRFVOJxx9zNdM?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "pub"
+  },
+  {
+    "id": "0x47758c2e7500e1db:0x3f3867f0ac3f2fec",
+    "name": "Fanclub ´Rabenpower´",
+    "url": "https://www.google.com/maps/place/Fanclub+%C2%B4Rabenpower%C2%B4/data=!4m7!3m6!1s0x47758c2e7500e1db:0x3f3867f0ac3f2fec!8m2!3d48.4931559!4d12.372925!16s%2Fg%2F1tc__9b5!19sChIJ2-EAdS6MdUcR7C8_rPBnOD8?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "pub"
+  },
+  {
+    "id": "0x4775f4b854977ef3:0x6a9671f2b1e84239",
+    "name": "Show Und Akrobatikverein Velden e.V.",
+    "url": "https://www.google.com/maps/place/Show+Und+Akrobatikverein+Velden+e.V./data=!4m7!3m6!1s0x4775f4b854977ef3:0x6a9671f2b1e84239!8m2!3d48.4513683!4d12.3735159!16s%2Fg%2F11g9fjwq3h!19sChIJ836XVLj0dUcROULosfJxlmo?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "pub"
+  },
+  {
+    "id": "0x47758c28107992d3:0xe116f94bc854d62f",
+    "name": "Getränke Fleischmann",
+    "url": "https://www.google.com/maps/place/Getr%C3%A4nke+Fleischmann/data=!4m7!3m6!1s0x47758c28107992d3:0xe116f94bc854d62f!8m2!3d48.4550899!4d12.3648755!16s%2Fg%2F1vpprbq1!19sChIJ05J5ECiMdUcRL9ZUyEv5FuE?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "pub"
+  },
+  {
+    "id": "0x47758ddf5b8ecdc9:0x39c35195a62e76bc",
+    "name": "Beach-Party Vilsbiburg",
+    "url": "https://www.google.com/maps/place/Beach-Party+Vilsbiburg/data=!4m7!3m6!1s0x47758ddf5b8ecdc9:0x39c35195a62e76bc!8m2!3d48.4488045!4d12.3593457!16s%2Fg%2F11pcnt6stj!19sChIJyc2OW9-NdUcRvHYuppVRwzk?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "pub"
+  },
+  {
+    "id": "0x47758c04815ad6d3:0x67176153f4299e04",
+    "name": "Getränke Fleischmann",
+    "url": "https://www.google.com/maps/place/Getr%C3%A4nke+Fleischmann/data=!4m7!3m6!1s0x47758c04815ad6d3:0x67176153f4299e04!8m2!3d48.4539126!4d12.3335179!16s%2Fg%2F1tg38y19!19sChIJ09ZagQSMdUcRBJ4p9FNhF2c?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "pub"
+  },
+  {
+    "id": "0x47758c24e009fe45:0x8fe25ad12921fcd6",
+    "name": "TheaterBrettl Vilsbiburg",
+    "url": "https://www.google.com/maps/place/TheaterBrettl+Vilsbiburg/data=!4m7!3m6!1s0x47758c24e009fe45:0x8fe25ad12921fcd6!8m2!3d48.4474822!4d12.3575418!16s%2Fg%2F12h_dw112!19sChIJRf4J4CSMdUcR1vwhKdFa4o8?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "pub"
+  },
+  {
+    "id": "0x47758c672b56a5cf:0x752cd73a34f3be8",
+    "name": "Schlittmeier",
+    "url": "https://www.google.com/maps/place/Schlittmeier/data=!4m7!3m6!1s0x47758c672b56a5cf:0x752cd73a34f3be8!8m2!3d48.4236787!4d12.3336259!16s%2Fg%2F1v8g9vkt!19sChIJz6VWK2eMdUcR6DtPo3PNUgc?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "pub"
+  },
+  {
+    "id": "0x47758c220544bcbb:0x492f7d38104c8941",
+    "name": "TC Grün-Weiss Vilsbiburg im TSV Vilsbiburg 1883 e.V.",
+    "url": "https://www.google.com/maps/place/TC+Gr%C3%BCn-Weiss+Vilsbiburg+im+TSV+Vilsbiburg+1883+e.V./data=!4m7!3m6!1s0x47758c220544bcbb:0x492f7d38104c8941!8m2!3d48.4527183!4d12.3475708!16s%2Fg%2F11b6dplp3v!19sChIJu7xEBSKMdUcRQYlMEDh9L0k?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "pub"
+  },
+  {
+    "id": "0x47758f24006c2525:0xaeaa822bbb49d472",
+    "name": "Sportplatz Eintracht Seyboldsdorf",
+    "url": "https://www.google.com/maps/place/Sportplatz+Eintracht+Seyboldsdorf/data=!4m7!3m6!1s0x47758f24006c2525:0xaeaa822bbb49d472!8m2!3d48.4833951!4d12.3399961!16s%2Fg%2F11m9q4vlm9!19sChIJJSVsACSPdUcRctRJuyuCqq4?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "pub"
+  },
+  {
+    "id": "0x47758c718ddd76f7:0x143bffafc28db8f7",
+    "name": "Kulturforum Vilsbiburg e.V.",
+    "url": "https://www.google.com/maps/place/Kulturforum+Vilsbiburg+e.V./data=!4m7!3m6!1s0x47758c718ddd76f7:0x143bffafc28db8f7!8m2!3d48.445751!4d12.3568823!16s%2Fg%2F1tzgn0_g!19sChIJ93bdjXGMdUcR97iNwq__OxQ?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "pub"
+  },
+  {
+    "id": "0x47758e9f904e0ad3:0xaf9695a3f389a9b8",
+    "name": "Geschäftsstelle Kreisfischereiverein Vilsbiburg e.V.",
+    "url": "https://www.google.com/maps/place/Gesch%C3%A4ftsstelle+Kreisfischereiverein+Vilsbiburg+e.V./data=!4m7!3m6!1s0x47758e9f904e0ad3:0xaf9695a3f389a9b8!8m2!3d48.4587056!4d12.353237!16s%2Fg%2F11f4ld27sw!19sChIJ0wpOkJ-OdUcRuKmJ86OVlq8?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "pub"
+  },
+  {
+    "id": "0x47758c22e25ce1f7:0xf0ac0669be13aa78",
+    "name": "Autohaus Ostermaier GmbH",
+    "url": "https://www.google.com/maps/place/Autohaus+Ostermaier+GmbH/data=!4m7!3m6!1s0x47758c22e25ce1f7:0xf0ac0669be13aa78!8m2!3d48.4483557!4d12.3506682!16s%2Fg%2F1tcz7482!19sChIJ9-Fc4iKMdUcReKoTvmkGrPA?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "pub"
+  },
+  {
+    "id": "0x47758c3b01ecaa73:0x177ab59d043598cb",
+    "name": "Kreisfischerverein Vilsbiburg e.V.",
+    "url": "https://www.google.com/maps/place/Kreisfischerverein+Vilsbiburg+e.V./data=!4m7!3m6!1s0x47758c3b01ecaa73:0x177ab59d043598cb!8m2!3d48.4442369!4d12.3558727!16s%2Fg%2F11bzypp_mk!19sChIJc6rsATuMdUcRy5g1BJ21ehc?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "pub"
+  },
+  {
+    "id": "0x47758ea1eb119193:0xa0c46ce19f41d985",
+    "name": "VLH | Georg Schandl - Vereinigte Lohnsteuerhilfe e.V.",
+    "url": "https://www.google.com/maps/place/VLH+%7C+Georg+Schandl+-+Vereinigte+Lohnsteuerhilfe+e.V./data=!4m7!3m6!1s0x47758ea1eb119193:0xa0c46ce19f41d985!8m2!3d48.46112!4d12.35177!16s%2Fg%2F11fy4pbkt3!19sChIJk5ER66GOdUcRhdlBn-FsxKA?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "pub"
+  },
+  {
+    "id": "0x4775897293328849:0xbf8274fe40620a5e",
+    "name": "Chorgemeinschaft Vilsbiburg e.V.",
+    "url": "https://www.google.com/maps/place/Chorgemeinschaft+Vilsbiburg+e.V./data=!4m7!3m6!1s0x4775897293328849:0xbf8274fe40620a5e!8m2!3d48.4514624!4d12.3563537!16s%2Fg%2F1yfprv159!19sChIJSYgyk3KJdUcRXgpiQP50gr8?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "pub"
+  },
+  {
+    "id": "0x47758da4fe6b9117:0xe5a710be5b4289c",
+    "name": "Snackautomat 24/7 Kiosk",
+    "url": "https://www.google.com/maps/place/Snackautomat+24%2F7+Kiosk/data=!4m7!3m6!1s0x47758da4fe6b9117:0xe5a710be5b4289c!8m2!3d48.4516543!4d12.3411955!16s%2Fg%2F11vx1b7l36!19sChIJF5Fr_qSNdUcRnCi05QtxWg4?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "pub"
+  },
+  {
+    "id": "0x47758ee269d82e2b:0x6f118947d90bab85",
+    "name": "Stock Schützen Club - Lichtenhaag",
+    "url": "https://www.google.com/maps/place/Stock+Sch%C3%BCtzen+Club+-+Lichtenhaag/data=!4m7!3m6!1s0x47758ee269d82e2b:0x6f118947d90bab85!8m2!3d48.4946906!4d12.3770174!16s%2Fg%2F11dftgj4xl!19sChIJKy7YaeKOdUcRhasL2UeJEW8?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "pub"
+  },
+  {
+    "id": "0x47758c227888bd91:0xdacb6e455d5775c1",
+    "name": "Kgl. priv. Feuerschützen-Gesellschaft Vilsbiburg",
+    "url": "https://www.google.com/maps/place/Kgl.+priv.+Feuersch%C3%BCtzen-Gesellschaft+Vilsbiburg/data=!4m7!3m6!1s0x47758c227888bd91:0xdacb6e455d5775c1!8m2!3d48.4503012!4d12.3485918!16s%2Fg%2F11c807z7bc!19sChIJkb2IeCKMdUcRwXVXXUVuy9o?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "pub"
+  },
+  {
+    "id": "0x47758c2c7a38758f:0x775cde35c312d210",
+    "name": "Altbayerischer Lohnsteuerhilfeverein e.V. - Vilsbiburg",
+    "url": "https://www.google.com/maps/place/Altbayerischer+Lohnsteuerhilfeverein+e.V.+-+Vilsbiburg/data=!4m7!3m6!1s0x47758c2c7a38758f:0x775cde35c312d210!8m2!3d48.4495143!4d12.3711118!16s%2Fg%2F11dxhz796l!19sChIJj3U4eiyMdUcRENISwzXeXHc?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "pub"
+  },
+  {
+    "id": "0x47758c1a4e369fad:0x554748bf031d90df",
+    "name": "Billes Bar",
+    "url": "https://www.google.com/maps/place/Billes+Bar/data=!4m7!3m6!1s0x47758c1a4e369fad:0x554748bf031d90df!8m2!3d48.4503671!4d12.3393829!16s%2Fg%2F12hzfdwvr!19sChIJrZ82ThqMdUcR35AdA79IR1U?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "pub"
+  },
+  {
+    "id": "0x479e1e4445b77297:0x254afe9a3e32eb84",
+    "name": "Biergarten Taufkirchen",
+    "url": "https://www.google.com/maps/place/Biergarten+Taufkirchen/data=!4m7!3m6!1s0x479e1e4445b77297:0x254afe9a3e32eb84!8m2!3d48.3457467!4d12.1325819!16s%2Fg%2F11df6j9q43!19sChIJl3K3RUQenkcRhOsyPpr-SiU?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "biergarten"
+  },
+  {
+    "id": "0x47758f5f9bac081d:0x853e611ab6ca1d31",
+    "name": "Gasthaus Jakob Schwab",
+    "url": "https://www.google.com/maps/place/Gasthaus+Jakob+Schwab/data=!4m7!3m6!1s0x47758f5f9bac081d:0x853e611ab6ca1d31!8m2!3d48.53411!4d12.38279!16s%2Fg%2F1tfq811z!19sChIJHQism1-PdUcRMR3KthphPoU?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "biergarten"
+  },
+  {
+    "id": "0x4775f373b581e05f:0x1223794bc6c1e7c8",
+    "name": "Gasthaus Friedl-Hammerschmidt",
+    "url": "https://www.google.com/maps/place/Gasthaus+Friedl-Hammerschmidt/data=!4m7!3m6!1s0x4775f373b581e05f:0x1223794bc6c1e7c8!8m2!3d48.3487101!4d12.2988025!16s%2Fg%2F11g892vh3z!19sChIJX-CBtXPzdUcRyOfBxkt5IxI?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "biergarten"
+  },
+  {
+    "id": "0x477592fb351f82cd:0x7e62333e1729f5e6",
+    "name": "Ludwig Schober Gasthof",
+    "url": "https://www.google.com/maps/place/Ludwig+Schober+Gasthof/data=!4m7!3m6!1s0x477592fb351f82cd:0x7e62333e1729f5e6!8m2!3d48.3957573!4d12.4503027!16s%2Fg%2F1tdzpy_s!19sChIJzYIfNfuSdUcR5vUpFz4zYn4?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "biergarten"
+  },
+  {
+    "id": "0x4775f3ac3ab24c89:0x5970b488f2bc0455",
+    "name": "Wirt z'Seifriedswörth",
+    "url": "https://www.google.com/maps/place/Wirt+z%27Seifriedsw%C3%B6rth/data=!4m10!3m9!1s0x4775f3ac3ab24c89:0x5970b488f2bc0455!5m2!4m1!1i2!8m2!3d48.3377284!4d12.3529649!16s%2Fg%2F11fktjcr20!19sChIJiUyyOqzzdUcRVQS88oi0cFk?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "biergarten"
+  },
+  {
+    "id": "0x47758c1adeed1cd1:0x6027404afea72e5b",
+    "name": "Brauerei Hacklberg",
+    "url": "https://www.google.com/maps/place/Brauerei+Hacklberg/data=!4m7!3m6!1s0x47758c1adeed1cd1:0x6027404afea72e5b!8m2!3d48.4502102!4d12.3343696!16s%2Fg%2F1tf7qz48!19sChIJ0Rzt3hqMdUcRWy6n_kpAJ2A?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "brauerei"
+  },
+  {
+    "id": "0x47758dbdcd030be7:0x288d3c3e998dfdf3",
+    "name": "Schuderbräu Neuhofer Bierwerkstatt",
+    "url": "https://www.google.com/maps/place/Schuderbr%C3%A4u+Neuhofer+Bierwerkstatt/data=!4m7!3m6!1s0x47758dbdcd030be7:0x288d3c3e998dfdf3!8m2!3d48.417445!4d12.3800888!16s%2Fg%2F11h_v0ppgc!19sChIJ5wsDzb2NdUcR8_2NmT48jSg?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "brauerei"
+  },
+  {
+    "id": "0x47758c255c9cf991:0x55c19d6daed99c39",
+    "name": "Getränke Maier Inh. Christian Beck",
+    "url": "https://www.google.com/maps/place/Getr%C3%A4nke+Maier+Inh.+Christian+Beck/data=!4m7!3m6!1s0x47758c255c9cf991:0x55c19d6daed99c39!8m2!3d48.4472139!4d12.3595621!16s%2Fg%2F1tkc5hsg!19sChIJkfmcXCWMdUcROZzZrm2dwVU?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "brauerei"
+  },
+  {
+    "id": "0x479e1e44389f1d2f:0x4e5776080c4e0789",
+    "name": "Brauereigenossenschaft Taufkirchen",
+    "url": "https://www.google.com/maps/place/Brauereigenossenschaft+Taufkirchen/data=!4m7!3m6!1s0x479e1e44389f1d2f:0x4e5776080c4e0789!8m2!3d48.3457547!4d12.1326082!16s%2Fg%2F1td2lgjq!19sChIJLx2fOEQenkcRiQdODAh2V04?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "brauerei"
+  },
+  {
+    "id": "0x479e2606483f1cd1:0x88d3feb7c6b846f5",
+    "name": "Landshut e.V. IGMG Islamische Gemeinschaft",
+    "url": "https://www.google.com/maps/place/Landshut+e.V.+IGMG+Islamische+Gemeinschaft/data=!4m7!3m6!1s0x479e2606483f1cd1:0x88d3feb7c6b846f5!8m2!3d48.550988!4d12.1540499!16s%2Fg%2F1tfnxkz6!19sChIJ0Rw_SAYmnkcR9Ua4xrf-04g?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "club"
+  },
+  {
+    "id": "0x479e27c9521e04fd:0xbaea25251887cc95",
+    "name": "Jasmin Thaimassage Landshut",
+    "url": "https://www.google.com/maps/place/Jasmin+Thaimassage+Landshut/data=!4m7!3m6!1s0x479e27c9521e04fd:0xbaea25251887cc95!8m2!3d48.4488523!4d12.3518375!16s%2Fg%2F11sz9t2895!19sChIJ_QQeUsknnkcRlcyHGCUl6ro?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "club"
+  },
+  {
+    "id": "0x4775f57fa9c7a2d1:0x6d093ad34c218f88",
+    "name": "Stock-Car-Club-Red Stars- Landshut e.V",
+    "url": "https://www.google.com/maps/place/Stock-Car-Club-Red+Stars-+Landshut+e.V/data=!4m7!3m6!1s0x4775f57fa9c7a2d1:0x6d093ad34c218f88!8m2!3d48.4418356!4d12.0403906!16s%2Fg%2F11bzymvmdr!19sChIJ0aLHqX_1dUcRiI8hTNM6CW0?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "club"
+  },
+  {
+    "id": "0x47758c3aa20bc435:0x7a21b50bbb8777ff",
+    "name": "LA-Regio Klinik Vilsbiburg - Interdisziplinäres Zentrum für Schmerzmedizin",
+    "url": "https://www.google.com/maps/place/LA-Regio+Klinik+Vilsbiburg+-+Interdisziplin%C3%A4res+Zentrum+f%C3%BCr+Schmerzmedizin/data=!4m7!3m6!1s0x47758c3aa20bc435:0x7a21b50bbb8777ff!8m2!3d48.4449046!4d12.3591391!16s%2Fg%2F12jvyrvkj!19sChIJNcQLojqMdUcR_3eHuwu1IXo?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "club"
+  },
+  {
+    "id": "0x47758ec1ac6e0cc9:0x1ceac8ed885d7b8d",
+    "name": "Pan de Dan",
+    "url": "https://www.google.com/maps/place/Pan+de+Dan/data=!4m7!3m6!1s0x47758ec1ac6e0cc9:0x1ceac8ed885d7b8d!8m2!3d51.175807!4d10.4541194!16s%2Fg%2F11hzxldqm5!19sChIJyQxurMGOdUcRjXtdiO3I6hw?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "club"
+  },
+  {
+    "id": "0x479e267c43f4129d:0xbe37c1db94c49112",
+    "name": "Landschaftspflegeverband Landshut e.V.",
+    "url": "https://www.google.com/maps/place/Landschaftspflegeverband+Landshut+e.V./data=!4m7!3m6!1s0x479e267c43f4129d:0xbe37c1db94c49112!8m2!3d48.52328!4d12.14675!16s%2Fg%2F11d_trr9h0!19sChIJnRL0Q3wmnkcREpHElNvBN74?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "club"
+  },
+  {
+    "id": "0x479e268e2d93f615:0x91229d3b9adc7432",
+    "name": "Deutschen Amateur Radio Club e.V.",
+    "url": "https://www.google.com/maps/place/Deutschen+Amateur+Radio+Club+e.V./data=!4m7!3m6!1s0x479e268e2d93f615:0x91229d3b9adc7432!8m2!3d48.5099428!4d12.1491695!16s%2Fg%2F11f0wp3717!19sChIJFfaTLY4mnkcRMnTcmjudIpE?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "club"
+  },
+  {
+    "id": "0x479e257b7846c741:0x8a11a1c213e5bc37",
+    "name": "7 Angels / Liebigstraße 7",
+    "url": "https://www.google.com/maps/place/7+Angels+%2F+Liebigstra%C3%9Fe+7/data=!4m7!3m6!1s0x479e257b7846c741:0x8a11a1c213e5bc37!8m2!3d48.551046!4d12.1477333!16s%2Fg%2F11t5194f7k!19sChIJQcdGeHslnkcRN7zlE8KhEYo?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "club"
+  },
+  {
+    "id": "0x479e25de9cc04659:0xd949789a3abc5641",
+    "name": "Zentrum für Endokrinologie und Stoffwechsel Landshut Privat- und Selbstzahlerpraxis",
+    "url": "https://www.google.com/maps/place/Zentrum+f%C3%BCr+Endokrinologie+und+Stoffwechsel+Landshut+Privat-+und+Selbstzahlerpraxis/data=!4m7!3m6!1s0x479e25de9cc04659:0xd949789a3abc5641!8m2!3d48.5395176!4d12.1510511!16s%2Fg%2F11c70cxq0n!19sChIJWUbAnN4lnkcRQVa8Opp4Sdk?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "club"
+  },
+  {
+    "id": "0x479e25e46f03536d:0xedee41a5733aad91",
+    "name": "UNICEF Arbeitsgruppe Landshut",
+    "url": "https://www.google.com/maps/place/UNICEF+Arbeitsgruppe+Landshut/data=!4m7!3m6!1s0x479e25e46f03536d:0xedee41a5733aad91!8m2!3d48.5475989!4d12.1404761!16s%2Fg%2F1tdckyvq!19sChIJbVMDb-QlnkcRka06c6VB7u0?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "club"
+  },
+  {
+    "id": "0x479e26115f07a483:0xac342ba732a17eb8",
+    "name": "Deutscher Kinderschutzbund Landshut",
+    "url": "https://www.google.com/maps/place/Deutscher+Kinderschutzbund+Landshut/data=!4m7!3m6!1s0x479e26115f07a483:0xac342ba732a17eb8!8m2!3d48.5432893!4d12.1652315!16s%2Fg%2F1twyyjdg!19sChIJg6QHXxEmnkcRuH6hMqcrNKw?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "club"
+  },
+  {
+    "id": "0x47759aacfb493a87:0x79e8c349469a30dc",
+    "name": "Skiclub Aham",
+    "url": "https://www.google.com/maps/place/Skiclub+Aham/data=!4m7!3m6!1s0x47759aacfb493a87:0x79e8c349469a30dc!8m2!3d51.175807!4d10.4541194!16s%2Fg%2F11cn9485xz!19sChIJhzpJ-6yadUcR3DCaRknD6Hk?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "club"
+  },
+  {
+    "id": "0x479e261460d50ea7:0xf07ed5a6d61621bc",
+    "name": "Integrative Kindertageseinrichtung Sonneninsel der Lebenshilfe Landshut e.V.",
+    "url": "https://www.google.com/maps/place/Integrative+Kindertageseinrichtung+Sonneninsel+der+Lebenshilfe+Landshut+e.V./data=!4m7!3m6!1s0x479e261460d50ea7:0xf07ed5a6d61621bc!8m2!3d48.540747!4d12.1671!16s%2Fg%2F1ptw9j984!19sChIJpw7VYBQmnkcRvCEW1qbVfvA?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "club"
+  },
+  {
+    "id": "0x47758da03470c55b:0x73e167e707f802e1",
+    "name": "Yunis Entertainment – Stripper in Landshut",
+    "url": "https://www.google.com/maps/place/Yunis+Entertainment+%E2%80%93+Stripper+in+Landshut/data=!4m7!3m6!1s0x47758da03470c55b:0x73e167e707f802e1!8m2!3d48.4388962!4d12.3511545!16s%2Fg%2F11fjxxnp04!19sChIJW8VwNKCNdUcR4QL4B-dn4XM?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "club"
+  },
+  {
+    "id": "0x939aedfd8d610f5:0x9fbb52b2a0060b7e",
+    "name": "Ideagraph e.V.",
+    "url": "https://www.google.com/maps/place/Ideagraph+e.V./data=!4m7!3m6!1s0x939aedfd8d610f5:0x9fbb52b2a0060b7e!8m2!3d51.175807!4d10.4541194!16s%2Fg%2F11ylzp934n!19sChIJ9RDW2N-uOQkRfgsGoLJSu58?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "club"
+  },
+  {
+    "id": "0x479e2600f88dc999:0xe5b10febb18084e3",
+    "name": "ASMO KÜCHEN Landshut-Nord",
+    "url": "https://www.google.com/maps/place/ASMO+K%C3%9CCHEN+Landshut-Nord/data=!4m7!3m6!1s0x479e2600f88dc999:0xe5b10febb18084e3!8m2!3d48.5568733!4d12.1550594!16s%2Fg%2F1hc363jps!19sChIJmcmN-AAmnkcR44SAsesPseU?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "club"
+  },
+  {
+    "id": "0x479e25c660110de7:0x585d93b7e511c7f7",
+    "name": "Opel Autohaus Sieber - Landshut",
+    "url": "https://www.google.com/maps/place/Opel+Autohaus+Sieber+-+Landshut/data=!4m7!3m6!1s0x479e25c660110de7:0x585d93b7e511c7f7!8m2!3d48.535954!4d12.1207939!16s%2Fg%2F1tdh2vw5!19sChIJ5w0RYMYlnkcR98cR5beTXVg?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "club"
+  },
+  {
+    "id": "0x479e278cc60e2c99:0x43a62d53ec4d4955",
+    "name": "advertise right - Werbeagentur \u0026 Webdesign in Landshut",
+    "url": "https://www.google.com/maps/place/advertise+right+-+Werbeagentur+%26+Webdesign+in+Landshut/data=!4m7!3m6!1s0x479e278cc60e2c99:0x43a62d53ec4d4955!8m2!3d48.5336231!4d12.1520207!16s%2Fg%2F11rwm9k774!19sChIJmSwOxownnkcRVUlN7FMtpkM?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "club"
+  },
+  {
+    "id": "0x85db2432e0588617:0x92bfb4cdbb06211c",
+    "name": "Flippergarage Landshut",
+    "url": "https://www.google.com/maps/place/Flippergarage+Landshut/data=!4m7!3m6!1s0x85db2432e0588617:0x92bfb4cdbb06211c!8m2!3d48.5428114!4d12.1468138!16s%2Fg%2F11rn78zd6_!19sChIJF4ZY4DIk24URHCEGu820v5I?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "club"
+  },
+  {
+    "id": "0x479e26724f88fdf9:0x6f551bd2a6a01d40",
+    "name": "Verbraucherzentrale Bayern | Beratungsstelle Landshut",
+    "url": "https://www.google.com/maps/place/Verbraucherzentrale+Bayern+%7C+Beratungsstelle+Landshut/data=!4m7!3m6!1s0x479e26724f88fdf9:0x6f551bd2a6a01d40!8m2!3d48.5359754!4d12.1542479!16s%2Fg%2F1thtnl5w!19sChIJ-f2IT3ImnkcRQB2gptIbVW8?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "club"
+  },
+  {
+    "id": "0x47758c239b593531:0x794164bb1c5c19a",
+    "name": "Herr Dr. med. Matthias Hartig",
+    "url": "https://www.google.com/maps/place/Herr+Dr.+med.+Matthias+Hartig/data=!4m7!3m6!1s0x47758c239b593531:0x794164bb1c5c19a!8m2!3d48.44958!4d12.35404!16s%2Fg%2F1vqtfm9w!19sChIJMTVZmyOMdUcRmsHFsUsWlAc?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "club"
+  },
+  {
+    "id": "0x47758d0024b451c1:0x60834b7d2eec508a",
+    "name": "KFV-Vilsbiburg Vereinsheim",
+    "url": "https://www.google.com/maps/place/KFV-Vilsbiburg+Vereinsheim/data=!4m7!3m6!1s0x47758d0024b451c1:0x60834b7d2eec508a!8m2!3d48.4548177!4d12.3702741!16s%2Fg%2F11ywp2q9hk!19sChIJwVG0JACNdUcRilDsLn1Lg2A?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "nachtclub"
+  },
+  {
+    "id": "0x47758c989cc552e7:0xffc5d95dfcea313e",
+    "name": "Modellfluggruppe Vilsbiburg e.V.",
+    "url": "https://www.google.com/maps/place/Modellfluggruppe+Vilsbiburg+e.V./data=!4m7!3m6!1s0x47758c989cc552e7:0xffc5d95dfcea313e!8m2!3d48.4011081!4d12.3091339!16s%2Fg%2F11dxlck5v4!19sChIJ51LFnJiMdUcRPjHq_F3Zxf8?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "nachtclub"
+  },
+  {
+    "id": "0x479e25d9b45bb271:0x66d9ad41d33c0b05",
+    "name": "ebmpapst-Stadion",
+    "url": "https://www.google.com/maps/place/ebmpapst-Stadion/data=!4m7!3m6!1s0x479e25d9b45bb271:0x66d9ad41d33c0b05!8m2!3d48.532226!4d12.138305!16s%2Fg%2F11b74vgs78!19sChIJcbJbtNklnkcRBQs800Gt2WY?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "nachtclub"
+  },
+  {
+    "id": "0x479e26784554757d:0xf8cf79f7f076550b",
+    "name": "Rock-Shop, Kartenvorverkauf, Konzertbüro",
+    "url": "https://www.google.com/maps/place/Rock-Shop,+Kartenvorverkauf,+Konzertb%C3%BCro/data=!4m7!3m6!1s0x479e26784554757d:0xf8cf79f7f076550b!8m2!3d48.52848!4d12.14258!16s%2Fg%2F1txc60cz!19sChIJfXVURXgmnkcRC1V28Pd5z_g?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "nachtclub"
+  },
+  {
+    "id": "0x479e243dd738a49b:0xa9ee79227042708c",
+    "name": "Adam und e.V. - Festivalkultur im Landkreis Landshut",
+    "url": "https://www.google.com/maps/place/Adam+und+e.V.+-+Festivalkultur+im+Landkreis+Landshut/data=!4m7!3m6!1s0x479e243dd738a49b:0xa9ee79227042708c!8m2!3d48.5053592!4d12.1102254!16s%2Fg%2F11f71mr62_!19sChIJm6Q41z0knkcRjHBCcCJ57qk?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "nachtclub"
+  },
+  {
+    "id": "0x479e2673bb6fffff:0x5917d74571ad6165",
+    "name": "Landshut Läuft",
+    "url": "https://www.google.com/maps/place/Landshut+L%C3%A4uft/data=!4m7!3m6!1s0x479e2673bb6fffff:0x5917d74571ad6165!8m2!3d48.5361887!4d12.1523183!16s%2Fg%2F11hzxjf5fc!19sChIJ__9vu3MmnkcRZWGtcUXXF1k?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "nachtclub"
+  },
+  {
+    "id": "0x479e25e498b778b7:0x985388f409643b74",
+    "name": "Kleingärten Landshut",
+    "url": "https://www.google.com/maps/place/Kleing%C3%A4rten+Landshut/data=!4m7!3m6!1s0x479e25e498b778b7:0x985388f409643b74!8m2!3d48.5289992!4d12.1352542!16s%2Fg%2F11j02ct5j8!19sChIJt3i3mOQlnkcRdDtkCfSIU5g?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "nachtclub"
+  },
+  {
+    "id": "0x47758c28df8e478b:0xbb37a6ae228ae3dd",
+    "name": "Mortimer English Club",
+    "url": "https://www.google.com/maps/place/Mortimer+English+Club/data=!4m7!3m6!1s0x47758c28df8e478b:0xbb37a6ae228ae3dd!8m2!3d48.4516602!4d12.3659215!16s%2Fg%2F1vvywxf1!19sChIJi0eO3yiMdUcR3eOKIq6mN7s?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "nachtclub"
+  },
+  {
+    "id": "0x479e27b831b318fb:0x92fd3e2307e312d3",
+    "name": "Landshuter Bogenschützen im TV64 e. V.",
+    "url": "https://www.google.com/maps/place/Landshuter+Bogensch%C3%BCtzen+im+TV64+e.+V./data=!4m7!3m6!1s0x479e27b831b318fb:0x92fd3e2307e312d3!8m2!3d48.5537418!4d12.1768836!16s%2Fg%2F11t5m03dxx!19sChIJ-xizMbgnnkcR0xLjByM-_ZI?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "nachtclub"
+  },
+  {
+    "id": "0x479e217e23082827:0x4e91328a4013c56e",
+    "name": "Vorstand TSV Rapid Vilsheim e.V.",
+    "url": "https://www.google.com/maps/place/Vorstand+TSV+Rapid+Vilsheim+e.V./data=!4m7!3m6!1s0x479e217e23082827:0x4e91328a4013c56e!8m2!3d48.4501779!4d12.1064021!16s%2Fg%2F1tgvcmcl!19sChIJJygII34hnkcRbsUTQIoykU4?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "nachtclub"
+  },
+  {
+    "id": "0x5ac34f48f0097c1:0x36ede94459b89780",
+    "name": "SKB Hochschule Landshut e.V.",
+    "url": "https://www.google.com/maps/place/SKB+Hochschule+Landshut+e.V./data=!4m7!3m6!1s0x5ac34f48f0097c1:0x36ede94459b89780!8m2!3d48.5561752!4d12.1985357!16s%2Fg%2F11sy_85w_k!19sChIJwZcAj_Q0rAURgJe4WUTp7TY?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "nachtclub"
+  },
+  {
+    "id": "0x47758c17ebe60b11:0x2dff582d63af6cda",
+    "name": "Flottweg SE",
+    "url": "https://www.google.com/maps/place/Flottweg+SE/data=!4m7!3m6!1s0x47758c17ebe60b11:0x2dff582d63af6cda!8m2!3d48.4475662!4d12.3449337!16s%2Fg%2F1tqpy1rr!19sChIJEQvm6xeMdUcR2myvYy1Y_y0?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "diskothek"
+  },
+  {
+    "id": "0x4109120ca5741473:0x9af13f1e91906a6e",
+    "name": "Skoti‘s Café \u0026 Bar",
+    "url": "https://www.google.com/maps/place/Skoti%E2%80%98s+Caf%C3%A9+%26+Bar/data=!4m7!3m6!1s0x4109120ca5741473:0x9af13f1e91906a6e!8m2!3d48.3417299!4d12.1310162!16s%2Fg%2F1tr16kby!19sChIJcxR0pQwSCUERbmqQkR4_8Zo?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "diskothek"
+  },
+  {
+    "id": "0x47758c1bc1edf419:0xdc19d97b69b53456",
+    "name": "NORMA Filiale",
+    "url": "https://www.google.com/maps/place/NORMA+Filiale/data=!4m7!3m6!1s0x47758c1bc1edf419:0xdc19d97b69b53456!8m2!3d48.4516863!4d12.3412131!16s%2Fg%2F11_q632rv!19sChIJGfTtwRuMdUcRVjS1aXvZGdw?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "diskothek"
+  },
+  {
+    "id": "0x479e29122f24ab0d:0x7a9c8fab7b487641",
+    "name": "ESKARA Essenbach",
+    "url": "https://www.google.com/maps/place/ESKARA+Essenbach/data=!4m7!3m6!1s0x479e29122f24ab0d:0x7a9c8fab7b487641!8m2!3d48.6090741!4d12.2136603!16s%2Fg%2F1v75qwxm!19sChIJDaskLxIpnkcRQXZIe6uPnHo?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "diskothek"
+  },
+  {
+    "id": "0x479e1e44389f1d2f:0xd0174373abe3aa51",
+    "name": "Bóveda ClubBar",
+    "url": "https://www.google.com/maps/place/B%C3%B3veda+ClubBar/data=!4m7!3m6!1s0x479e1e44389f1d2f:0xd0174373abe3aa51!8m2!3d48.3455781!4d12.1329269!16s%2Fg%2F1tf74hzz!19sChIJLx2fOEQenkcRUarjq3NDF9A?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "diskothek"
+  },
+  {
+    "id": "0x4775987e578b3c59:0xa30023677df1bd1a",
+    "name": "Ru",
+    "url": "https://www.google.com/maps/place/Ru/data=!4m7!3m6!1s0x4775987e578b3c59:0xa30023677df1bd1a!8m2!3d48.54005!4d12.68254!16s%2Fg%2F11jpdj82t0!19sChIJWTyLV36YdUcRGr3xfWcjAKM?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "diskothek"
+  },
+  {
+    "id": "0x47758dafab99ba4b:0xb46d4ef27281f50",
+    "name": "VIP Salon",
+    "url": "https://www.google.com/maps/place/VIP+Salon/data=!4m7!3m6!1s0x47758dafab99ba4b:0xb46d4ef27281f50!8m2!3d48.4504422!4d12.3556324!16s%2Fg%2F11z12y13sx!19sChIJS7qZq6-NdUcRUB8oJ-_URgs?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "friseur"
+  },
+  {
+    "id": "0x47758dab393a089b:0x332bd1f54d6ef8cf",
+    "name": "Aurelia Friseure",
+    "url": "https://www.google.com/maps/place/Aurelia+Friseure/data=!4m7!3m6!1s0x47758dab393a089b:0x332bd1f54d6ef8cf!8m2!3d48.4513549!4d12.3559825!16s%2Fg%2F11t4ctvfv9!19sChIJmwg6OauNdUcRz_huTfXRKzM?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "friseur"
+  },
+  {
+    "id": "0x47758c240b696595:0xf2970be9d7307241",
+    "name": "Cataleya Hair Salon",
+    "url": "https://www.google.com/maps/place/Cataleya+Hair+Salon/data=!4m7!3m6!1s0x47758c240b696595:0xf2970be9d7307241!8m2!3d48.4504302!4d12.3556828!16s%2Fg%2F11gfk14sjs!19sChIJlWVpCySMdUcRQXIw1-kLl_I?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "friseur"
+  },
+  {
+    "id": "0x47758d172b0bd28d:0x99de77769f09eba9",
+    "name": "Musti‘s Hairsalon",
+    "url": "https://www.google.com/maps/place/Musti%E2%80%98s+Hairsalon/data=!4m7!3m6!1s0x47758d172b0bd28d:0x99de77769f09eba9!8m2!3d48.4491664!4d12.3501553!16s%2Fg%2F11mcj21jff!19sChIJjdILKxeNdUcRqesJn3Z33pk?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "friseur"
+  },
+  {
+    "id": "0x47758c2303482a03:0xa711722db51eec9d",
+    "name": "Kerstin's Haarzauber",
+    "url": "https://www.google.com/maps/place/Kerstin%27s+Haarzauber/data=!4m7!3m6!1s0x47758c2303482a03:0xa711722db51eec9d!8m2!3d48.4489334!4d12.3516413!16s%2Fg%2F1tk21rj2!19sChIJAypIAyOMdUcRnewetS1yEac?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "friseur"
+  },
+  {
+    "id": "0x47758c23a09b003d:0xef31b6d496e0b058",
+    "name": "Friseur Haarem Vilsbiburg",
+    "url": "https://www.google.com/maps/place/Friseur+Haarem+Vilsbiburg/data=!4m7!3m6!1s0x47758c23a09b003d:0xef31b6d496e0b058!8m2!3d48.4493516!4d12.3529255!16s%2Fg%2F1v8x0_ts!19sChIJPQCboCOMdUcRWLDgltS2Me8?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "friseur"
+  },
+  {
+    "id": "0x47758e9f862f11cd:0x7e6a9f1a1f57b1e",
+    "name": "Mario Vib-Friseur",
+    "url": "https://www.google.com/maps/place/Mario+Vib-Friseur/data=!4m7!3m6!1s0x47758e9f862f11cd:0x7e6a9f1a1f57b1e!8m2!3d48.4588833!4d12.3525161!16s%2Fg%2F11g6mx5t2p!19sChIJzREvhp-OdUcRHnv1ofGp5gc?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "friseur"
+  },
+  {
+    "id": "0x47758eb61d2dfa8d:0x9abf528d18d26842",
+    "name": "Friseur Trautmannsberger Hairstylist",
+    "url": "https://www.google.com/maps/place/Friseur+Trautmannsberger+Hairstylist/data=!4m7!3m6!1s0x47758eb61d2dfa8d:0x9abf528d18d26842!8m2!3d48.47838!4d12.34154!16s%2Fg%2F1tgcl3fx!19sChIJjfotHbaOdUcRQmjSGI1Sv5o?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "friseur"
+  },
+  {
+    "id": "0x47758c2400ffa31d:0xf498d0c4ee5ee7e5",
+    "name": "Ingrid Pürkner Friseursalon",
+    "url": "https://www.google.com/maps/place/Ingrid+P%C3%BCrkner+Friseursalon/data=!4m7!3m6!1s0x47758c2400ffa31d:0xf498d0c4ee5ee7e5!8m2!3d48.4514142!4d12.3560442!16s%2Fg%2F1vcl2l7g!19sChIJHaP_ACSMdUcR5ede7sTQmPQ?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "friseur"
+  },
+  {
+    "id": "0x47758fe39a7111f5:0xcaeb6166ed902bb1",
+    "name": "Johanna Busch Brautstyling - Hair \u0026 Make-up | Landshut",
+    "url": "https://www.google.com/maps/place/Johanna+Busch+Brautstyling+-+Hair+%26+Make-up+%7C+Landshut/data=!4m7!3m6!1s0x47758fe39a7111f5:0xcaeb6166ed902bb1!8m2!3d48.4908975!4d12.3710645!16s%2Fg%2F11xt6zc9d4!19sChIJ9RFxmuOPdUcRsSuQ7WZh68o?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "friseur"
+  },
+  {
+    "id": "0x47758d8c4cdb1a31:0xb2937e6b77efc14c",
+    "name": "Haarstudio Alexandra",
+    "url": "https://www.google.com/maps/place/Haarstudio+Alexandra/data=!4m7!3m6!1s0x47758d8c4cdb1a31:0xb2937e6b77efc14c!8m2!3d48.4271768!4d12.4091775!16s%2Fg%2F1tl1gq5g!19sChIJMRrbTIyNdUcRTMHvd2t-k7I?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "friseur"
+  },
+  {
+    "id": "0x47758c238bf843ef:0x75a272e6cc6465e7",
+    "name": "Johanna Hussinger Die Fliegende Schere",
+    "url": "https://www.google.com/maps/place/Johanna+Hussinger+Die+Fliegende+Schere/data=!4m7!3m6!1s0x47758c238bf843ef:0x75a272e6cc6465e7!8m2!3d48.4500866!4d12.3548958!16s%2Fg%2F1td1229z!19sChIJ70P4iyOMdUcR52VkzOZyonU?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "friseur"
+  },
+  {
+    "id": "0x47758d70e6fd5d59:0xd91fcf7bb609ca7e",
+    "name": "Friseur Haarkules",
+    "url": "https://www.google.com/maps/place/Friseur+Haarkules/data=!4m7!3m6!1s0x47758d70e6fd5d59:0xd91fcf7bb609ca7e!8m2!3d48.4087173!4d12.3967164!16s%2Fg%2F1tgz4979!19sChIJWV395nCNdUcRfsoJtnvPH9k?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "friseur"
+  },
+  {
+    "id": "0x47758c79b94ee8b3:0x3b2de7fb9c731a50",
+    "name": "Steffi Petersohn Haarstudio Mobil",
+    "url": "https://www.google.com/maps/place/Steffi+Petersohn+Haarstudio+Mobil/data=!4m7!3m6!1s0x47758c79b94ee8b3:0x3b2de7fb9c731a50!8m2!3d48.4289529!4d12.3167537!16s%2Fg%2F11bzyq9wd1!19sChIJs-hOuXmMdUcRUBpznPvnLTs?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "friseur"
+  },
+  {
+    "id": "0x47758d4ac7ff0c65:0x625001b0f02911b1",
+    "name": "Lash \u0026 Brow by Eny Mohai",
+    "url": "https://www.google.com/maps/place/Lash+%26+Brow+by+Eny+Mohai/data=!4m7!3m6!1s0x47758d4ac7ff0c65:0x625001b0f02911b1!8m2!3d51.175807!4d10.4541194!16s%2Fg%2F11lnlpv6_x!19sChIJZQz_x0qNdUcRsREp8LABUGI?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "friseur"
+  },
+  {
+    "id": "0x47758b865e67ae95:0x3b62a5a0c76d0187",
+    "name": "Heidi's Hundesalon",
+    "url": "https://www.google.com/maps/place/Heidi%27s+Hundesalon/data=!4m7!3m6!1s0x47758b865e67ae95:0x3b62a5a0c76d0187!8m2!3d48.4292335!4d12.3070145!16s%2Fg%2F1td5kh_9!19sChIJla5nXoaLdUcRhwFtx6ClYjs?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "friseur"
+  },
+  {
+    "id": "0x47758c789bb9a151:0xff7bfe6124d57ce2",
+    "name": "Hereingedackelt",
+    "url": "https://www.google.com/maps/place/Hereingedackelt/data=!4m7!3m6!1s0x47758c789bb9a151:0xff7bfe6124d57ce2!8m2!3d48.4275933!4d12.3121398!16s%2Fg%2F11hyn8ppns!19sChIJUaG5m3iMdUcR4nzVJGH-e_8?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "friseur"
+  },
+  {
+    "id": "0x47758c231b0e2c15:0xdcddd3cbc9d058",
+    "name": "Salon Fischer",
+    "url": "https://www.google.com/maps/place/Salon+Fischer/data=!4m7!3m6!1s0x47758c231b0e2c15:0xdcddd3cbc9d058!8m2!3d48.4487399!4d12.3517838!16s%2Fg%2F11xmcmkl82!19sChIJFSwOGyOMdUcRWNDJy9Pd3AA?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "friseur"
+  },
+  {
+    "id": "0x47758d8e40bff635:0xa1bdcdc8768d258",
+    "name": "Butterfly Nails Yasi",
+    "url": "https://www.google.com/maps/place/Butterfly+Nails+Yasi/data=!4m7!3m6!1s0x47758d8e40bff635:0xa1bdcdc8768d258!8m2!3d48.4548334!4d12.3546711!16s%2Fg%2F11wmyx70m_!19sChIJNfa_QI6NdUcRWNJoh9zcGwo?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "friseur"
+  },
+  {
+    "id": "0x47758c22f016aaab:0xa611b7d81b241907",
+    "name": "Beauty Kreisel",
+    "url": "https://www.google.com/maps/place/Beauty+Kreisel/data=!4m7!3m6!1s0x47758c22f016aaab:0xa611b7d81b241907!8m2!3d48.4490656!4d12.3504401!16s%2Fg%2F11l1yh0_0p!19sChIJq6oW8CKMdUcRBxkkG9i3EaY?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "friseur"
+  },
+  {
+    "id": "0x47758e9e40c58f7f:0xfa523e29e0ef148b",
+    "name": "Nagelstudio Martina Bechte",
+    "url": "https://www.google.com/maps/place/Nagelstudio+Martina+Bechte/data=!4m7!3m6!1s0x47758e9e40c58f7f:0xfa523e29e0ef148b!8m2!3d48.4908949!4d12.3717322!16s%2Fg%2F11b6y4sjfr!19sChIJf4_FQJ6OdUcRixTv4Ck-Uvo?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "friseur"
+  },
+  {
+    "id": "0x47758d7ce5b10499:0xe1964b49a366a7f0",
+    "name": "Güler Eventlocation",
+    "url": "https://www.google.com/maps/place/G%C3%BCler+Eventlocation/data=!4m7!3m6!1s0x47758d7ce5b10499:0xe1964b49a366a7f0!8m2!3d48.447129!4d12.3683208!16s%2Fg%2F11w1yl465_!19sChIJmQSx5XyNdUcR8Kdmo0lLluE?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "friseur"
+  },
+  {
+    "id": "0x66b85a58ec992e47:0x959430d5f8b35181",
+    "name": "VIP SALON",
+    "url": "https://www.google.com/maps/place/VIP+SALON/data=!4m7!3m6!1s0x66b85a58ec992e47:0x959430d5f8b35181!8m2!3d48.4388962!4d12.3511545!16s%2Fg%2F11z13h4ph7!19sChIJRy6Z7FhauGYRgVGz-NUwlJU?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "friseur"
+  },
+  {
+    "id": "0x47758c24872f8a3f:0xfcfbc3d9404def09",
+    "name": "Ernsting's family",
+    "url": "https://www.google.com/maps/place/Ernsting%27s+family/data=!4m7!3m6!1s0x47758c24872f8a3f:0xfcfbc3d9404def09!8m2!3d48.4490596!4d12.3552331!16s%2Fg%2F11c3lb96yt!19sChIJP4ovhySMdUcRCe9NQNnD-_w?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "friseur"
+  },
+  {
+    "id": "0x47758c04924364e7:0x71ca891c435e2b87",
+    "name": "Takko Fashion",
+    "url": "https://www.google.com/maps/place/Takko+Fashion/data=!4m7!3m6!1s0x47758c04924364e7:0x71ca891c435e2b87!8m2!3d48.4529317!4d12.3339919!16s%2Fg%2F1tfg1xqt!19sChIJ52RDkgSMdUcRhyteQxyJynE?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "friseur"
+  },
+  {
+    "id": "0x47758c421552b94f:0x53a231fe9198315",
+    "name": "Variedades Latinas - Lateinamerikanische Produkte",
+    "url": "https://www.google.com/maps/place/Variedades+Latinas+-+Lateinamerikanische+Produkte/data=!4m7!3m6!1s0x47758c421552b94f:0x53a231fe9198315!8m2!3d48.4315825!4d12.3419261!16s%2Fg%2F11c80975zk!19sChIJT7lSFUKMdUcRFYMZ6R8jOgU?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "friseur"
+  },
+  {
+    "id": "0x47758961987b1a43:0x852b43f0e1f7c3bf",
+    "name": "Friseurstüberl Christine",
+    "url": "https://www.google.com/maps/place/Friseurst%C3%BCberl+Christine/data=!4m7!3m6!1s0x47758961987b1a43:0x852b43f0e1f7c3bf!8m2!3d48.539125!4d12.2621516!16s%2Fg%2F11fjtqkl_j!19sChIJQxp7mGGJdUcRv8P34fBDK4U?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "friseur"
+  },
+  {
+    "id": "0x47758fbf0566b7a9:0xc5448b72c4eb5a4",
+    "name": "Sigi Harlander Friseursalon",
+    "url": "https://www.google.com/maps/place/Sigi+Harlander+Friseursalon/data=!4m7!3m6!1s0x47758fbf0566b7a9:0xc5448b72c4eb5a4!8m2!3d48.5069308!4d12.4247659!16s%2Fg%2F1tl8jjlw!19sChIJqbdmBb-PdUcRpLVOLLdIVAw?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "friseur"
+  },
+  {
+    "id": "0x47758c239b9d8825:0xdc12362e641e62e7",
+    "name": "Euronics HAMMER",
+    "url": "https://www.google.com/maps/place/Euronics+HAMMER/data=!4m7!3m6!1s0x47758c239b9d8825:0xdc12362e641e62e7!8m2!3d48.4523948!4d12.338633!16s%2Fg%2F1xgz9m8h!19sChIJJYidmyOMdUcR52IeZC42Etw?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "friseur"
+  },
+  {
+    "id": "0x47758c25d9c0cfd9:0xbccc5459aac2b507",
+    "name": "Kik Vilsbiburg",
+    "url": "https://www.google.com/maps/place/Kik+Vilsbiburg/data=!4m7!3m6!1s0x47758c25d9c0cfd9:0xbccc5459aac2b507!8m2!3d48.45141!4d12.360024!16s%2Fg%2F12hsnn2ny!19sChIJ2c_A2SWMdUcRB7XCqllUzLw?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "friseur"
+  },
+  {
+    "id": "0x47758c239ce0e49d:0xa63219139c13734c",
+    "name": "Löwen-Apotheke Mathias Schwinghammer e.K.",
+    "url": "https://www.google.com/maps/place/L%C3%B6wen-Apotheke+Mathias+Schwinghammer+e.K./data=!4m7!3m6!1s0x47758c239ce0e49d:0xa63219139c13734c!8m2!3d48.4493579!4d12.3538987!16s%2Fg%2F1tftpxsk!19sChIJneTgnCOMdUcRTHMTnBMZMqY?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "friseur"
+  },
+  {
+    "id": "0x47758fbf9d5a55c9:0x5f02302685c3f22f",
+    "name": "Michael Moser",
+    "url": "https://www.google.com/maps/place/Michael+Moser/data=!4m7!3m6!1s0x47758fbf9d5a55c9:0x5f02302685c3f22f!8m2!3d48.50729!4d12.42689!16s%2Fg%2F11b6dc_g4c!19sChIJyVVanb-PdUcRL_LDhSYwAl8?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "friseur"
+  },
+  {
+    "id": "0x47758c26764c0cd1:0x36b0ca678b072bed",
+    "name": "EDEKA Wolf",
+    "url": "https://www.google.com/maps/place/EDEKA+Wolf/data=!4m7!3m6!1s0x47758c26764c0cd1:0x36b0ca678b072bed!8m2!3d48.451061!4d12.3602302!16s%2Fg%2F11h0z2pgj!19sChIJ0QxMdiaMdUcR7SsHi2fKsDY?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "friseur"
+  },
+  {
+    "id": "0x47758c27e2fdf835:0xf30fc96cf7b3faef",
+    "name": "Lidl",
+    "url": "https://www.google.com/maps/place/Lidl/data=!4m7!3m6!1s0x47758c27e2fdf835:0xf30fc96cf7b3faef!8m2!3d48.45501!4d12.36421!16s%2Fg%2F124ykpq9l!19sChIJNfj94ieMdUcR7_qz92zJD_M?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "friseur"
+  },
+  {
+    "id": "0x47758c04924364e7:0xb083a49a43d131aa",
+    "name": "dm-drogerie markt",
+    "url": "https://www.google.com/maps/place/dm-drogerie+markt/data=!4m7!3m6!1s0x47758c04924364e7:0xb083a49a43d131aa!8m2!3d48.4530015!4d12.3346996!16s%2Fg%2F1tffhlpf!19sChIJ52RDkgSMdUcRqjHRQ5qkg7A?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "friseur"
+  },
+  {
+    "id": "0x47758c23789161c1:0x130b0676ba2a284b",
+    "name": "NKD",
+    "url": "https://www.google.com/maps/place/NKD/data=!4m7!3m6!1s0x47758c23789161c1:0x130b0676ba2a284b!8m2!3d48.4492501!4d12.3540592!16s%2Fg%2F1tqtwq8q!19sChIJwWGReCOMdUcRSygqunYGCxM?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "friseur"
+  },
+  {
+    "id": "0x4775f4ea7848312f:0xf29787d8c2d4847a",
+    "name": "AH-Friseurteam",
+    "url": "https://www.google.com/maps/place/AH-Friseurteam/data=!4m7!3m6!1s0x4775f4ea7848312f:0xf29787d8c2d4847a!8m2!3d48.3681181!4d12.2529354!16s%2Fg%2F1tgpx07g!19sChIJLzFIeOr0dUcReoTUwtiHl_I?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "friseur"
+  },
+  {
+    "id": "0x4775f36fed6d962b:0x83c0641c3b686f40",
+    "name": "Haarexpress",
+    "url": "https://www.google.com/maps/place/Haarexpress/data=!4m7!3m6!1s0x4775f36fed6d962b:0x83c0641c3b686f40!8m2!3d48.3606464!4d12.3871596!16s%2Fg%2F11w50wfmh8!19sChIJK5Zt7W_zdUcRQG9oOxxkwIM?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "friseur"
+  },
+  {
+    "id": "0x47758c239cb9ba97:0x80f8daf97732b8e",
+    "name": "Lothar-Mayer`sche Apotheke Vilsbiburg",
+    "url": "https://www.google.com/maps/place/Lothar-Mayer%60sche+Apotheke+Vilsbiburg/data=!4m7!3m6!1s0x47758c239cb9ba97:0x80f8daf97732b8e!8m2!3d48.44873!4d12.35572!16s%2Fg%2F1tgkg30p!19sChIJl7q5nCOMdUcRjitzl6-NDwg?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "friseur"
+  },
+  {
+    "id": "0x47758d5ad3c9cfc5:0x397dddcb2806e1fc",
+    "name": "Michaelas Haarstyle",
+    "url": "https://www.google.com/maps/place/Michaelas+Haarstyle/data=!4m7!3m6!1s0x47758d5ad3c9cfc5:0x397dddcb2806e1fc!8m2!3d48.3841917!4d12.3872678!16s%2Fg%2F11h3sn3r6k!19sChIJxc_J01qNdUcR_OEGKMvdfTk?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "friseur"
+  },
+  {
+    "id": "0x4775f3000afc48db:0x506e7d825a9f8eb3",
+    "name": "Hauzenbergersöll",
+    "url": "https://www.google.com/maps/place/Hauzenbergers%C3%B6ll/data=!4m7!3m6!1s0x4775f3000afc48db:0x506e7d825a9f8eb3!8m2!3d48.3606464!4d12.3871596!16s%2Fg%2F11y6jfjm23!19sChIJ20j8CgDzdUcRs46fWoJ9blA?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "friseur"
+  },
+  {
+    "id": "0x47758d489cce2099:0x99ed2f812bd2f327",
+    "name": "Gudrun Abele",
+    "url": "https://www.google.com/maps/place/Gudrun+Abele/data=!4m7!3m6!1s0x47758d489cce2099:0x99ed2f812bd2f327!8m2!3d48.3832!4d12.37708!16s%2Fg%2F11b6dgc4nz!19sChIJmSDOnEiNdUcRJ_PSK4Ev7Zk?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "friseur"
+  },
+  {
+    "id": "0x477589ee28e14bfd:0xa4ac105ef5a58b90",
+    "name": "PremiumShop321",
+    "url": "https://www.google.com/maps/place/PremiumShop321/data=!4m7!3m6!1s0x477589ee28e14bfd:0xa4ac105ef5a58b90!8m2!3d48.4782564!4d12.2438792!16s%2Fg%2F11fy4jnz0f!19sChIJ_UvhKO6JdUcRkIul9V4QrKQ?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "friseur"
+  },
+  {
+    "id": "0x47758c246b33d8a3:0xf931271f5dec4354",
+    "name": "PENNY",
+    "url": "https://www.google.com/maps/place/PENNY/data=!4m7!3m6!1s0x47758c246b33d8a3:0xf931271f5dec4354!8m2!3d48.4501814!4d12.356756!16s%2Fg%2F11f9fyb1sx!19sChIJo9gzaySMdUcRVEPsXR8nMfk?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "friseur"
+  },
+  {
+    "id": "0x47758c240f29454d:0x25d60c4f0da2b563",
+    "name": "Marien Apotheke oHG",
+    "url": "https://www.google.com/maps/place/Marien+Apotheke+oHG/data=!4m7!3m6!1s0x47758c240f29454d:0x25d60c4f0da2b563!8m2!3d48.4507513!4d12.3557725!16s%2Fg%2F1tcv9qfh!19sChIJTUUpDySMdUcRY7WiDU8M1iU?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "friseur"
+  },
+  {
+    "id": "0x477588ba7168e497:0x60d2708d32e94187",
+    "name": "Danner Anita",
+    "url": "https://www.google.com/maps/place/Danner+Anita/data=!4m7!3m6!1s0x477588ba7168e497:0x60d2708d32e94187!8m2!3d48.52589!4d12.34081!16s%2Fg%2F11fxvlgv35!19sChIJl-RocbqIdUcRh0HpMo1w0mA?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "friseur"
+  },
+  {
+    "id": "0x4775f4c1b855767d:0x8f1498d1694c68c6",
+    "name": "Martin Härtl",
+    "url": "https://www.google.com/maps/place/Martin+H%C3%A4rtl/data=!4m7!3m6!1s0x4775f4c1b855767d:0x8f1498d1694c68c6!8m2!3d48.367792!4d12.25403!16s%2Fg%2F11g87671kk!19sChIJfXZVuMH0dUcRxmhMadGYFI8?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "friseur"
+  },
+  {
+    "id": "0x477589f1dec37e15:0x83ba5bd72ce8f2b8",
+    "name": "NKD",
+    "url": "https://www.google.com/maps/place/NKD/data=!4m7!3m6!1s0x477589f1dec37e15:0x83ba5bd72ce8f2b8!8m2!3d48.4793458!4d12.2444709!16s%2Fg%2F1w6_mn7q!19sChIJFX7D3vGJdUcRuPLoLNdbuoM?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "friseur"
+  },
+  {
+    "id": "0x47758c1555555555:0x15af5a01cce6c5db",
+    "name": "Bioladen",
+    "url": "https://www.google.com/maps/place/Bioladen/data=!4m7!3m6!1s0x47758c1555555555:0x15af5a01cce6c5db!8m2!3d48.4359276!4d12.3474533!16s%2Fg%2F11pys6xfjt!19sChIJVVVVVRWMdUcR28XmzAFarxU?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "friseur"
+  },
+  {
+    "id": "0x47758eceaa41a55d:0xa1d25a6760dc3c0",
+    "name": "Seyboldsdorf",
+    "url": "https://www.google.com/maps/place/Seyboldsdorf/data=!4m7!3m6!1s0x47758eceaa41a55d:0xa1d25a6760dc3c0!8m2!3d48.4832586!4d12.3386044!16s%2Fg%2F11c43b789y!19sChIJXaVBqs6OdUcRwMMNdqYlHQo?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "friseur"
+  },
+  {
+    "id": "0x4775f3e538e215e7:0xce648b51823a5a48",
+    "name": "Friseur und Kosmetik Kick",
+    "url": "https://www.google.com/maps/place/Friseur+und+Kosmetik+Kick/data=!4m7!3m6!1s0x4775f3e538e215e7:0xce648b51823a5a48!8m2!3d48.311989!4d12.2751713!16s%2Fg%2F1tmz5r_m!19sChIJ5xXiOOXzdUcRSFo6glGLZM4?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "friseur"
+  },
+  {
+    "id": "0x4775f4eabeabd57f:0x27f0b3bfd4944eda",
+    "name": "Mirlinda Bartl",
+    "url": "https://www.google.com/maps/place/Mirlinda+Bartl/data=!4m7!3m6!1s0x4775f4eabeabd57f:0x27f0b3bfd4944eda!8m2!3d48.36062!4d12.25375!16s%2Fg%2F1tfrw9sk!19sChIJf9Wrvur0dUcR2k6U1L-z8Cc?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "friseur"
+  },
+  {
+    "id": "0x477580d2c8048d1f:0xf43068f39b66c7ac",
+    "name": "Friseur Herr Konte",
+    "url": "https://www.google.com/maps/place/Friseur+Herr+Konte/data=!4m7!3m6!1s0x477580d2c8048d1f:0xf43068f39b66c7ac!8m2!3d48.6232262!4d12.3401032!16s%2Fg%2F1v3klx47!19sChIJH40EyNKAdUcRrMdmm_NoMPQ?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "friseur"
+  },
+  {
+    "id": "0x4775f4dc513bace1:0xa1b18ff83e0ac90f",
+    "name": "Figaro auf Rädern",
+    "url": "https://www.google.com/maps/place/Figaro+auf+R%C3%A4dern/data=!4m7!3m6!1s0x4775f4dc513bace1:0xa1b18ff83e0ac90f!8m2!3d48.37057!4d12.24237!16s%2Fg%2F1vd74r3y!19sChIJ4aw7Udz0dUcRD8kKPviPsaE?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "friseur"
+  },
+  {
+    "id": "0x479e288404ddeacf:0x8f777b7c60197f43",
+    "name": "Friseurinnung Landshut",
+    "url": "https://www.google.com/maps/place/Friseurinnung+Landshut/data=!4m7!3m6!1s0x479e288404ddeacf:0x8f777b7c60197f43!8m2!3d48.5602511!4d12.2004687!16s%2Fg%2F11f71mvm63!19sChIJz-rdBIQonkcRQ38ZYHx7d48?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "friseur"
+  },
+  {
+    "id": "0x4109605fc6b91135:0xdeab276907668a67",
+    "name": "max.Friseure Inh. Max Steinbrunner jun.",
+    "url": "https://www.google.com/maps/place/max.Friseure+Inh.+Max+Steinbrunner+jun./data=!4m7!3m6!1s0x4109605fc6b91135:0xdeab276907668a67!8m2!3d48.6291837!4d12.4987838!16s%2Fg%2F1tkmlc8s!19sChIJNRG5xl9gCUERZ4pmB2knq94?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "friseur"
+  },
+  {
+    "id": "0x4775f4dc513bace1:0xe7801819c243fd6d",
+    "name": "Anke Gumpoltsberger",
+    "url": "https://www.google.com/maps/place/Anke+Gumpoltsberger/data=!4m7!3m6!1s0x4775f4dc513bace1:0xe7801819c243fd6d!8m2!3d48.37057!4d12.24237!16s%2Fg%2F1v26kydm!19sChIJ4aw7Udz0dUcRbf1DwhkYgOc?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "friseur"
+  },
+  {
+    "id": "0xa8aad230cc4a24d7:0x7391b52687769b24",
+    "name": "Tanja Styling Wunderhübsch",
+    "url": "https://www.google.com/maps/place/Tanja+Styling+Wunderh%C3%BCbsch/data=!4m7!3m6!1s0xa8aad230cc4a24d7:0x7391b52687769b24!8m2!3d48.5424588!4d12.2897206!16s%2Fg%2F11z9_lxg5d!19sChIJ1yRKzDDSqqgRJJt2hya1kXM?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "friseur"
+  },
+  {
+    "id": "0x4775f3fab77d765f:0x90c9ccd05ae7ad14",
+    "name": "Angela Fischer",
+    "url": "https://www.google.com/maps/place/Angela+Fischer/data=!4m7!3m6!1s0x4775f3fab77d765f:0x90c9ccd05ae7ad14!8m2!3d48.31254!4d12.27368!16s%2Fg%2F1tfvrsb4!19sChIJX3Z9t_rzdUcRFK3nWtDMyZA?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "friseur"
+  },
+  {
+    "id": "0x47758d8e454e2641:0x261d25a4f897aff1",
+    "name": "Aich",
+    "url": "https://www.google.com/maps/place/Aich/data=!4m7!3m6!1s0x47758d8e454e2641:0x261d25a4f897aff1!8m2!3d48.4260933!4d12.4095145!16s%2Fg%2F1tgm1p8g!19sChIJQSZORY6NdUcR8a-X-KQlHSY?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "friseur"
+  },
+  {
+    "id": "0x4775f3aaddf95e55:0x30021d9bd5f460e6",
+    "name": "Kathi Eibelsgruber Friseurmeisterin",
+    "url": "https://www.google.com/maps/place/Kathi+Eibelsgruber+Friseurmeisterin/data=!4m7!3m6!1s0x4775f3aaddf95e55:0x30021d9bd5f460e6!8m2!3d51.175807!4d10.4541194!16s%2Fg%2F11vplwcm1r!19sChIJVV753arzdUcR5mD01ZsdAjA?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "friseur"
+  },
+  {
+    "id": "0x47758d23158a55d9:0x18786d83e42d60ea",
+    "name": "PURITÉ - Pilates Reformer Studio Vilsbiburg",
+    "url": "https://www.google.com/maps/place/PURIT%C3%89+-+Pilates+Reformer+Studio+Vilsbiburg/data=!4m7!3m6!1s0x47758d23158a55d9:0x18786d83e42d60ea!8m2!3d48.4522185!4d12.3339939!16s%2Fg%2F11vf1fmps1!19sChIJ2VWKFSONdUcR6mAt5INteBg?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "fitnessstudio"
+  },
+  {
+    "id": "0x47758da26cfa0077:0xa23b28e0f23b404c",
+    "name": "Kanjana Wellness \u0026 Thaimassagen",
+    "url": "https://www.google.com/maps/place/Kanjana+Wellness+%26+Thaimassagen/data=!4m7!3m6!1s0x47758da26cfa0077:0xa23b28e0f23b404c!8m2!3d48.4488283!4d12.352018!16s%2Fg%2F11tfp9k5nh!19sChIJdwD6bKKNdUcRTEA78uAoO6I?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "fitness"
+  },
+  {
+    "id": "0x47758ddc370661ef:0xe79ce14b8f9f6133",
+    "name": "LOCA",
+    "url": "https://www.google.com/maps/place/LOCA/data=!4m7!3m6!1s0x47758ddc370661ef:0xe79ce14b8f9f6133!8m2!3d48.4447001!4d12.3580107!16s%2Fg%2F11vybc4bv3!19sChIJ72EGN9yNdUcRM2Gfj0vhnOc?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "fitness"
+  },
+  {
+    "id": "0x47758c18c6a0b2cd:0xadab05b555a3e49c",
+    "name": "Sportpark Vilsbiburg",
+    "url": "https://www.google.com/maps/place/Sportpark+Vilsbiburg/data=!4m7!3m6!1s0x47758c18c6a0b2cd:0xadab05b555a3e49c!8m2!3d48.4515985!4d12.3469989!16s%2Fg%2F1w4f6y59!19sChIJzbKgxhiMdUcRnOSjVbUFq60?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "fitness"
+  },
+  {
+    "id": "0x47758c1eeef96987:0x80445a37f8af2724",
+    "name": "Ballsporthalle",
+    "url": "https://www.google.com/maps/place/Ballsporthalle/data=!4m7!3m6!1s0x47758c1eeef96987:0x80445a37f8af2724!8m2!3d48.4543976!4d12.3458809!16s%2Fg%2F1pp2vm44d!19sChIJh2n57h6MdUcRJCev-DdaRIA?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "fitness"
+  },
+  {
+    "id": "0x47758ddf605b7ffd:0x2ff1eb70a02af86f",
+    "name": "Kampfkunstschule Schreiner",
+    "url": "https://www.google.com/maps/place/Kampfkunstschule+Schreiner/data=!4m7!3m6!1s0x47758ddf605b7ffd:0x2ff1eb70a02af86f!8m2!3d48.4517834!4d12.3359669!16s%2Fg%2F11z54rr82x!19sChIJ_X9bYN-NdUcRb_gqoHDr8S8?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "fitness"
+  },
+  {
+    "id": "0x47758c220544bcbb:0x8204fc5e2164fce9",
+    "name": "Parringer Sports",
+    "url": "https://www.google.com/maps/place/Parringer+Sports/data=!4m7!3m6!1s0x47758c220544bcbb:0x8204fc5e2164fce9!8m2!3d48.4516187!4d12.34995!16s%2Fg%2F11fcsw5n2w!19sChIJu7xEBSKMdUcR6fxkIV78BII?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "fitness"
+  },
+  {
+    "id": "0x47758c241a472f9b:0xf9142a2f2a9184c6",
+    "name": "Rad+Sport Bauer",
+    "url": "https://www.google.com/maps/place/Rad%2BSport+Bauer/data=!4m7!3m6!1s0x47758c241a472f9b:0xf9142a2f2a9184c6!8m2!3d48.4509306!4d12.3567077!16s%2Fg%2F1tvq2ytp!19sChIJmy9HGiSMdUcRxoSRKi8qFPk?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "fitness"
+  },
+  {
+    "id": "0x4775f4c1c28423a7:0x40331d8f3155f23b",
+    "name": "fit+ Velden",
+    "url": "https://www.google.com/maps/place/fit%2B+Velden/data=!4m7!3m6!1s0x4775f4c1c28423a7:0x40331d8f3155f23b!8m2!3d48.3672414!4d12.25307!16s%2Fg%2F1tc_d236!19sChIJpyOEwsH0dUcRO_JVMY8dM0A?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "fitness"
+  },
+  {
+    "id": "0x47758d9ad299a153:0xa7c2a562e211ec3e",
+    "name": "Body \u0026 Faceforming by Maria",
+    "url": "https://www.google.com/maps/place/Body+%26+Faceforming+by+Maria/data=!4m7!3m6!1s0x47758d9ad299a153:0xa7c2a562e211ec3e!8m2!3d48.4474787!4d12.3575708!16s%2Fg%2F11z691mr8_!19sChIJU6GZ0pqNdUcRPuwR4mKlwqc?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "fitness"
+  },
+  {
+    "id": "0x47758c26613f08b7:0x40bcaf02e8ec950",
+    "name": "Yogaschule Vilsbiburg",
+    "url": "https://www.google.com/maps/place/Yogaschule+Vilsbiburg/data=!4m7!3m6!1s0x47758c26613f08b7:0x40bcaf02e8ec950!8m2!3d48.4521926!4d12.3598193!16s%2Fg%2F11c2pvlz0y!19sChIJtwg_YSaMdUcRUMmOLvDKCwQ?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "fitness"
+  },
+  {
+    "id": "0x63dc9c3755354ebb:0x861906c5a1e4709c",
+    "name": "Bewegung \u0026 Entspannung Rebecca Saxstetter",
+    "url": "https://www.google.com/maps/place/Bewegung+%26+Entspannung+Rebecca+Saxstetter/data=!4m7!3m6!1s0x63dc9c3755354ebb:0x861906c5a1e4709c!8m2!3d48.4433377!4d12.3597694!16s%2Fg%2F11k56df4z_!19sChIJu041VTec3GMRnHDkocUGGYY?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "fitness"
+  },
+  {
+    "id": "0x47758d9c0a120e25:0x846468f46f1ca011",
+    "name": "Krav Maga Vilsbiburg",
+    "url": "https://www.google.com/maps/place/Krav+Maga+Vilsbiburg/data=!4m7!3m6!1s0x47758d9c0a120e25:0x846468f46f1ca011!8m2!3d48.445956!4d12.3457137!16s%2Fg%2F11w93dpd0f!19sChIJJQ4SCpyNdUcREaAcb_RoZIQ?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "fitness"
+  },
+  {
+    "id": "0x47758d1d75d0d8d1:0x5374ae884c877e78",
+    "name": "FOR•ME by Jessi",
+    "url": "https://www.google.com/maps/place/FOR%E2%80%A2ME+by+Jessi/data=!4m7!3m6!1s0x47758d1d75d0d8d1:0x5374ae884c877e78!8m2!3d48.4293113!4d12.3537726!16s%2Fg%2F11ykv9gfk6!19sChIJ0djQdR2NdUcReH6HTIiudFM?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "fitness"
+  },
+  {
+    "id": "0x47758dc76a9e51e1:0xbb22dfbb2a25e2d2",
+    "name": "Indoorgolf Vilsbiburg",
+    "url": "https://www.google.com/maps/place/Indoorgolf+Vilsbiburg/data=!4m7!3m6!1s0x47758dc76a9e51e1:0xbb22dfbb2a25e2d2!8m2!3d48.4522185!4d12.3339939!16s%2Fg%2F11p65qrpk2!19sChIJ4VGeaseNdUcR0uIlKrvfIrs?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "fitness"
+  },
+  {
+    "id": "0x4775f4ea0aaede95:0xb9da1ba8c48166b3",
+    "name": "Gesundheitszentrum Velden - Johann Strohmeier",
+    "url": "https://www.google.com/maps/place/Gesundheitszentrum+Velden+-+Johann+Strohmeier/data=!4m7!3m6!1s0x4775f4ea0aaede95:0xb9da1ba8c48166b3!8m2!3d48.3664332!4d12.2526943!16s%2Fg%2F1tcwvj_g!19sChIJld6uCur0dUcRs2aBxKgb2rk?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "fitness"
+  },
+  {
+    "id": "0x47758c3953ffffff:0xe36371cb71212af9",
+    "name": "Stadtbad Vilsbiburg",
+    "url": "https://www.google.com/maps/place/Stadtbad+Vilsbiburg/data=!4m7!3m6!1s0x47758c3953ffffff:0xe36371cb71212af9!8m2!3d48.4415652!4d12.3518474!16s%2Fg%2F11ltl6hx6h!19sChIJ____UzmMdUcR-SohcctxY-M?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "fitness"
+  },
+  {
+    "id": "0x47758d37bb6a8841:0x6e8a3443275915ed",
+    "name": "Thai Royal Fusspflege \u0026 Massage",
+    "url": "https://www.google.com/maps/place/Thai+Royal+Fusspflege+%26+Massage/data=!4m7!3m6!1s0x47758d37bb6a8841:0x6e8a3443275915ed!8m2!3d48.4496357!4d12.3494698!16s%2Fg%2F11s45tmqts!19sChIJQYhquzeNdUcR7RVZJ0M0im4?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "fitness"
+  },
+  {
+    "id": "0x47758fc053f009a1:0x7a7b79e128bc0d8b",
+    "name": "Gesundheits- und Therapiezentrum St. Florian",
+    "url": "https://www.google.com/maps/place/Gesundheits-+und+Therapiezentrum+St.+Florian/data=!4m7!3m6!1s0x47758fc053f009a1:0x7a7b79e128bc0d8b!8m2!3d48.5072674!4d12.4309565!16s%2Fg%2F1tp_569w!19sChIJoQnwU8CPdUcRiw28KOF5e3o?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "fitness"
+  },
+  {
+    "id": "0x47758c109bfaf545:0xf1b6cead8743da65",
+    "name": "Therapiezentrum REKURA",
+    "url": "https://www.google.com/maps/place/Therapiezentrum+REKURA/data=!4m7!3m6!1s0x47758c109bfaf545:0xf1b6cead8743da65!8m2!3d48.4476642!4d12.3390529!16s%2Fg%2F1tmxdcsl!19sChIJRfX6mxCMdUcRZdpDh63OtvE?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "fitness"
+  },
+  {
+    "id": "0x47758d2a7fafd591:0x995c8c2bf3ad3a1c",
+    "name": "Erste Hilfe Kurs Vilsbiburg",
+    "url": "https://www.google.com/maps/place/Erste+Hilfe+Kurs+Vilsbiburg/data=!4m7!3m6!1s0x47758d2a7fafd591:0x995c8c2bf3ad3a1c!8m2!3d48.4454855!4d12.345018!16s%2Fg%2F11lv94ky_1!19sChIJkdWvfyqNdUcRHDqt8yuMXJk?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "fitness"
+  },
+  {
+    "id": "0x47758d94e954d9a9:0x8337fc06e1dde672",
+    "name": "Ballettanzschule Vilsbiburg",
+    "url": "https://www.google.com/maps/place/Ballettanzschule+Vilsbiburg/data=!4m7!3m6!1s0x47758d94e954d9a9:0x8337fc06e1dde672!8m2!3d48.4522185!4d12.3339939!16s%2Fg%2F11j5p54t3x!19sChIJqdlU6ZSNdUcRcubd4Qb8N4M?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "fitness"
+  },
+  {
+    "id": "0x479e28e4eafba2f3:0xc2bbb9aae45fc3a8",
+    "name": "MG Life GmbH",
+    "url": "https://www.google.com/maps/place/MG+Life+GmbH/data=!4m7!3m6!1s0x479e28e4eafba2f3:0xc2bbb9aae45fc3a8!8m2!3d48.449075!4d12.3654322!16s%2Fg%2F11d_tv3bzj!19sChIJ86L76uQonkcRqMNf5Kq5u8I?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "fitness"
+  },
+  {
+    "id": "0x47758c17c976c4e7:0x3961bd56eff6b9a4",
+    "name": "Tiger \u0026 Dragon Association Vilsbiburg",
+    "url": "https://www.google.com/maps/place/Tiger+%26+Dragon+Association+Vilsbiburg/data=!4m7!3m6!1s0x47758c17c976c4e7:0x3961bd56eff6b9a4!8m2!3d48.3833576!4d12.3857991!16s%2Fg%2F11c5rt8hnw!19sChIJ58R2yReMdUcRpLn271a9YTk?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "fitness"
+  },
+  {
+    "id": "0x47758d42a00b4ff5:0xbb669a9597e803ea",
+    "name": "Vilstal-Bikes Baier",
+    "url": "https://www.google.com/maps/place/Vilstal-Bikes+Baier/data=!4m7!3m6!1s0x47758d42a00b4ff5:0xbb669a9597e803ea!8m2!3d48.4512678!4d12.3522285!16s%2Fg%2F11kjcp_zb_!19sChIJ9U8LoEKNdUcR6gPol5WaZrs?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "fitness"
+  },
+  {
+    "id": "0x47758d7d76742785:0x1acd63edaefe11a0",
+    "name": "AB Tenniswelt",
+    "url": "https://www.google.com/maps/place/AB+Tenniswelt/data=!4m7!3m6!1s0x47758d7d76742785:0x1acd63edaefe11a0!8m2!3d48.4508516!4d12.3731249!16s%2Fg%2F11x68v61w4!19sChIJhSd0dn2NdUcRoBH-ru1jzRo?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "fitness"
+  },
+  {
+    "id": "0x47758e9d6b72a737:0xdbb0e4ce0112df01",
+    "name": "Maximilian-von-Montgelas-Gymnasium",
+    "url": "https://www.google.com/maps/place/Maximilian-von-Montgelas-Gymnasium/data=!4m7!3m6!1s0x47758e9d6b72a737:0xdbb0e4ce0112df01!8m2!3d48.45703!4d12.36299!16s%2Fg%2F11bxfdywgc!19sChIJN6dya52OdUcRAd8SAc7ksNs?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "fitness"
+  },
+  {
+    "id": "0x47758c2715e63bc1:0x3f425083977fe42c",
+    "name": "Verkehrsgarten Vilsbiburg",
+    "url": "https://www.google.com/maps/place/Verkehrsgarten+Vilsbiburg/data=!4m7!3m6!1s0x47758c2715e63bc1:0x3f425083977fe42c!8m2!3d48.454483!4d12.3589973!16s%2Fg%2F11dxpdmhsf!19sChIJwTvmFSeMdUcRLOR_l4NQQj8?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "fitness"
+  },
+  {
+    "id": "0x47758c18f5c7eb19:0xad2ddfe8d78f0682",
+    "name": "Fahrschule Höhlich GmbH",
+    "url": "https://www.google.com/maps/place/Fahrschule+H%C3%B6hlich+GmbH/data=!4m7!3m6!1s0x47758c18f5c7eb19:0xad2ddfe8d78f0682!8m2!3d48.4500567!4d12.34631!16s%2Fg%2F1wf37f47!19sChIJGevH9RiMdUcRggaP1-jfLa0?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "fitness"
+  },
+  {
+    "id": "0x47758c23b7bb096b:0x5b86ed000c32e62d",
+    "name": "Fahrrad Stelzenberger",
+    "url": "https://www.google.com/maps/place/Fahrrad+Stelzenberger/data=!4m7!3m6!1s0x47758c23b7bb096b:0x5b86ed000c32e62d!8m2!3d48.450543!4d12.3527275!16s%2Fg%2F1tdx7jmb!19sChIJawm7tyOMdUcRLeYyDADthls?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "fitness"
+  },
+  {
+    "id": "0x47758d0046f397cd:0x7b79ebe497300b56",
+    "name": "Yoga FC Eberspoint - Yin Yang Flow 🙏🏽",
+    "url": "https://www.google.com/maps/place/Yoga+FC+Eberspoint+-+Yin+Yang+Flow+%F0%9F%99%8F%F0%9F%8F%BD/data=!4m7!3m6!1s0x47758d0046f397cd:0x7b79ebe497300b56!8m2!3d48.3821678!4d12.3024513!16s%2Fg%2F11yz8sv78r!19sChIJzZfzRgCNdUcRVgswl-TreXs?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "fitness"
+  },
+  {
+    "id": "0x47758c846877749f:0xdc140bfbfdb96ee1",
+    "name": "Skiverleih Franz Sedlmeier",
+    "url": "https://www.google.com/maps/place/Skiverleih+Franz+Sedlmeier/data=!4m7!3m6!1s0x47758c846877749f:0xdc140bfbfdb96ee1!8m2!3d48.41372!4d12.31374!16s%2Fg%2F11b6dn4y2y!19sChIJn3R3aISMdUcR4W65_fsLFNw?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "fitness"
+  },
+  {
+    "id": "0x47758e8477495555:0xe1a9d48f75d60c30",
+    "name": "eggers TENNISSPORTS",
+    "url": "https://www.google.com/maps/place/eggers+TENNISSPORTS/data=!4m7!3m6!1s0x47758e8477495555:0xe1a9d48f75d60c30!8m2!3d48.4604015!4d12.3707851!16s%2Fg%2F11pd3h9nz_!19sChIJVVVJd4SOdUcRMAzWdY_UqeE?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "fitness"
+  },
+  {
+    "id": "0x41096c3bf4700d55:0x43729b614db15053",
+    "name": "bfz Vilsbiburg",
+    "url": "https://www.google.com/maps/place/bfz+Vilsbiburg/data=!4m7!3m6!1s0x41096c3bf4700d55:0x43729b614db15053!8m2!3d48.4480979!4d12.3571696!16s%2Fg%2F1tjysfcm!19sChIJVQ1w9DtsCUERU1CxTWGbckM?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "fitness"
+  },
+  {
+    "id": "0x47758c24ef567a59:0xa0ccc5553a31fffc",
+    "name": "Beauty-Line Kosmetik- und Nagelstudio",
+    "url": "https://www.google.com/maps/place/Beauty-Line+Kosmetik-+und+Nagelstudio/data=!4m7!3m6!1s0x47758c24ef567a59:0xa0ccc5553a31fffc!8m2!3d48.4480791!4d12.3566931!16s%2Fg%2F11b7stk0w0!19sChIJWXpW7ySMdUcR_P8xOlXFzKA?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "fitness"
+  },
+  {
+    "id": "0x477588ff93742d3b:0x879b1b090c100867",
+    "name": "Ponyreitschule Fjordpferdegestüt Wurzel Ranch",
+    "url": "https://www.google.com/maps/place/Ponyreitschule+Fjordpferdegest%C3%BCt+Wurzel+Ranch/data=!4m7!3m6!1s0x477588ff93742d3b:0x879b1b090c100867!8m2!3d48.5052047!4d12.2932617!16s%2Fg%2F11bzypdmxt!19sChIJOy10k_-IdUcRZwgQDAkbm4c?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "fitness"
+  },
+  {
+    "id": "0x47758ea19aa33e79:0x53df95b25f462786",
+    "name": "Wildschnee",
+    "url": "https://www.google.com/maps/place/Wildschnee/data=!4m7!3m6!1s0x47758ea19aa33e79:0x53df95b25f462786!8m2!3d48.461565!4d12.3509264!16s%2Fg%2F11bzypk6q9!19sChIJeT6jmqGOdUcRhidGX7KV31M?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "fitness"
+  },
+  {
+    "id": "0x4775f5fdbe627b8d:0xfd97ae784c5997ba",
+    "name": "Fitness Gesundheitszentrum Velden",
+    "url": "https://www.google.com/maps/place/Fitness+Gesundheitszentrum+Velden/data=!4m7!3m6!1s0x4775f5fdbe627b8d:0xfd97ae784c5997ba!8m2!3d48.366381!4d12.2527266!16s%2Fg%2F11t4_dmxkx!19sChIJjXtivv31dUcRupdZTHiul_0?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "fitness"
+  },
+  {
+    "id": "0x4775f457cf5c5999:0xc3fa8a8ddfca4b33",
+    "name": "HSV Vilsbiburg",
+    "url": "https://www.google.com/maps/place/HSV+Vilsbiburg/data=!4m7!3m6!1s0x4775f457cf5c5999:0xc3fa8a8ddfca4b33!8m2!3d48.3830731!4d12.3813314!16s%2Fg%2F11gcpdw5dz!19sChIJmVlcz1f0dUcRM0vK342K-sM?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "fitness"
+  },
+  {
+    "id": "0x47758d8353cb9b9b:0x844770644a5acf79",
+    "name": "Volkshochschule Vilsbiburg",
+    "url": "https://www.google.com/maps/place/Volkshochschule+Vilsbiburg/data=!4m7!3m6!1s0x47758d8353cb9b9b:0x844770644a5acf79!8m2!3d48.4487049!4d12.3549307!16s%2Fg%2F11sy1n8cms!19sChIJm5vLU4ONdUcRec9aSmRwR4Q?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "fitness"
+  },
+  {
+    "id": "0x4775924719e583a7:0x907040234265b464",
+    "name": "FIRE \u0026 ICE Wellness Spa Group GmbH",
+    "url": "https://www.google.com/maps/place/FIRE+%26+ICE+Wellness+Spa+Group+GmbH/data=!4m7!3m6!1s0x4775924719e583a7:0x907040234265b464!8m2!3d48.4238185!4d12.4535646!16s%2Fg%2F1tk6z9n8!19sChIJp4PlGUeSdUcRZLRlQiNAcJA?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "fitness"
+  },
+  {
+    "id": "0x47758b8aa518ee7d:0x28fb2cec1af7686c",
+    "name": "Pferdepension Bauer",
+    "url": "https://www.google.com/maps/place/Pferdepension+Bauer/data=!4m7!3m6!1s0x47758b8aa518ee7d:0x28fb2cec1af7686c!8m2!3d48.43991!4d12.31626!16s%2Fg%2F1tf_g726!19sChIJfe4YpYqLdUcRbGj3Guws-yg?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "fitness"
+  },
+  {
+    "id": "0x477589af337db7db:0x9d0a6c501bfa5c54",
+    "name": "Tanzraum Juliane Zdera",
+    "url": "https://www.google.com/maps/place/Tanzraum+Juliane+Zdera/data=!4m7!3m6!1s0x477589af337db7db:0x9d0a6c501bfa5c54!8m2!3d48.4759172!4d12.2577935!16s%2Fg%2F11frp99jl3!19sChIJ27d9M6-JdUcRVFz6G1BsCp0?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "fitness"
+  },
+  {
+    "id": "0x47758d271f9db7e5:0xf527d404b8079eb5",
+    "name": "Parkplatz Binataler 3D Bogenparcours",
+    "url": "https://www.google.com/maps/place/Parkplatz+Binataler+3D+Bogenparcours/data=!4m7!3m6!1s0x47758d271f9db7e5:0xf527d404b8079eb5!8m2!3d48.3898709!4d12.3520096!16s%2Fg%2F11c6023yjv!19sChIJ5bedHyeNdUcRtZ4HuATUJ_U?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "fitness"
+  },
+  {
+    "id": "0x47758c24838d5387:0x23f5773d60953959",
+    "name": "Karate Altinger (Kinder Karate Vilsbiburg)",
+    "url": "https://www.google.com/maps/place/Karate+Altinger+%28Kinder+Karate+Vilsbiburg%29/data=!4m7!3m6!1s0x47758c24838d5387:0x23f5773d60953959!8m2!3d48.4487511!4d12.3549669!16s%2Fg%2F11hbfk1_jt!19sChIJh1ONgySMdUcRWTmVYD139SM?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "fitness"
+  },
+  {
+    "id": "0x47758c3ea4ffffff:0xac2b26dab561bb3c",
+    "name": "Sports Field",
+    "url": "https://www.google.com/maps/place/Sports+Field/data=!4m7!3m6!1s0x47758c3ea4ffffff:0xac2b26dab561bb3c!8m2!3d48.441567!4d12.350373!16s%2Fg%2F11wwsh8gf_!19sChIJ____pD6MdUcRPLthtdomK6w?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "fitness"
+  },
+  {
+    "id": "0x47758b88c3955555:0x920168d228cde120",
+    "name": "Sports Field",
+    "url": "https://www.google.com/maps/place/Sports+Field/data=!4m7!3m6!1s0x47758b88c3955555:0x920168d228cde120!8m2!3d48.4330317!4d12.3085949!16s%2Fg%2F11yb1mddw5!19sChIJVVWVw4iLdUcRIOHNKNJoAZI?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "fitness"
+  },
+  {
+    "id": "0x6d53ea7998e9a6bd:0x4215188f29ebfd46",
+    "name": "BallettTanzschule",
+    "url": "https://www.google.com/maps/place/BallettTanzschule/data=!4m7!3m6!1s0x6d53ea7998e9a6bd:0x4215188f29ebfd46!8m2!3d48.5053066!4d12.2238015!16s%2Fg%2F11vyyfj2m_!19sChIJvabpmHnqU20RRv3rKY8YFUI?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "fitness"
+  },
+  {
+    "id": "0x47758c239b593531:0xd56b3e683e083bc9",
+    "name": "Witt Vilsbiburg",
+    "url": "https://www.google.com/maps/place/Witt+Vilsbiburg/data=!4m7!3m6!1s0x47758c239b593531:0xd56b3e683e083bc9!8m2!3d48.4496175!4d12.3541091!16s%2Fg%2F1thp6tr6!19sChIJMTVZmyOMdUcRyTsIPmg-a9U?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "fitness"
+  },
+  {
+    "id": "0x47758c84955481f5:0x567d559a36e354b1",
+    "name": "Waßmuth \u0026 Partner",
+    "url": "https://www.google.com/maps/place/Wa%C3%9Fmuth+%26+Partner/data=!4m7!3m6!1s0x47758c84955481f5:0x567d559a36e354b1!8m2!3d48.4119707!4d12.3131246!16s%2Fg%2F11bzyqc8lk!19sChIJ9YFUlYSMdUcRsVTjNppVfVY?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "fitness"
+  },
+  {
+    "id": "0x47758d9b6b4e5b25:0xabad85829dd9bd89",
+    "name": "Kinesiologie Hellen Hable",
+    "url": "https://www.google.com/maps/place/Kinesiologie+Hellen+Hable/data=!4m7!3m6!1s0x47758d9b6b4e5b25:0xabad85829dd9bd89!8m2!3d48.4474881!4d12.3575327!16s%2Fg%2F11ypybc_2v!19sChIJJVtOa5uNdUcRib3ZnYKFras?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "fitness"
+  },
+  {
+    "id": "0x47758c24ef20cc31:0xb48d97cb677a596f",
+    "name": "Fahrschule VIB-DRIVE",
+    "url": "https://www.google.com/maps/place/Fahrschule+VIB-DRIVE/data=!4m7!3m6!1s0x47758c24ef20cc31:0xb48d97cb677a596f!8m2!3d48.4547905!4d12.3340205!16s%2Fg%2F1q62m7974!19sChIJMcwg7ySMdUcRb1l6Z8uXjbQ?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "fitness"
+  },
+  {
+    "id": "0x47758d223ad3e815:0xeb02c28c6dd71615",
+    "name": "Tiger \u0026 Dragon Association International",
+    "url": "https://www.google.com/maps/place/Tiger+%26+Dragon+Association+International/data=!4m7!3m6!1s0x47758d223ad3e815:0xeb02c28c6dd71615!8m2!3d48.4309074!4d12.3564432!16s%2Fg%2F11h94zzr4w!19sChIJFejTOiKNdUcRFRbXbYzCAus?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "fitness"
+  },
+  {
+    "id": "0x477589bf9a2d6f4b:0x5cd0d93bd4d81c89",
+    "name": "RADhaus Spezialräder",
+    "url": "https://www.google.com/maps/place/RADhaus+Spezialr%C3%A4der/data=!4m7!3m6!1s0x477589bf9a2d6f4b:0x5cd0d93bd4d81c89!8m2!3d48.4808182!4d12.2453394!16s%2Fg%2F11gzq4p7r!19sChIJS28tmr-JdUcRiRzY1DvZ0Fw?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "fitness"
+  },
+  {
+    "id": "0x47758a95b2ba1b95:0xe7eaf236c16068f1",
+    "name": "Sexton Stable Mesnerhof",
+    "url": "https://www.google.com/maps/place/Sexton+Stable+Mesnerhof/data=!4m7!3m6!1s0x47758a95b2ba1b95:0xe7eaf236c16068f1!8m2!3d48.4128701!4d12.2200909!16s%2Fg%2F11c70hsd9v!19sChIJlRu6spWKdUcR8WhgwTby6uc?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "fitness"
+  },
+  {
+    "id": "0x47758dc7a0c673d7:0x46a6a58d4d5cf5ce",
+    "name": "Fressnapf Vilsbiburg",
+    "url": "https://www.google.com/maps/place/Fressnapf+Vilsbiburg/data=!4m7!3m6!1s0x47758dc7a0c673d7:0x46a6a58d4d5cf5ce!8m2!3d48.4516783!4d12.3354677!16s%2Fg%2F11shjlvk6z!19sChIJ13PGoMeNdUcRzvVcTY2lpkY?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "fitness"
+  },
+  {
+    "id": "0x2ce28dbf56d773f5:0xeb58c1fe47415f44",
+    "name": "Mamafitness-Kangatraining",
+    "url": "https://www.google.com/maps/place/Mamafitness-Kangatraining/data=!4m7!3m6!1s0x2ce28dbf56d773f5:0xeb58c1fe47415f44!8m2!3d48.2504842!4d12.5084194!16s%2Fg%2F11yz9z30gl!19sChIJ9XPXVr-N4iwRRF9BR_7BWOs?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "fitness"
+  },
+  {
+    "id": "0x47758941a839f39d:0xb97ae11364ccd4fd",
+    "name": "Gestüt Sunnaholt GmbH",
+    "url": "https://www.google.com/maps/place/Gest%C3%BCt+Sunnaholt+GmbH/data=!4m7!3m6!1s0x47758941a839f39d:0xb97ae11364ccd4fd!8m2!3d48.4788001!4d12.3104386!16s%2Fg%2F1tdb7nm_!19sChIJnfM5qEGJdUcR_dTMZBPherk?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "fitness"
+  },
+  {
+    "id": "0x47758d7c5203e60b:0x92105ae9addded47",
+    "name": "Fahrschule Schurig",
+    "url": "https://www.google.com/maps/place/Fahrschule+Schurig/data=!4m7!3m6!1s0x47758d7c5203e60b:0x92105ae9addded47!8m2!3d48.45064!4d12.35295!16s%2Fg%2F11j_rtqv67!19sChIJC-YDUnyNdUcRR-3drelaEJI?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "fitness"
+  },
+  {
+    "id": "0x47758c2378ca6195:0xa35e0248d2f7729c",
+    "name": "VOLI Vilsbiburg Pflegedienst \u0026 Tagespflege",
+    "url": "https://www.google.com/maps/place/VOLI+Vilsbiburg+Pflegedienst+%26+Tagespflege/data=!4m7!3m6!1s0x47758c2378ca6195:0xa35e0248d2f7729c!8m2!3d48.4490692!4d12.3544188!16s%2Fg%2F1wc301nm!19sChIJlWHKeCOMdUcRnHL30kgCXqM?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "fitness"
+  },
+  {
+    "id": "0x47758dec959f4fe7:0x463dd548b7e676b8",
+    "name": "Doris Meßner - Coaching \u0026 Begleitung für bewusste Familien",
+    "url": "https://www.google.com/maps/place/Doris+Me%C3%9Fner+-+Coaching+%26+Begleitung+f%C3%BCr+bewusste+Familien/data=!4m7!3m6!1s0x47758dec959f4fe7:0x463dd548b7e676b8!8m2!3d48.4319707!4d12.3570663!16s%2Fg%2F11twszs3_r!19sChIJ50-fleyNdUcRuHbmt0jVPUY?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "fitness"
+  },
+  {
+    "id": "0x4775819b56ab336f:0x3eccb5b7b0a34d31",
+    "name": "Global Gym Wörth an der Isar",
+    "url": "https://www.google.com/maps/place/Global+Gym+W%C3%B6rth+an+der+Isar/data=!4m7!3m6!1s0x4775819b56ab336f:0x3eccb5b7b0a34d31!8m2!3d48.6263444!4d12.3195875!16s%2Fg%2F11t865szn8!19sChIJbzOrVpuBdUcRMU2jsLe1zD4?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "fitness"
+  },
+  {
+    "id": "0x4775f5ab6b7dba87:0xf609e0d5b7ae7b7c",
+    "name": "Krav Maga Velden",
+    "url": "https://www.google.com/maps/place/Krav+Maga+Velden/data=!4m7!3m6!1s0x4775f5ab6b7dba87:0xf609e0d5b7ae7b7c!8m2!3d48.367513!4d12.2570792!16s%2Fg%2F11tcx62_wz!19sChIJh7p9a6v1dUcRfHuut9XgCfY?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "fitness"
+  },
+  {
+    "id": "0x47758c249015a805:0x4165c2c599686bbd",
+    "name": "Schülerhilfe Nachhilfe Vilsbiburg",
+    "url": "https://www.google.com/maps/place/Sch%C3%BClerhilfe+Nachhilfe+Vilsbiburg/data=!4m7!3m6!1s0x47758c249015a805:0x4165c2c599686bbd!8m2!3d48.4484146!4d12.3552862!16s%2Fg%2F1pzp_cs4j!19sChIJBagVkCSMdUcRvWtomcXCZUE?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "fitness"
+  },
+  {
+    "id": "0x477589ca46dd943f:0x70567e19ef95ff11",
+    "name": "Kosmetik Silke Knopp",
+    "url": "https://www.google.com/maps/place/Kosmetik+Silke+Knopp/data=!4m7!3m6!1s0x477589ca46dd943f:0x70567e19ef95ff11!8m2!3d48.48324!4d12.25623!16s%2Fg%2F11gyd0z35f!19sChIJP5TdRsqJdUcREf-V7xl-VnA?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "fitness"
+  },
+  {
+    "id": "0x47758c277cb7dcf1:0xdc19cf6b6bbcf802",
+    "name": "Staatliche Realschule Vilsbiburg",
+    "url": "https://www.google.com/maps/place/Staatliche+Realschule+Vilsbiburg/data=!4m7!3m6!1s0x47758c277cb7dcf1:0xdc19cf6b6bbcf802!8m2!3d48.4558818!4d12.3608008!16s%2Fg%2F1tfbgk9g!19sChIJ8dy3fCeMdUcRAvi8a2vPGdw?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "fitness"
+  },
+  {
+    "id": "0x4775898c158a9b0b:0xff67e22f54813296",
+    "name": "Ells Fahrschule",
+    "url": "https://www.google.com/maps/place/Ells+Fahrschule/data=!4m7!3m6!1s0x4775898c158a9b0b:0xff67e22f54813296!8m2!3d48.4727033!4d12.257648!16s%2Fg%2F1tlqnthz!19sChIJC5uKFYyJdUcRljKBVC_iZ_8?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "fitness"
+  },
+  {
+    "id": "0x273c4f7c5d985f13:0x54e6b065ff189c1",
+    "name": "Tiertherapie Katharina Mildenberger",
+    "url": "https://www.google.com/maps/place/Tiertherapie+Katharina+Mildenberger/data=!4m7!3m6!1s0x273c4f7c5d985f13:0x54e6b065ff189c1!8m2!3d48.4306883!4d12.3588223!16s%2Fg%2F11jzd3vf24!19sChIJE1-YXXxPPCcRwYnxXwZrTgU?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "fitness"
+  },
+  {
+    "id": "0x47758c04c5c0aefb:0x979d8867efe6a5cb",
+    "name": "DEICHMANN",
+    "url": "https://www.google.com/maps/place/DEICHMANN/data=!4m7!3m6!1s0x47758c04c5c0aefb:0x979d8867efe6a5cb!8m2!3d48.452283!4d12.3344008!16s%2Fg%2F1tlcz_kd!19sChIJ-67AxQSMdUcRy6Xm72eInZc?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "fitness"
+  },
+  {
+    "id": "0x47758adc87e5869b:0x5a818cf06536f317",
+    "name": "Seumahof",
+    "url": "https://www.google.com/maps/place/Seumahof/data=!4m7!3m6!1s0x47758adc87e5869b:0x5a818cf06536f317!8m2!3d48.402649!4d12.2349561!16s%2Fg%2F12hk24_v4!19sChIJm4blh9yKdUcRF_M2ZfCMgVo?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "fitness"
+  },
+  {
+    "id": "0x47758c10aae527f9:0xefdb590accd16980",
+    "name": "Hiller GmbH",
+    "url": "https://www.google.com/maps/place/Hiller+GmbH/data=!4m7!3m6!1s0x47758c10aae527f9:0xefdb590accd16980!8m2!3d48.4481616!4d12.3403958!16s%2Fg%2F1vs5vjmy!19sChIJ-SflqhCMdUcRgGnRzApZ2-8?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "fitness"
+  },
+  {
+    "id": "0x4775898c0d67d2a3:0xd2318e14054af97e",
+    "name": "DRÄXLMAIER Group Geisenhausen",
+    "url": "https://www.google.com/maps/place/DR%C3%84XLMAIER+Group+Geisenhausen/data=!4m7!3m6!1s0x4775898c0d67d2a3:0xd2318e14054af97e!8m2!3d48.473186!4d12.255616!16s%2Fg%2F1hc30nn68!19sChIJo9JnDYyJdUcRfvlKBRSOMdI?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "fitness"
+  },
+  {
+    "id": "0x47758c2310bd7087:0x866687d57ba4f755",
+    "name": "Schuhe Lipp Schuhe",
+    "url": "https://www.google.com/maps/place/Schuhe+Lipp+Schuhe/data=!4m7!3m6!1s0x47758c2310bd7087:0x866687d57ba4f755!8m2!3d48.4486328!4d12.3520495!16s%2Fg%2F1tm8ctgn!19sChIJh3C9ECOMdUcRVfeke9WHZoY?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "fitness"
+  },
+  {
+    "id": "0x47758c248070a683:0xe97f5a837b934a46",
+    "name": "PFEIFFER Augenoptik Uhren \u0026 Schmuck",
+    "url": "https://www.google.com/maps/place/PFEIFFER+Augenoptik+Uhren+%26+Schmuck/data=!4m7!3m6!1s0x47758c248070a683:0xe97f5a837b934a46!8m2!3d48.4491531!4d12.3548765!16s%2Fg%2F1wn_4y7s!19sChIJg6ZwgCSMdUcRRkqTe4Naf-k?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "fitness"
+  },
+  {
+    "id": "0x4775f4c35d30114d:0x8f01494c099a928e",
+    "name": "TSV Velden 1890 e.V.",
+    "url": "https://www.google.com/maps/place/TSV+Velden+1890+e.V./data=!4m7!3m6!1s0x4775f4c35d30114d:0x8f01494c099a928e!8m2!3d48.37146!4d12.24813!16s%2Fg%2F1hc9db8q2!19sChIJTREwXcP0dUcRjpKaCUxJAY8?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "fitness"
+  },
+  {
+    "id": "0x4775f4f7f3419ba1:0x58c47945efa55c60",
+    "name": "Taekwon-Do Team",
+    "url": "https://www.google.com/maps/place/Taekwon-Do+Team/data=!4m7!3m6!1s0x4775f4f7f3419ba1:0x58c47945efa55c60!8m2!3d48.3490713!4d12.2372044!16s%2Fg%2F11hbnyghr1!19sChIJoZtB8_f0dUcRYFyl70V5xFg?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "fitness"
+  },
+  {
+    "id": "0x479e1f3223cecf73:0xa720568fa1bb257e",
+    "name": "BuggyFit Dorfen und Taufkirchen",
+    "url": "https://www.google.com/maps/place/BuggyFit+Dorfen+und+Taufkirchen/data=!4m7!3m6!1s0x479e1f3223cecf73:0xa720568fa1bb257e!8m2!3d48.3240309!4d12.1967048!16s%2Fg%2F11j865_xqb!19sChIJc8_OIzIfnkcRfiW7oY9WIKc?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "fitness"
+  },
+  {
+    "id": "0x47758d53fb857467:0x7a7ca5350349d5dd",
+    "name": "Yayla Market",
+    "url": "https://www.google.com/maps/place/Yayla+Market/data=!4m7!3m6!1s0x47758d53fb857467:0x7a7ca5350349d5dd!8m2!3d48.4503104!4d12.3553004!16s%2Fg%2F11l59y3qzk!19sChIJZ3SF-1ONdUcR3dVJAzWlfHo?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "supermarkt"
+  },
+  {
+    "id": "0x47758f06274c4dff:0x4e4f66c1fe1d5231",
+    "name": "Hofi's Hofladen",
+    "url": "https://www.google.com/maps/place/Hofi%27s+Hofladen/data=!4m7!3m6!1s0x47758f06274c4dff:0x4e4f66c1fe1d5231!8m2!3d48.4625528!4d12.3318539!16s%2Fg%2F11kqhhn85b!19sChIJ_01MJwaPdUcRMVId_sFmT04?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "supermarkt"
+  },
+  {
+    "id": "0x47758d5aad73abb9:0x887b731781f22e55",
+    "name": "Edeka - Buchbauer GmbH",
+    "url": "https://www.google.com/maps/place/Edeka+-+Buchbauer+GmbH/data=!4m7!3m6!1s0x47758d5aad73abb9:0x887b731781f22e55!8m2!3d48.3830539!4d12.38677!16s%2Fg%2F1tf7lcwd!19sChIJuatzrVqNdUcRVS7ygRdze4g?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "supermarkt"
+  },
+  {
+    "id": "0x477589492afeac3d:0x76c340043c1582f8",
+    "name": "VilstalSchäfer",
+    "url": "https://www.google.com/maps/place/VilstalSch%C3%A4fer/data=!4m7!3m6!1s0x477589492afeac3d:0x76c340043c1582f8!8m2!3d48.4756056!4d12.3227658!16s%2Fg%2F11bzyq7glp!19sChIJPaz-KkmJdUcR-IIVPARAw3Y?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "supermarkt"
+  },
+  {
+    "id": "0x47758c23a70d5c57:0x5ce7bea3d57b9eba",
+    "name": "bottega del gusto",
+    "url": "https://www.google.com/maps/place/bottega+del+gusto/data=!4m7!3m6!1s0x47758c23a70d5c57:0x5ce7bea3d57b9eba!8m2!3d48.4494832!4d12.3526508!16s%2Fg%2F11btm8v5_t!19sChIJV1wNpyOMdUcRup571aO-51w?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "supermarkt"
+  },
+  {
+    "id": "0x4775f50024af1d75:0xd180cfb290fd9997",
+    "name": "PENNY",
+    "url": "https://www.google.com/maps/place/PENNY/data=!4m7!3m6!1s0x4775f50024af1d75:0xd180cfb290fd9997!8m2!3d48.3671995!4d12.2668958!16s%2Fg%2F11ywfncph1!19sChIJdR2vJAD1dUcRl5n9kLLPgNE?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "supermarkt"
+  },
+  {
+    "id": "0x47758fea41df567d:0x9f2228e36b62f5b4",
+    "name": "Getränke Fleischmann",
+    "url": "https://www.google.com/maps/place/Getr%C3%A4nke+Fleischmann/data=!4m7!3m6!1s0x47758fea41df567d:0x9f2228e36b62f5b4!8m2!3d48.5103!4d12.43392!16s%2Fg%2F11h16mq9q!19sChIJfVbfQeqPdUcRtPVia-MoIp8?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "supermarkt"
+  },
+  {
+    "id": "0x477591c92a963057:0xe68a02c94f6825d5",
+    "name": "Klosterladen Johannesbrunn eG",
+    "url": "https://www.google.com/maps/place/Klosterladen+Johannesbrunn+eG/data=!4m7!3m6!1s0x477591c92a963057:0xe68a02c94f6825d5!8m2!3d48.47806!4d12.46227!16s%2Fg%2F1tjz25sp!19sChIJVzCWKsmRdUcR1SVoT8kCiuY?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "supermarkt"
+  },
+  {
+    "id": "0x47758da6f930c52f:0xb20320180e0061e8",
+    "name": "Marktschwärmer Vilsbiburg",
+    "url": "https://www.google.com/maps/place/Marktschw%C3%A4rmer+Vilsbiburg/data=!4m7!3m6!1s0x47758da6f930c52f:0xb20320180e0061e8!8m2!3d48.4512854!4d12.3553458!16s%2Fg%2F11q4chjhpz!19sChIJL8Uw-aaNdUcR6GEADhggA7I?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "supermarkt"
+  },
+  {
+    "id": "0x4775f595dc9da10d:0xdd44696290c443b3",
+    "name": "EDEKA Wolf",
+    "url": "https://www.google.com/maps/place/EDEKA+Wolf/data=!4m7!3m6!1s0x4775f595dc9da10d:0xdd44696290c443b3!8m2!3d48.3686569!4d12.2405787!16s%2Fg%2F11wnjfd7kk!19sChIJDaGd3JX1dUcRs0PEkGJpRN0?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "supermarkt"
+  },
+  {
+    "id": "0x4775873eb7e88733:0xc751f2a3de1d368e",
+    "name": "EDEKA Riesinger",
+    "url": "https://www.google.com/maps/place/EDEKA+Riesinger/data=!4m7!3m6!1s0x4775873eb7e88733:0xc751f2a3de1d368e!8m2!3d48.6077227!4d12.3171154!16s%2Fg%2F11bzym8p0w!19sChIJM4fotz6HdUcRjjYd3qPyUcc?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "supermarkt"
+  },
+  {
+    "id": "0x4775f4c31d362761:0xf90b10c3856ffc35",
+    "name": "Netto Marken-Discount",
+    "url": "https://www.google.com/maps/place/Netto+Marken-Discount/data=!4m7!3m6!1s0x4775f4c31d362761:0xf90b10c3856ffc35!8m2!3d48.3695136!4d12.2484692!16s%2Fg%2F1vlz95dk!19sChIJYSc2HcP0dUcRNfxvhcMQC_k?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "supermarkt"
+  },
+  {
+    "id": "0x479e235ccf325409:0x460e362fc978b9f",
+    "name": "Emolino",
+    "url": "https://www.google.com/maps/place/Emolino/data=!4m7!3m6!1s0x479e235ccf325409:0x460e362fc978b9f!8m2!3d48.6096694!4d12.323913!16s%2Fg%2F11byyrs0c_!19sChIJCVQyz1wjnkcRn4uX_GLjYAQ?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "supermarkt"
+  },
+  {
+    "id": "0x479e1e5025d63e71:0xbf6bf3aa49c8c8c",
+    "name": "EDEKA",
+    "url": "https://www.google.com/maps/place/EDEKA/data=!4m7!3m6!1s0x479e1e5025d63e71:0xbf6bf3aa49c8c8c!8m2!3d48.3516613!4d12.1296934!16s%2Fg%2F12hkbf95s!19sChIJcT7WJVAenkcRjIycpDq_9gs?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "supermarkt"
+  },
+  {
+    "id": "0x479e1e5b6f029f39:0x3eda2037aa5944b9",
+    "name": "EDEKA Westerfeld",
+    "url": "https://www.google.com/maps/place/EDEKA+Westerfeld/data=!4m7!3m6!1s0x479e1e5b6f029f39:0x3eda2037aa5944b9!8m2!3d48.3454699!4d12.1258376!16s%2Fg%2F11hbbl7hnv!19sChIJOZ8Cb1senkcRuURZqjcg2j4?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "supermarkt"
+  },
+  {
+    "id": "0x479e1e502ab3d4bf:0xed462ebc8639db49",
+    "name": "ALDI SÜD",
+    "url": "https://www.google.com/maps/place/ALDI+S%C3%9CD/data=!4m7!3m6!1s0x479e1e502ab3d4bf:0xed462ebc8639db49!8m2!3d48.351742!4d12.130683!16s%2Fg%2F1tf6fmlg!19sChIJv9SzKlAenkcRSds5hrwuRu0?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "supermarkt"
+  },
+  {
+    "id": "0x47758c4a0a6df51f:0x71930abad447bfd9",
+    "name": "Getränkeheimdienst Michael Giglberger",
+    "url": "https://www.google.com/maps/place/Getr%C3%A4nkeheimdienst+Michael+Giglberger/data=!4m7!3m6!1s0x47758c4a0a6df51f:0x71930abad447bfd9!8m2!3d48.4359322!4d12.3627224!16s%2Fg%2F1wb8sjcz!19sChIJH_VtCkqMdUcR2b9H1LoKk3E?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "supermarkt"
+  },
+  {
+    "id": "0x47758d708cb29e5f:0x1648a1276b7900c8",
+    "name": "EDEKA Eder",
+    "url": "https://www.google.com/maps/place/EDEKA+Eder/data=!4m7!3m6!1s0x47758d708cb29e5f:0x1648a1276b7900c8!8m2!3d48.4046268!4d12.3940649!16s%2Fg%2F11bzyp9g5h!19sChIJX56yjHCNdUcRyAB5ayehSBY?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "supermarkt"
+  },
+  {
+    "id": "0x479e1fbe5979b99f:0x8fa5415e1cc8505e",
+    "name": "REWE express",
+    "url": "https://www.google.com/maps/place/REWE+express/data=!4m7!3m6!1s0x479e1fbe5979b99f:0x8fa5415e1cc8505e!8m2!3d48.352219!4d12.1295607!16s%2Fg%2F11xtlp4fj8!19sChIJn7l5Wb4fnkcRXlDIHF5BpY8?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "supermarkt"
+  },
+  {
+    "id": "0x479e1e51a54f8ac3:0xcc0f362210fd5e59",
+    "name": "Lidl",
+    "url": "https://www.google.com/maps/place/Lidl/data=!4m7!3m6!1s0x479e1e51a54f8ac3:0xcc0f362210fd5e59!8m2!3d48.35287!4d12.12951!16s%2Fg%2F1tfqpyms!19sChIJw4pPpVEenkcRWV79ECI2D8w?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "supermarkt"
+  },
+  {
+    "id": "0x4775f2fbc15e9d87:0xb9c8f3cbd1129fbb",
+    "name": "nah \u0026 gut Kellermann",
+    "url": "https://www.google.com/maps/place/nah+%26+gut+Kellermann/data=!4m7!3m6!1s0x4775f2fbc15e9d87:0xb9c8f3cbd1129fbb!8m2!3d48.3431315!4d12.3363444!16s%2Fg%2F11bzypnqm1!19sChIJh51ewfvydUcRu58S0cvzyLk?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "supermarkt"
+  },
+  {
+    "id": "0x47758df807f75b17:0x3ad909524a3ca6e0",
+    "name": "Bio-Gärtnerei Josef Degenbeck",
+    "url": "https://www.google.com/maps/place/Bio-G%C3%A4rtnerei+Josef+Degenbeck/data=!4m7!3m6!1s0x47758df807f75b17:0x3ad909524a3ca6e0!8m2!3d48.4475233!4d12.3723226!16s%2Fg%2F1tltl5rx!19sChIJF1v3B_iNdUcR4KY8SlIJ2To?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "supermarkt"
+  },
+  {
+    "id": "0x47758a9e3bf4c3bd:0x7644c408a53bc504",
+    "name": "Otto Rys",
+    "url": "https://www.google.com/maps/place/Otto+Rys/data=!4m7!3m6!1s0x47758a9e3bf4c3bd:0x7644c408a53bc504!8m2!3d48.4161617!4d12.2000697!16s%2Fg%2F1thmd6p9!19sChIJvcP0O56KdUcRBMU7pQjERHY?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "supermarkt"
+  },
+  {
+    "id": "0x479e21e08f834437:0x9c51b4d67fc3f6",
+    "name": "Jolhof",
+    "url": "https://www.google.com/maps/place/Jolhof/data=!4m7!3m6!1s0x479e21e08f834437:0x9c51b4d67fc3f6!8m2!3d48.4504148!4d12.1819769!16s%2Fg%2F11j20428nq!19sChIJN0SDj-AhnkcR9sN_1rRRnAA?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "supermarkt"
+  },
+  {
+    "id": "0x479e1e51a380179f:0x9131aed584611726",
+    "name": "Müller",
+    "url": "https://www.google.com/maps/place/M%C3%BCller/data=!4m7!3m6!1s0x479e1e51a380179f:0x9131aed584611726!8m2!3d48.35295!4d12.12849!16s%2Fg%2F1tg14qmx!19sChIJnxeAo1EenkcRJhdhhNWuMZE?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "supermarkt"
+  },
+  {
+    "id": "0x47758ad856811ed5:0x6f97e6f0e2cd5e93",
+    "name": "nah \u0026 gut Malur",
+    "url": "https://www.google.com/maps/place/nah+%26+gut+Malur/data=!4m7!3m6!1s0x47758ad856811ed5:0x6f97e6f0e2cd5e93!8m2!3d48.4002809!4d12.2428119!16s%2Fg%2F11f3jwkdkp!19sChIJ1R6BVtiKdUcRk17N4vDml28?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "supermarkt"
+  },
+  {
+    "id": "0x47758a9eab957911:0xac512609cc02a87f",
+    "name": "nah \u0026 gut Malur",
+    "url": "https://www.google.com/maps/place/nah+%26+gut+Malur/data=!4m7!3m6!1s0x47758a9eab957911:0xac512609cc02a87f!8m2!3d48.416468!4d12.2056155!16s%2Fg%2F11gf8hh_pt!19sChIJEXmVq56KdUcRf6gCzAkmUaw?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "supermarkt"
+  },
+  {
+    "id": "0x47758d0be1413161:0x986c03d44f78806b",
+    "name": "Tchibo im Supermarkt",
+    "url": "https://www.google.com/maps/place/Tchibo+im+Supermarkt/data=!4m7!3m6!1s0x47758d0be1413161:0x986c03d44f78806b!8m2!3d48.4514467!4d12.3599336!16s%2Fg%2F11g4g463_r!19sChIJYTFB4QuNdUcRa4B4T9QDbJg?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "supermarkt"
+  },
+  {
+    "id": "0x4775f5500796e9c1:0xa3754ca66f9efa83",
+    "name": "Koimberger Wieseneier",
+    "url": "https://www.google.com/maps/place/Koimberger+Wieseneier/data=!4m7!3m6!1s0x4775f5500796e9c1:0xa3754ca66f9efa83!8m2!3d48.388738!4d12.211404!16s%2Fg%2F11kj031ymr!19sChIJwemWB1D1dUcRg_qeb6ZMdaM?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "supermarkt"
+  },
+  {
+    "id": "0x4775872d5e8c42df:0xd0e917f1a1c48361",
+    "name": "Netto Marken-Discount",
+    "url": "https://www.google.com/maps/place/Netto+Marken-Discount/data=!4m7!3m6!1s0x4775872d5e8c42df:0xd0e917f1a1c48361!8m2!3d48.62095!4d12.32945!16s%2Fg%2F11xz9g2jb!19sChIJ30KMXi2HdUcRYYPEofEX6dA?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "supermarkt"
+  },
+  {
+    "id": "0x479e1f003d2dd627:0xbcbfe9e26ba1f668",
+    "name": "Regiomat Limmer Hof",
+    "url": "https://www.google.com/maps/place/Regiomat+Limmer+Hof/data=!4m7!3m6!1s0x479e1f003d2dd627:0xbcbfe9e26ba1f668!8m2!3d48.3486477!4d12.1303548!16s%2Fg%2F11ww9g1gxw!19sChIJJ9YtPQAfnkcRaPaha-Lpv7w?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "supermarkt"
+  },
+  {
+    "id": "0x47758d90efc34bc1:0x39785bb4d03132da",
+    "name": "Tchibo im Supermarkt",
+    "url": "https://www.google.com/maps/place/Tchibo+im+Supermarkt/data=!4m7!3m6!1s0x47758d90efc34bc1:0x39785bb4d03132da!8m2!3d48.4522185!4d12.3339939!16s%2Fg%2F11f9yk7jkc!19sChIJwUvD75CNdUcR2jIx0LRbeDk?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "supermarkt"
+  },
+  {
+    "id": "0x479e1e51a380179f:0xbbaced63e5ec5e19",
+    "name": "Kratzer Getränkefachhandel | Weine",
+    "url": "https://www.google.com/maps/place/Kratzer+Getr%C3%A4nkefachhandel+%7C+Weine/data=!4m7!3m6!1s0x479e1e51a380179f:0xbbaced63e5ec5e19!8m2!3d48.3522473!4d12.1288466!16s%2Fg%2F1v4pr_05!19sChIJnxeAo1EenkcRGV7s5WPtrLs?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "supermarkt"
+  },
+  {
+    "id": "0x47758958220d7103:0xf3a030ae6157362c",
+    "name": "Tchibo im Supermarkt",
+    "url": "https://www.google.com/maps/place/Tchibo+im+Supermarkt/data=!4m7!3m6!1s0x47758958220d7103:0xf3a030ae6157362c!8m2!3d48.4769077!4d12.2496677!16s%2Fg%2F11bzyqp7s4!19sChIJA3ENIliJdUcRLDZXYa4woPM?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "supermarkt"
+  },
+  {
+    "id": "0x4775f2f6efd0f4ef:0xcbe84452a7bc3f9e",
+    "name": "Der Frischmilchautomat",
+    "url": "https://www.google.com/maps/place/Der+Frischmilchautomat/data=!4m7!3m6!1s0x4775f2f6efd0f4ef:0xcbe84452a7bc3f9e!8m2!3d48.339513!4d12.3445215!16s%2Fg%2F11c1pl5zzx!19sChIJ7_TQ7_bydUcRnj-8p1JE6Ms?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "supermarkt"
+  },
+  {
+    "id": "0x47758903b0c540bb:0x6635efb979214036",
+    "name": "OBERKÜHBUCH",
+    "url": "https://www.google.com/maps/place/OBERK%C3%9CHBUCH/data=!4m7!3m6!1s0x47758903b0c540bb:0x6635efb979214036!8m2!3d48.521035!4d12.2747875!16s%2Fg%2F11scjrs0jn!19sChIJu0DFsAOJdUcRNkAhebnvNWY?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "supermarkt"
+  },
+  {
+    "id": "0x477591b8068ccc29:0x868808ea58f168cc",
+    "name": "Käserei Johannesbrunn",
+    "url": "https://www.google.com/maps/place/K%C3%A4serei+Johannesbrunn/data=!4m7!3m6!1s0x477591b8068ccc29:0x868808ea58f168cc!8m2!3d48.4775663!4d12.4638136!16s%2Fg%2F11s39grw1c!19sChIJKcyMBriRdUcRzGjxWOoIiIY?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "supermarkt"
+  },
+  {
+    "id": "0x479e217deae35f9b:0xa330b9a0719163f6",
+    "name": "Metzgerei \u0026 EDEKA Stadler",
+    "url": "https://www.google.com/maps/place/Metzgerei+%26+EDEKA+Stadler/data=!4m7!3m6!1s0x479e217deae35f9b:0xa330b9a0719163f6!8m2!3d48.4491485!4d12.1066028!16s%2Fg%2F11bzyn5v53!19sChIJm1_j6n0hnkcR9mORcaC5MKM?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "supermarkt"
+  },
+  {
+    "id": "0x479e1f00242b36cb:0x9882ea4f8bdba1ec",
+    "name": "dm-drogerie markt",
+    "url": "https://www.google.com/maps/place/dm-drogerie+markt/data=!4m7!3m6!1s0x479e1f00242b36cb:0x9882ea4f8bdba1ec!8m2!3d48.3520079!4d12.1308778!16s%2Fg%2F11mshgftsb!19sChIJyzYrJAAfnkcR7KHbi0_qgpg?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "supermarkt"
+  },
+  {
+    "id": "0x4775eb9c561e8751:0x8eeb11f26ba76870",
+    "name": "Burak Feinkost",
+    "url": "https://www.google.com/maps/place/Burak+Feinkost/data=!4m7!3m6!1s0x4775eb9c561e8751:0x8eeb11f26ba76870!8m2!3d48.3583816!4d12.5035148!16s%2Fg%2F11n_y4sbhv!19sChIJUYceVpzrdUcRcGina_IR644?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "supermarkt"
+  },
+  {
+    "id": "0x479e1f9e1af742d5:0x34086c2ee035c108",
+    "name": "EDEKA Oberwallner",
+    "url": "https://www.google.com/maps/place/EDEKA+Oberwallner/data=!4m7!3m6!1s0x479e1f9e1af742d5:0x34086c2ee035c108!8m2!3d48.3837972!4d12.1317608!16s%2Fg%2F11gf60zzbj!19sChIJ1UL3Gp4fnkcRCME14C5sCDQ?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "supermarkt"
+  },
+  {
+    "id": "0x4109126300867a6b:0xa0470af9869bfe08",
+    "name": "EDEKA Groß",
+    "url": "https://www.google.com/maps/place/EDEKA+Gro%C3%9F/data=!4m7!3m6!1s0x4109126300867a6b:0xa0470af9869bfe08!8m2!3d48.3545477!4d12.4949224!16s%2Fg%2F11b7cmxtyc!19sChIJa3qGAGMSCUERCP6bhvkKR6A?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "supermarkt"
+  },
+  {
+    "id": "0x4775f514a07a7c5d:0xf3c7ef338fd4efe3",
+    "name": "Geflügelhof Irl",
+    "url": "https://www.google.com/maps/place/Gefl%C3%BCgelhof+Irl/data=!4m7!3m6!1s0x4775f514a07a7c5d:0xf3c7ef338fd4efe3!8m2!3d48.3980714!4d12.2299558!16s%2Fg%2F11n43rdcl0!19sChIJXXx6oBT1dUcR4-_UjzPvx_M?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "supermarkt"
+  },
+  {
+    "id": "0x4775f4c22ebfc3c7:0x39e6e96cdc8cdb52",
+    "name": "Aral",
+    "url": "https://www.google.com/maps/place/Aral/data=!4m7!3m6!1s0x4775f4c22ebfc3c7:0x39e6e96cdc8cdb52!8m2!3d48.3687437!4d12.2513208!16s%2Fg%2F1tcxyn75!19sChIJx8O_LsL0dUcRUtuM3Gzp5jk?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "supermarkt"
+  },
+  {
+    "id": "0x4775f516b9a9679f:0x2cdbd3e51c3189ef",
+    "name": "Höhenberger Biomarkt",
+    "url": "https://www.google.com/maps/place/H%C3%B6henberger+Biomarkt/data=!4m7!3m6!1s0x4775f516b9a9679f:0x2cdbd3e51c3189ef!8m2!3d48.3685621!4d12.2390926!16s%2Fg%2F11tspnr_js!19sChIJn2epuRb1dUcR74kxHOXT2yw?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "supermarkt"
+  },
+  {
+    "id": "0x479e1e69f7074465:0x2551abbc20123cc0",
+    "name": "NORMA Filiale",
+    "url": "https://www.google.com/maps/place/NORMA+Filiale/data=!4m7!3m6!1s0x479e1e69f7074465:0x2551abbc20123cc0!8m2!3d48.33828!4d12.13135!16s%2Fg%2F11xhs_f3c!19sChIJZUQH92kenkcRwDwSILyrUSU?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "supermarkt"
+  },
+  {
+    "id": "0x4775ed4fb280905f:0xe094de594d31e302",
+    "name": "Weichs Getreidemühle/Mühlenladen",
+    "url": "https://www.google.com/maps/place/Weichs+Getreidem%C3%BChle%2FM%C3%BChlenladen/data=!4m7!3m6!1s0x4775ed4fb280905f:0xe094de594d31e302!8m2!3d48.3622665!4d12.4065495!16s%2Fg%2F11f24w170q!19sChIJX5CAsk_tdUcRAuMxTVnelOA?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "supermarkt"
+  },
+  {
+    "id": "0x477594abea0aab39:0xca65a2715ee14aa2",
+    "name": "Lidl",
+    "url": "https://www.google.com/maps/place/Lidl/data=!4m7!3m6!1s0x477594abea0aab39:0xca65a2715ee14aa2!8m2!3d48.36323!4d12.50426!16s%2Fg%2F1tdp3wdb!19sChIJOasK6quUdUcRokrhXnGiZco?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "supermarkt"
+  },
+  {
+    "id": "0x4775f3bcfbab8795:0xa085b12b876cbe74",
+    "name": "Apfelparadies Winklhof",
+    "url": "https://www.google.com/maps/place/Apfelparadies+Winklhof/data=!4m7!3m6!1s0x4775f3bcfbab8795:0xa085b12b876cbe74!8m2!3d48.375317!4d12.335173!16s%2Fg%2F11j7p267xw!19sChIJlYer-7zzdUcRdL5shyuxhaA?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "supermarkt"
+  },
+  {
+    "id": "0x477589b15d398fcf:0xa0e64170b4800cd5",
+    "name": "Biohof Schlittmeier",
+    "url": "https://www.google.com/maps/place/Biohof+Schlittmeier/data=!4m7!3m6!1s0x477589b15d398fcf:0xa0e64170b4800cd5!8m2!3d48.53063!4d12.33029!16s%2Fg%2F11s45npdj_!19sChIJz485XbGJdUcR1QyAtHBB5qA?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "supermarkt"
+  },
+  {
+    "id": "0x479e1f9e038bd9e9:0x125c171f294150d",
+    "name": "Georg Oberwallner",
+    "url": "https://www.google.com/maps/place/Georg+Oberwallner/data=!4m7!3m6!1s0x479e1f9e038bd9e9:0x125c171f294150d!8m2!3d48.38387!4d12.13183!16s%2Fg%2F1tlwdmry!19sChIJ6dmLA54fnkcRDRWU8nHBJQE?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "supermarkt"
+  },
+  {
+    "id": "0x477593573def7bb9:0x8104292db81e424f",
+    "name": "Bayern-Haselnuss",
+    "url": "https://www.google.com/maps/place/Bayern-Haselnuss/data=!4m7!3m6!1s0x477593573def7bb9:0x8104292db81e424f!8m2!3d48.368739!4d12.496119!16s%2Fg%2F1ptz4p4fk!19sChIJuXvvPVeTdUcRT0IeuC0pBIE?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "supermarkt"
+  },
+  {
+    "id": "0x41096eb8f73dd3d9:0x20b4ee493b911e76",
+    "name": "Alois Traublinger",
+    "url": "https://www.google.com/maps/place/Alois+Traublinger/data=!4m7!3m6!1s0x41096eb8f73dd3d9:0x20b4ee493b911e76!8m2!3d48.4749418!4d12.2617707!16s%2Fg%2F1tf3mr9t!19sChIJ2dM997huCUERdh6RO0nutCA?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "supermarkt"
+  },
+  {
+    "id": "0x4775917bc127342d:0xfa0345e9f2026ac1",
+    "name": "Wühlhaus GbR T. Jerouschek S. Unverdorben Entrümpelungsservice",
+    "url": "https://www.google.com/maps/place/W%C3%BChlhaus+GbR+T.+Jerouschek+S.+Unverdorben+Entr%C3%BCmpelungsservice/data=!4m7!3m6!1s0x4775917bc127342d:0xfa0345e9f2026ac1!8m2!3d48.4481863!4d12.4915149!16s%2Fg%2F1vfn5gnl!19sChIJLTQnwXuRdUcRwWoC8ulFA_o?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "supermarkt"
+  },
+  {
+    "id": "0x477594ab96fffb5f:0xb82ffab4db1efa9",
+    "name": "PENNY",
+    "url": "https://www.google.com/maps/place/PENNY/data=!4m7!3m6!1s0x477594ab96fffb5f:0xb82ffab4db1efa9!8m2!3d48.3626437!4d12.504061!16s%2Fg%2F11b6dq6jgh!19sChIJX_v_lquUdUcRqe-xTav_ggs?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "supermarkt"
+  },
+  {
+    "id": "0x47758ee4b7a92365:0x2f0a78350f226b14",
+    "name": "Eduard Huber Landmetzgerei OT Lichtenhaag",
+    "url": "https://www.google.com/maps/place/Eduard+Huber+Landmetzgerei+OT+Lichtenhaag/data=!4m7!3m6!1s0x47758ee4b7a92365:0x2f0a78350f226b14!8m2!3d48.4884643!4d12.3779325!16s%2Fg%2F11b6dp13qz!19sChIJZSOpt-SOdUcRFGsiDzV4Ci8?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "metzgerei"
+  },
+  {
+    "id": "0x47758c0a12151bdd:0xbef5b7b2be020541",
+    "name": "Herwig Mildner",
+    "url": "https://www.google.com/maps/place/Herwig+Mildner/data=!4m7!3m6!1s0x47758c0a12151bdd:0xbef5b7b2be020541!8m2!3d48.44433!4d12.3198699!16s%2Fg%2F11btm9_8xc!19sChIJ3RsVEgqMdUcRQQUCvrK39b4?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "metzgerei"
+  },
+  {
+    "id": "0x47758d5855429f83:0x352cdc624abe8852",
+    "name": "Metzgerei Fuchs",
+    "url": "https://www.google.com/maps/place/Metzgerei+Fuchs/data=!4m7!3m6!1s0x47758d5855429f83:0x352cdc624abe8852!8m2!3d48.4050794!4d12.3970963!16s%2Fg%2F11lznghh3j!19sChIJg59CVViNdUcRUoi-SmLcLDU?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "metzgerei"
+  },
+  {
+    "id": "0x47758c23838fa027:0x4505038b52cfb1ce",
+    "name": "Metzgerei Andreas Sauer",
+    "url": "https://www.google.com/maps/place/Metzgerei+Andreas+Sauer/data=!4m7!3m6!1s0x47758c23838fa027:0x4505038b52cfb1ce!8m2!3d48.4495013!4d12.3543543!16s%2Fg%2F11hbldx1wh!19sChIJJ6CPgyOMdUcRzrHPUosDBUU?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "metzgerei"
+  },
+  {
+    "id": "0x4775873c2941cfad:0x19b9a3a11bfa64a2",
+    "name": "Isar Apotheke",
+    "url": "https://www.google.com/maps/place/Isar+Apotheke/data=!4m7!3m6!1s0x4775873c2941cfad:0x19b9a3a11bfa64a2!8m2!3d48.60607!4d12.31611!16s%2Fg%2F11bztclpy7!19sChIJrc9BKTyHdUcRomT6G6GjuRk?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "apotheke"
+  },
+  {
+    "id": "0x479e2927c7b4ddb3:0x78315aa31a856f3c",
+    "name": "St. Wolfgang-Apotheke OHG",
+    "url": "https://www.google.com/maps/place/St.+Wolfgang-Apotheke+OHG/data=!4m7!3m6!1s0x479e2927c7b4ddb3:0x78315aa31a856f3c!8m2!3d48.6115759!4d12.2152602!16s%2Fg%2F1tfdcfwh!19sChIJs920xycpnkcRPG-FGqNaMXg?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "apotheke"
+  },
+  {
+    "id": "0x479e291297b8a99b:0x8593ac3ab1710dde",
+    "name": "Bären Apotheke",
+    "url": "https://www.google.com/maps/place/B%C3%A4ren+Apotheke/data=!4m7!3m6!1s0x479e291297b8a99b:0x8593ac3ab1710dde!8m2!3d48.6129792!4d12.2177392!16s%2Fg%2F11dxhc7z0v!19sChIJm6m4lxIpnkcR3g1xsTqsk4U?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "apotheke"
+  },
+  {
+    "id": "0x47758fbf7e820a03:0x636539c1b77b90f7",
+    "name": "Storchen Apotheke",
+    "url": "https://www.google.com/maps/place/Storchen+Apotheke/data=!4m7!3m6!1s0x47758fbf7e820a03:0x636539c1b77b90f7!8m2!3d48.506882!4d12.4273717!16s%2Fg%2F1v93zx3h!19sChIJAwqCfr-PdUcR95B7t8E5ZWM?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "apotheke"
+  },
+  {
+    "id": "0x479e273a1d5fe5f7:0x319086a1ad5b3abb",
+    "name": "Rituals",
+    "url": "https://www.google.com/maps/place/Rituals/data=!4m7!3m6!1s0x479e273a1d5fe5f7:0x319086a1ad5b3abb!8m2!3d48.5349685!4d12.1498737!16s%2Fg%2F11f63254rc!19sChIJ9-VfHTonnkcRuzpbraGGkDE?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "apotheke"
+  },
+  {
+    "id": "0x479e217e06fb9a5b:0x30acdf0e091f86ea",
+    "name": "Kastulus-Apotheke",
+    "url": "https://www.google.com/maps/place/Kastulus-Apotheke/data=!4m7!3m6!1s0x479e217e06fb9a5b:0x30acdf0e091f86ea!8m2!3d48.4477814!4d12.1059935!16s%2Fg%2F1tf7926b!19sChIJW5r7Bn4hnkcR6oYfCQ7frDA?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "apotheke"
+  },
+  {
+    "id": "0x479e2f874790c009:0xb05a5da4796d40a2",
+    "name": "Müller",
+    "url": "https://www.google.com/maps/place/M%C3%BCller/data=!4m7!3m6!1s0x479e2f874790c009:0xb05a5da4796d40a2!8m2!3d48.56698!4d12.09773!16s%2Fg%2F1txnnfzv!19sChIJCcCQR4cvnkcRokBteaRdWrA?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "apotheke"
+  },
+  {
+    "id": "0x4775833128252bc9:0x32d7ede8a2512fca",
+    "name": "PrimaVital Apotheke am Marienplatz | Medikamente \u0026 Kosmetik | Dingolfing",
+    "url": "https://www.google.com/maps/place/PrimaVital+Apotheke+am+Marienplatz+%7C+Medikamente+%26+Kosmetik+%7C+Dingolfing/data=!4m7!3m6!1s0x4775833128252bc9:0x32d7ede8a2512fca!8m2!3d48.6294621!4d12.4992365!16s%2Fg%2F1hc5q30c9!19sChIJySslKDGDdUcRyi9Roujt1zI?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "apotheke"
+  },
+  {
+    "id": "0x479e1e50211ec391:0x40f67aff98fa09b9",
+    "name": "Vitalis Apotheke",
+    "url": "https://www.google.com/maps/place/Vitalis+Apotheke/data=!4m7!3m6!1s0x479e1e50211ec391:0x40f67aff98fa09b9!8m2!3d48.3515569!4d12.1298436!16s%2Fg%2F1tfy_2xv!19sChIJkcMeIVAenkcRuQn6mP969kA?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "apotheke"
+  },
+  {
+    "id": "0x4775833a13513df3:0x8d1f34a12dae15e4",
+    "name": "Neue Apotheke Dingolfing",
+    "url": "https://www.google.com/maps/place/Neue+Apotheke+Dingolfing/data=!4m7!3m6!1s0x4775833a13513df3:0x8d1f34a12dae15e4!8m2!3d48.6306211!4d12.4950809!16s%2Fg%2F1tdlg33g!19sChIJ8z1REzqDdUcR5BWuLaE0H40?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "apotheke"
+  },
+  {
+    "id": "0x479e25135f8f0b31:0xa2535590bce45f7",
+    "name": "Agnieszka Gurland Forever Living Products",
+    "url": "https://www.google.com/maps/place/Agnieszka+Gurland+Forever+Living+Products/data=!4m7!3m6!1s0x479e25135f8f0b31:0xa2535590bce45f7!8m2!3d48.5580302!4d12.1285407!16s%2Fg%2F11shx84hph!19sChIJMQuPXxMlnkcR90XOC1k1JQo?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "apotheke"
+  },
+  {
+    "id": "0x479e2c995833314b:0x6b1363ed4fde734d",
+    "name": "Neue Apotheke zum Goldenen Engel",
+    "url": "https://www.google.com/maps/place/Neue+Apotheke+zum+Goldenen+Engel/data=!4m7!3m6!1s0x479e2c995833314b:0x6b1363ed4fde734d!8m2!3d48.6920745!4d12.2047216!16s%2Fg%2F1tgj7thd!19sChIJSzEzWJksnkcRTXPeT-1jE2s?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "apotheke"
+  },
+  {
+    "id": "0x47758320e43319d5:0x854bd1b3f46a8dfd",
+    "name": "PrimaVital Delphin Apotheke | Medikamente \u0026 Kosmetik | Dingolfing - Kreuzstraße",
+    "url": "https://www.google.com/maps/place/PrimaVital+Delphin+Apotheke+%7C+Medikamente+%26+Kosmetik+%7C+Dingolfing+-+Kreuzstra%C3%9Fe/data=!4m7!3m6!1s0x47758320e43319d5:0x854bd1b3f46a8dfd!8m2!3d48.6421568!4d12.4929519!16s%2Fg%2F1tc_vdx7!19sChIJ1Rkz5CCDdUcR_Y1q9LPRS4U?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "apotheke"
+  },
+  {
+    "id": "0x479e2601b0e28c9b:0x46bdfcd681e7fb0b",
+    "name": "ATU Landshut",
+    "url": "https://www.google.com/maps/place/ATU+Landshut/data=!4m7!3m6!1s0x479e2601b0e28c9b:0x46bdfcd681e7fb0b!8m2!3d48.557212!4d12.156084!16s%2Fg%2F1tg392f8!19sChIJm4zisAEmnkcRC_vngdb8vUY?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "apotheke"
+  },
+  {
+    "id": "0x4775833129d33d8d:0xeedf77a884ff616c",
+    "name": "Johannes Apotheke",
+    "url": "https://www.google.com/maps/place/Johannes+Apotheke/data=!4m7!3m6!1s0x4775833129d33d8d:0xeedf77a884ff616c!8m2!3d48.6297624!4d12.4997926!16s%2Fg%2F1tkl2445!19sChIJjT3TKTGDdUcRbGH_hKh33-4?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "apotheke"
+  },
+  {
+    "id": "0x47759af63ade82c7:0x2c889a1927f0d454",
+    "name": "Marien Apotheke",
+    "url": "https://www.google.com/maps/place/Marien+Apotheke/data=!4m7!3m6!1s0x47759af63ade82c7:0x2c889a1927f0d454!8m2!3d48.5459663!4d12.525262!16s%2Fg%2F1td1htgy!19sChIJx4LeOvaadUcRVNTwJxmaiCw?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "apotheke"
+  },
+  {
+    "id": "0x479e267ceacefc19:0xc436b856693fccaa",
+    "name": "LA-Regio Klinik Landshut-Achdorf - Notaufnahme",
+    "url": "https://www.google.com/maps/place/LA-Regio+Klinik+Landshut-Achdorf+-+Notaufnahme/data=!4m7!3m6!1s0x479e267ceacefc19:0xc436b856693fccaa!8m2!3d48.5233!4d12.14936!16s%2Fg%2F1pty6tcc1!19sChIJGfzO6nwmnkcRqsw_aVa4NsQ?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "apotheke"
+  },
+  {
+    "id": "0x4775876d1ab401a5:0xbd562ab23b71689b",
+    "name": "Naturheilpraxis Peter G. Wehmann",
+    "url": "https://www.google.com/maps/place/Naturheilpraxis+Peter+G.+Wehmann/data=!4m7!3m6!1s0x4775876d1ab401a5:0xbd562ab23b71689b!8m2!3d48.5964268!4d12.3022702!16s%2Fg%2F1vfwbnwy!19sChIJpQG0Gm2HdUcRm2hxO7IqVr0?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "apotheke"
+  },
+  {
+    "id": "0x47758d5acb284aef:0x6205599e4122a95a",
+    "name": "Johannes-Apotheke Inh. Florian Sedlmeier e. K.",
+    "url": "https://www.google.com/maps/place/Johannes-Apotheke+Inh.+Florian+Sedlmeier+e.+K./data=!4m7!3m6!1s0x47758d5acb284aef:0x6205599e4122a95a!8m2!3d48.383645!4d12.386846!16s%2Fg%2F1tf22xmn!19sChIJ70ooy1qNdUcRWqkiQZ5ZBWI?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "apotheke"
+  },
+  {
+    "id": "0x47758c1966b2fe87:0x52c8017988976e22",
+    "name": "SB Station",
+    "url": "https://www.google.com/maps/place/SB+Station/data=!4m7!3m6!1s0x47758c1966b2fe87:0x52c8017988976e22!8m2!3d48.4514518!4d12.3427145!16s%2Fg%2F11c6lx5605!19sChIJh_6yZhmMdUcRIm6XiHkByFI?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "tankstelle"
+  },
+  {
+    "id": "0x410968cb63b24a07:0xb8f2b51177db95f2",
+    "name": "Vilsbiburger Autoverwertung Hertenberger GmbH",
+    "url": "https://www.google.com/maps/place/Vilsbiburger+Autoverwertung+Hertenberger+GmbH/data=!4m7!3m6!1s0x410968cb63b24a07:0xb8f2b51177db95f2!8m2!3d48.4767198!4d12.3849413!16s%2Fg%2F11b5wmc_l4!19sChIJB0qyY8toCUER8pXbdxG18rg?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "tankstelle"
+  },
+  {
+    "id": "0x47758fc0df31e3c7:0xd925650d01697016",
+    "name": "Freie Tankstelle Limmer",
+    "url": "https://www.google.com/maps/place/Freie+Tankstelle+Limmer/data=!4m7!3m6!1s0x47758fc0df31e3c7:0xd925650d01697016!8m2!3d48.5052074!4d12.4307104!16s%2Fg%2F1tdb_gjg!19sChIJx-Mx38CPdUcRFnBpAQ1lJdk?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "tankstelle"
+  },
+  {
+    "id": "0x47758c268c377989:0xf78341861e7ff539",
+    "name": "ConocoPhillips Germany GmbH",
+    "url": "https://www.google.com/maps/place/ConocoPhillips+Germany+GmbH/data=!4m7!3m6!1s0x47758c268c377989:0xf78341861e7ff539!8m2!3d48.4523003!4d12.3589585!16s%2Fg%2F1tqf_4gm!19sChIJiXk3jCaMdUcROfV_HoZBg_c?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "tankstelle"
+  },
+  {
+    "id": "0x47758fbf34258a89:0x1291135bd249a40",
+    "name": "Shell",
+    "url": "https://www.google.com/maps/place/Shell/data=!4m7!3m6!1s0x47758fbf34258a89:0x1291135bd249a40!8m2!3d48.5050335!4d12.4250502!16s%2Fg%2F1tdmzb3_!19sChIJiYolNL-PdUcRQJokvTURKQE?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "tankstelle"
+  },
+  {
+    "id": "0x47758c22e75af49b:0x9a25b692fa761872",
+    "name": "Aral Tankstellenbistro",
+    "url": "https://www.google.com/maps/place/Aral+Tankstellenbistro/data=!4m7!3m6!1s0x47758c22e75af49b:0x9a25b692fa761872!8m2!3d48.4488335!4d12.3513138!16s%2Fg%2F11rq3zznl7!19sChIJm_Ra5yKMdUcRchh2-pK2JZo?authuser=0\u0026hl=de\u0026rclk=1",
+    "discoveredPostcode": "84137",
+    "discoveredQuery": "tankstelle"
   }
 ]
