@@ -1,6 +1,12 @@
 {
-  "readAt": "2026-05-16T09:34:02Z",
+  "readAt": "2026-05-16T10:21:31Z",
   "postcodes": [
+    "84028",
+    "84030",
+    "84032",
+    "84034",
+    "84036",
+    "84144",
     "84137"
   ],
   "queries": [
@@ -42,8 +48,8 @@
   "discovery": "output/discovery.json",
   "placesApiDiscovery": false,
   "placesApiPageLimit": 1,
-  "discoveryOnly": true,
-  "scrapeOnly": false,
+  "discoveryOnly": false,
+  "scrapeOnly": true,
   "rescrapeAll": false,
   "bannerAuditOnly": false,
   "allowBannerClears": false,
@@ -57,7 +63,7 @@
   "csv": "output/places.csv",
   "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124 Safari/537.36",
   "discovered": 1823,
-  "rows": 0,
-  "success": 0,
+  "rows": 1823,
+  "success": 1823,
   "errors": 0
 }
