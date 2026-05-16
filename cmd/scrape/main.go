@@ -740,7 +740,7 @@ func cleanCategoryCandidate(value, name string) string {
 	if blocked[lower] {
 		return ""
 	}
-	if regexp.MustCompile(`(?i)^[1-5](?:[,.][0-9])?$|^\(?[0-9][0-9.]*\)?$|€|geöffnet|geschlossen|adresse|telefon|\.de\b|\b9\d{4}\b`).MatchString(candidate) {
+	if regexp.MustCompile(`(?i)^[1-5](?:[,.][0-9])?$|^\(?[0-9][0-9.]*\)?$|€|geöffnet|geschlossen|adresse|telefon|\.de\b|\b8\d{4}\b`).MatchString(candidate) {
 		return ""
 	}
 	if !regexp.MustCompile(`\p{L}`).MatchString(candidate) {

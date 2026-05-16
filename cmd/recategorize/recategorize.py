@@ -73,7 +73,7 @@ def clean_category_candidate(value, name=""):
     if lower in blocked:
         return ""
     # Reject ratings, codes, etc.
-    if re.search(r'(?i)^[1-5](?:[,.][0-9])?$|^\(?[0-9][0-9.]*\)?$|€|geöffnet|geschlossen|adresse|telefon|\.de\b|\b9\d{4}\b', candidate):
+    if re.search(r'(?i)^[1-5](?:[,.][0-9])?$|^\(?[0-9][0-9.]*\)?$|€|geöffnet|geschlossen|adresse|telefon|\.de\b|\b8\d{4}\b', candidate):
         return ""
     # Must contain at least one letter
     if not any(ch.isalpha() for ch in candidate):
