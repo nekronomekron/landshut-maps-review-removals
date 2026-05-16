@@ -5,7 +5,7 @@ include .env
 export
 endif
 
-SITE_DOMAIN ?= nuernberg-maps-review-removals.patwoz.dev
+SITE_DOMAIN ?= nekronomekron.github.io/landshut-maps-review-removals/
 SITE_URL ?= https://$(SITE_DOMAIN)
 
 setup:

@@ -209,7 +209,8 @@ func makeChart(rows []mapsreview.Place, scope string, args args) string {
 	))
 	b.WriteString(drawDistribution(cleanRows, 120, 1660, fmt.Sprintf("Verteilung der Lösch-Stufen über alle %s Orte", mapsreview.FormatGermanInt(len(cleanRows)))))
 	b.WriteString(fmt.Sprintf(`<text x="40" y="2460" font-family="Arial, sans-serif" font-size="13" fill="#8a8f94">Quelle: Google Maps, öffentlich sichtbare Banner; Analyse-Snapshot %s</text>`, time.Now().Format("02.01.2006")))
-	b.WriteString(`<text x="1760" y="2460" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#8a8f94">© <a href="https://patwoz.dev" target="_blank" style="fill:#8a8f94;text-decoration:none">Patrick Wozniak</a></text><text x="1760" y="2480" text-anchor="end" font-family="Arial, sans-serif" font-size="11" fill="#aab0b5">patwoz.dev</text>`)
+	b.WriteString(`<text x="40" y="2460" font-family="Arial, sans-serif" font-size="13" fill="#8a8f94">Privates Projekt zu Recherche- und Informationszwecken</text>`)
+	b.WriteString(`<text x="1760" y="2460" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#8a8f94">© <a href="https://github.com/nekronomekron" target="_blank" style="fill:#8a8f94;text-decoration:none">Alexander Reif</a></text><text x="1760" y="2480" text-anchor="end" font-family="Arial, sans-serif" font-size="11" fill="#aab0b5">github.com/nekronomekron</text>`)
 	b.WriteString("</svg>\n")
 	return b.String()
 }
